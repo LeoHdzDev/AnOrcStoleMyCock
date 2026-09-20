@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections; // Necesario para usar las Corrutinas (IEnumerator)
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -29,7 +30,7 @@ public class PlayerHealth : MonoBehaviour
         // Si ya es calavera, ignoramos las teclas
         if (estaMuerto) return; 
 
-        // Tecla de prueba para recibir daño (aumenté a 20 para probar más rápido)
+        // Tecla de prueba para recibir daño
         if (Input.GetKeyDown(KeyCode.E))
         {
             RecibirDano(5f); 
@@ -74,5 +75,24 @@ public class PlayerHealth : MonoBehaviour
 
         // 3. Disparar la animación de muerte
         animator.SetTrigger("Die");
+    }
+
+    // --- EFECTO DE QUEMADURA ---
+    public IEnumerator AplicarQuemadura(float danoPorSegundo, int duracion)
+    {
+        SpriteRenderer spriteGranjero = GetComponent<SpriteRenderer>();
+
+        // 1. Pintar de rojo
+        if (spriteGranjero != null) spriteGranjero.color = Color.red;
+
+        // 2. Ciclo de daño
+        for (int i = 0; i < duracion; i++)
+        {
+            yield return new WaitForSeconds(1f);
+            RecibirDano(danoPorSegundo); // Llama a tu función real
+        }
+
+        // 3. Regresar a la normalidad
+        if (spriteGranjero != null) spriteGranjero.color = Color.white;
     }
 }

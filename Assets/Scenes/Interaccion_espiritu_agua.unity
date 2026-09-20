@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 85512159}
   - component: {fileID: 85512160}
   - component: {fileID: 85512161}
+  - component: {fileID: 85512162}
   m_Layer: 6
   m_Name: Espiritu_agua
   m_TagString: Untagged
@@ -249,10 +250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e55a408cd120e94c9a68a4ad952871b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Espiritu_agua
-  velocidad: 2.5
-  distanciaFrenado: 4
-  prefabChorroAgua: {fileID: 6869095209384545498, guid: ce7d1752e8e71fe42ab9acb78e6945d1, type: 3}
-  tiempoEntreDisparos: 4
 --- !u!58 &85512160
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -302,6 +299,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SaludEnemigo
   vidaMaxima: 15
+--- !u!114 &85512162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85512155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e5122d1152bdd4dbf2244621d9ed42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Comportamiento_espiritus
+  velocidad: 2.5
+  distanciaFrenado: 4
+  prefabProyectil: {fileID: 6869095209384545498, guid: ce7d1752e8e71fe42ab9acb78e6945d1, type: 3}
+  tiempoEntreDisparos: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

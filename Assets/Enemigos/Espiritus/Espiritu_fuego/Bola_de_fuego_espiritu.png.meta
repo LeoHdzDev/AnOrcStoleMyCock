@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: 8acb85e88f3dcda488f5cbae0098e22f
+guid: 77f48742d3c4e57479d96474fe276d81
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1542060715923502984
-    second: Farmer_idle_trasero-Sheet_0
+      213: -7588969905622093805
+    second: Bola_de_fuego_espiritu_0
   - first:
-      213: 3708880550700635598
-    second: Farmer_idle_trasero-Sheet_1
+      213: 5188918249564939710
+    second: Bola_de_fuego_espiritu_1
   - first:
-      213: -946423927282838491
-    second: Farmer_idle_trasero-Sheet_2
+      213: -3469800289107143948
+    second: Bola_de_fuego_espiritu_2
   - first:
-      213: 5431737967373312645
-    second: Farmer_idle_trasero-Sheet_3
+      213: 19760160035220785
+    second: Bola_de_fuego_espiritu_3
+  - first:
+      213: 5354215656346745485
+    second: Bola_de_fuego_espiritu_4
+  - first:
+      213: -8148048720969056048
+    second: Bola_de_fuego_espiritu_5
+  - first:
+      213: 8386807626693790469
+    second: Bola_de_fuego_espiritu_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Farmer_idle_trasero-Sheet_0
+      name: Bola_de_fuego_espiritu_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 46
-        height: 47
+        x: 0
+        y: 1
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88774ba0d00866510800000000000000
-      internalID: 1542060715923502984
+      spriteID: 310f34434109ea690800000000000000
+      internalID: -7588969905622093805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_trasero-Sheet_1
+      name: Bola_de_fuego_espiritu_1
       rect:
         serializedVersion: 2
-        x: 55
-        y: 0
-        width: 47
-        height: 48
+        x: 10
+        y: 1
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec5dddad537987330800000000000000
-      internalID: 3708880550700635598
+      spriteID: eb52cd9e7adb20840800000000000000
+      internalID: 5188918249564939710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_trasero-Sheet_2
+      name: Bola_de_fuego_espiritu_2
       rect:
         serializedVersion: 2
-        x: 108
-        y: 0
-        width: 46
-        height: 47
+        x: 20
+        y: 1
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5245067d370add2f0800000000000000
-      internalID: -946423927282838491
+      spriteID: 4f29836550bc8dfc0800000000000000
+      internalID: -3469800289107143948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_trasero-Sheet_3
+      name: Bola_de_fuego_espiritu_3
       rect:
         serializedVersion: 2
-        x: 161
-        y: 0
-        width: 47
-        height: 48
+        x: 30
+        y: 1
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +214,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 582e94a17e8616b40800000000000000
-      internalID: 5431737967373312645
+      spriteID: 13daa97c2c3364000800000000000000
+      internalID: 19760160035220785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola_de_fuego_espiritu_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8af16785cefd4a40800000000000000
+      internalID: 5354215656346745485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola_de_fuego_espiritu_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d04016cbd05cee80800000000000000
+      internalID: -8148048720969056048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola_de_fuego_espiritu_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bce9ce91de36470800000000000000
+      internalID: 8386807626693790469
       vertices: []
       indices: 
       edges: []
@@ -215,7 +290,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 119c59841accf7d4ea40ccb0fe61062a
+    spriteID: ea1aed49f7576cd4eb7dd124525f273e
     internalID: 0
     vertices: []
     indices: 
@@ -227,10 +302,13 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Farmer_idle_trasero-Sheet_0: 1542060715923502984
-      Farmer_idle_trasero-Sheet_1: 3708880550700635598
-      Farmer_idle_trasero-Sheet_2: -946423927282838491
-      Farmer_idle_trasero-Sheet_3: 5431737967373312645
+      Bola_de_fuego_espiritu_0: -7588969905622093805
+      Bola_de_fuego_espiritu_1: 5188918249564939710
+      Bola_de_fuego_espiritu_2: -3469800289107143948
+      Bola_de_fuego_espiritu_3: 19760160035220785
+      Bola_de_fuego_espiritu_4: 5354215656346745485
+      Bola_de_fuego_espiritu_5: -8148048720969056048
+      Bola_de_fuego_espiritu_6: 8386807626693790469
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

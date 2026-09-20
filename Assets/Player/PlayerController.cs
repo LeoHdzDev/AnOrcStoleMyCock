@@ -3,13 +3,13 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Estadísticas")]
+    [Header("Estadísticas de Movimiento y Ataque")]
     public float velocidad = 5f;
     public int danoAtaque = 5;
 
     [Header("Combate y Autoapuntado")]
     public float radioAutoApuntado = 3f;
-    public LayerMask capaEnemigos; // Capa para que el radar detecte a quién pegarle
+    public LayerMask capaEnemigos; 
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -25,10 +25,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // Si está atacando, ignoramos el movimiento para que se quede quieto
         if (estaAtacando) return; 
 
-        // Movimiento base
         movimiento.x = Input.GetAxisRaw("Horizontal");
         movimiento.y = Input.GetAxisRaw("Vertical");
 
@@ -42,7 +40,6 @@ public class PlayerController : MonoBehaviour
         
         animator.SetFloat("Speed", movimiento.sqrMagnitude);
 
-        // Disparar ataque con Clic Izquierdo
         if (Input.GetMouseButtonDown(0))
         {
             StartCoroutine(RutinaAtaque());
@@ -51,7 +48,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!estaAtacando && !estaEmpujado) // Modifica esta línea
+        if (!estaAtacando && !estaEmpujado) 
         {
             rb.MovePosition(rb.position + movimiento.normalized * velocidad * Time.fixedDeltaTime);
         }
@@ -60,13 +57,12 @@ public class PlayerController : MonoBehaviour
     IEnumerator RutinaAtaque()
     {
         estaAtacando = true;
-        rb.linearVelocity = Vector2.zero; // Frenamos al granjero de golpe
+        rb.linearVelocity = Vector2.zero; 
 
         AutoApuntar();
 
         animator.SetTrigger("Attack");
 
-        // Pausa para que termine la animación (ajusta los 0.4s según dure tu animación real)
         yield return new WaitForSeconds(0.4f); 
 
         estaAtacando = false;
@@ -74,15 +70,13 @@ public class PlayerController : MonoBehaviour
 
     void AutoApuntar()
     {
-        // Creamos un círculo invisible que detecta todo lo que esté en la 'capaEnemigos'
         Collider2D[] enemigos = Physics2D.OverlapCircleAll(transform.position, radioAutoApuntado, capaEnemigos);
-        Debug.Log("Enemigos detectados en el radar: " + enemigos.Length);
+        
         if (enemigos.Length > 0)
         {
             Transform enemigoMasCercano = null;
             float distanciaMinima = Mathf.Infinity;
 
-            // Buscamos cuál es el más cercano
             foreach (Collider2D enemigo in enemigos)
             {
                 float distancia = Vector2.Distance(transform.position, enemigo.transform.position);
@@ -95,7 +89,6 @@ public class PlayerController : MonoBehaviour
 
             if (enemigoMasCercano != null)
             {
-                // Voltear automáticamente hacia el enemigo
                 Vector2 direccion = (enemigoMasCercano.position - transform.position).normalized;
                 
                 if (Mathf.Abs(direccion.x) > Mathf.Abs(direccion.y))
@@ -118,7 +111,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // Dibuja el círculo rojo en la escena para que veas hasta dónde llega tu autoapuntado
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
@@ -128,15 +120,10 @@ public class PlayerController : MonoBehaviour
     public IEnumerator RecibirEmpuje(Vector2 direccion, float fuerza, float duracion)
     {
         estaEmpujado = true;
-        
-        // Aplicar la fuerza física de golpe
         rb.linearVelocity = Vector2.zero;
         rb.AddForce(direccion * fuerza, ForceMode2D.Impulse);
-
-        // Esperar a que pase el tiempo de empuje
         yield return new WaitForSeconds(duracion);
-
-        rb.linearVelocity = Vector2.zero; // Frenar al granjero
-        estaEmpujado = false; // Devolverle el control
+        rb.linearVelocity = Vector2.zero; 
+        estaEmpujado = false; 
     }
-} // <-- Esta llave cierra la clase PlayerController
+}

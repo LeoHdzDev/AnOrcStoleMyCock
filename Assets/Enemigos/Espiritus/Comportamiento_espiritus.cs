@@ -1,23 +1,23 @@
 using UnityEngine;
 
-public class EspirituAgua : MonoBehaviour
+public class Comportamiento_espiritus : MonoBehaviour // 1. Cambiamos el nombre de la clase
 {
     [Header("Movimiento")]
     public float velocidad = 2.5f;
     public float distanciaFrenado = 4f;
 
     [Header("Ataque")]
-    public GameObject prefabChorroAgua;
+    public GameObject prefabProyectil; // 2. Renombramos la variable para que sea general
     public float tiempoEntreDisparos = 2f;
     private float proximoDisparo = 0f;
 
     private Transform jugador;
-    private Animator animator; // 1. Agregamos la variable del Animator
+    private Animator animator; 
 
     void Start()
     {
         jugador = GameObject.FindGameObjectWithTag("Player").transform;
-        animator = GetComponent<Animator>(); // 2. Obtenemos el componente
+        animator = GetComponent<Animator>(); 
     }
 
     void Update()
@@ -30,11 +30,11 @@ public class EspirituAgua : MonoBehaviour
         if (distancia > distanciaFrenado)
         {
             transform.position = Vector2.MoveTowards(transform.position, jugador.position, velocidad * Time.deltaTime);
-            animator.SetBool("Caminando", true); // 3. Activamos animación de caminar
+            animator.SetBool("Caminando", true); 
         }
         else
         {
-            animator.SetBool("Caminando", false); // 4. Desactivamos animación de caminar
+            animator.SetBool("Caminando", false); 
         }
 
         // Disparar
@@ -47,7 +47,8 @@ public class EspirituAgua : MonoBehaviour
 
     void Atacar()
     {
-        animator.SetTrigger("Atacar"); // 5. Activamos el trigger del golpe
-        Instantiate(prefabChorroAgua, transform.position, Quaternion.identity);
+        animator.SetTrigger("Atacar"); 
+        // 3. Usamos la nueva variable general al disparar
+        Instantiate(prefabProyectil, transform.position, Quaternion.identity); 
     }
 }
