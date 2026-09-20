@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 movimiento;
     private bool estaAtacando = false;
     private bool estaEmpujado = false;
+    private bool estaRalentizado = false;
 
     void Start()
     {
@@ -125,5 +126,30 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(duracion);
         rb.linearVelocity = Vector2.zero; 
         estaEmpujado = false; 
+    }
+    // --- EFECTO DE HIELO (RALENTIZACIÓN) ---
+    public IEnumerator AplicarRalentizacion(float factorVelocidad, int duracion)
+    {
+        // Si ya está congelado, ignoramos el nuevo golpe para que no se acumule
+        if (estaRalentizado) yield break; 
+
+        estaRalentizado = true;
+        
+        // 1. Guardamos su velocidad original y lo hacemos más lento
+        float velocidadOriginal = velocidad;
+        velocidad *= factorVelocidad; 
+
+        // 2. Lo pintamos de azul hielo (Cyan)
+        SpriteRenderer spriteGranjero = GetComponent<SpriteRenderer>();
+        if (spriteGranjero != null) spriteGranjero.color = Color.cyan;
+
+        // 3. Esperamos los segundos de congelamiento
+        yield return new WaitForSeconds(duracion);
+
+        // 4. Restauramos su velocidad normal y su color
+        velocidad = velocidadOriginal;
+        if (spriteGranjero != null) spriteGranjero.color = Color.white;
+        
+        estaRalentizado = false;
     }
 }
