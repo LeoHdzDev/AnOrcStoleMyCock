@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: f94cc91e66a31274e8b5193060ae6e37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9097561186912854327
+    second: FarmerFuego_Muriendo-Sheet_0
+  - first:
+      213: -1174127477792489051
+    second: FarmerFuego_Muriendo-Sheet_1
+  - first:
+      213: -964144258453052881
+    second: FarmerFuego_Muriendo-Sheet_2
+  - first:
+      213: 2457426183419197538
+    second: FarmerFuego_Muriendo-Sheet_3
+  - first:
+      213: 317207655249837091
+    second: FarmerFuego_Muriendo-Sheet_4
+  - first:
+      213: 7505109892196847597
+    second: FarmerFuego_Muriendo-Sheet_5
+  - first:
+      213: -3547081312856996603
+    second: FarmerFuego_Muriendo-Sheet_6
+  - first:
+      213: -4178248157139372970
+    second: FarmerFuego_Muriendo-Sheet_7
+  - first:
+      213: -7853132119061625515
+    second: FarmerFuego_Muriendo-Sheet_8
+  - first:
+      213: -9210809871607613580
+    second: FarmerFuego_Muriendo-Sheet_9
+  - first:
+      213: 9047331309977883449
+    second: FarmerFuego_Muriendo-Sheet_10
+  - first:
+      213: 7096328211158748363
+    second: FarmerFuego_Muriendo-Sheet_11
+  - first:
+      213: 2128121469975478780
+    second: FarmerFuego_Muriendo-Sheet_12
+  - first:
+      213: 4185166259117107407
+    second: FarmerFuego_Muriendo-Sheet_13
+  - first:
+      213: -7776645587274415457
+    second: FarmerFuego_Muriendo-Sheet_14
+  - first:
+      213: 395161547440033913
+    second: FarmerFuego_Muriendo-Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7316254d2b7014e70800000000000000
+      internalID: 9097561186912854327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1472d9749a4bfe0800000000000000
+      internalID: -1174127477792489051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f226caab7ebae92f0800000000000000
+      internalID: -964144258453052881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268f17408188a1220800000000000000
+      internalID: 2457426183419197538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c733b8ea2f66400800000000000000
+      internalID: 317207655249837091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defc9a4eea1872860800000000000000
+      internalID: 7505109892196847597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5058bb5d65c36cec0800000000000000
+      internalID: -3547081312856996603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654f64a3071e306c0800000000000000
+      internalID: -4178248157139372970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5550f1502f1140390800000000000000
+      internalID: -7853132119061625515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477ba250931ac2080800000000000000
+      internalID: -9210809871607613580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933508044e39e8d70800000000000000
+      internalID: 9047331309977883449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc43bbf8e83b7260800000000000000
+      internalID: 7096328211158748363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf145c0a33b988d10800000000000000
+      internalID: 2128121469975478780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc820a8e982b41a30800000000000000
+      internalID: 4185166259117107407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9246627a0ec31490800000000000000
+      internalID: -7776645587274415457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerFuego_Muriendo-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9709e007555eb7500800000000000000
+      internalID: 395161547440033913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FarmerFuego_Muriendo-Sheet_0: 9097561186912854327
+      FarmerFuego_Muriendo-Sheet_1: -1174127477792489051
+      FarmerFuego_Muriendo-Sheet_10: 9047331309977883449
+      FarmerFuego_Muriendo-Sheet_11: 7096328211158748363
+      FarmerFuego_Muriendo-Sheet_12: 2128121469975478780
+      FarmerFuego_Muriendo-Sheet_13: 4185166259117107407
+      FarmerFuego_Muriendo-Sheet_14: -7776645587274415457
+      FarmerFuego_Muriendo-Sheet_15: 395161547440033913
+      FarmerFuego_Muriendo-Sheet_2: -964144258453052881
+      FarmerFuego_Muriendo-Sheet_3: 2457426183419197538
+      FarmerFuego_Muriendo-Sheet_4: 317207655249837091
+      FarmerFuego_Muriendo-Sheet_5: 7505109892196847597
+      FarmerFuego_Muriendo-Sheet_6: -3547081312856996603
+      FarmerFuego_Muriendo-Sheet_7: -4178248157139372970
+      FarmerFuego_Muriendo-Sheet_8: -7853132119061625515
+      FarmerFuego_Muriendo-Sheet_9: -9210809871607613580
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

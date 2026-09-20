@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 3ec4e8752efeb5f4182d973ccaf233f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3122916838104508162
+    second: FarmerAgua_Muriendo-Sheet_0
+  - first:
+      213: 4214937054530643138
+    second: FarmerAgua_Muriendo-Sheet_1
+  - first:
+      213: 6438518476247831441
+    second: FarmerAgua_Muriendo-Sheet_2
+  - first:
+      213: -4899345511793146300
+    second: FarmerAgua_Muriendo-Sheet_3
+  - first:
+      213: 2640311771087888174
+    second: FarmerAgua_Muriendo-Sheet_4
+  - first:
+      213: -5929693444223584060
+    second: FarmerAgua_Muriendo-Sheet_5
+  - first:
+      213: -3947049844705923810
+    second: FarmerAgua_Muriendo-Sheet_6
+  - first:
+      213: 4521819063397084321
+    second: FarmerAgua_Muriendo-Sheet_7
+  - first:
+      213: 8218799019817439536
+    second: FarmerAgua_Muriendo-Sheet_8
+  - first:
+      213: 107789615397070477
+    second: FarmerAgua_Muriendo-Sheet_9
+  - first:
+      213: -3463310615617948634
+    second: FarmerAgua_Muriendo-Sheet_10
+  - first:
+      213: 6990895363714949430
+    second: FarmerAgua_Muriendo-Sheet_11
+  - first:
+      213: -4617845847820159262
+    second: FarmerAgua_Muriendo-Sheet_12
+  - first:
+      213: 2227291093673258301
+    second: FarmerAgua_Muriendo-Sheet_13
+  - first:
+      213: -1220341398321553050
+    second: FarmerAgua_Muriendo-Sheet_14
+  - first:
+      213: 6129937919729833243
+    second: FarmerAgua_Muriendo-Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2072e4e7154d65b20800000000000000
+      internalID: 3122916838104508162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c42eed5be67e7a30800000000000000
+      internalID: 4214937054530643138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1939a8001763a5950800000000000000
+      internalID: 6438518476247831441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4464aa10737020cb0800000000000000
+      internalID: -4899345511793146300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fd9fb119544a420800000000000000
+      internalID: 2640311771087888174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c83716ba3f75bda0800000000000000
+      internalID: -5929693444223584060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dea8f14134939c0800000000000000
+      internalID: -3947049844705923810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac6f540b7ab0ce30800000000000000
+      internalID: 4521819063397084321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0311c88d92a0f0270800000000000000
+      internalID: 8218799019817439536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86e7388512fe7100800000000000000
+      internalID: 107789615397070477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624b0413859dfefc0800000000000000
+      internalID: -3463310615617948634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631a7204b46a40160800000000000000
+      internalID: 6990895363714949430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6ba25faad1aefb0800000000000000
+      internalID: -4617845847820159262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d29c1f27de8ee10800000000000000
+      internalID: 2227291093673258301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6612750c6f9701fe0800000000000000
+      internalID: -1220341398321553050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmerAgua_Muriendo-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1591b86f0ae11550800000000000000
+      internalID: 6129937919729833243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FarmerAgua_Muriendo-Sheet_0: 3122916838104508162
+      FarmerAgua_Muriendo-Sheet_1: 4214937054530643138
+      FarmerAgua_Muriendo-Sheet_10: -3463310615617948634
+      FarmerAgua_Muriendo-Sheet_11: 6990895363714949430
+      FarmerAgua_Muriendo-Sheet_12: -4617845847820159262
+      FarmerAgua_Muriendo-Sheet_13: 2227291093673258301
+      FarmerAgua_Muriendo-Sheet_14: -1220341398321553050
+      FarmerAgua_Muriendo-Sheet_15: 6129937919729833243
+      FarmerAgua_Muriendo-Sheet_2: 6438518476247831441
+      FarmerAgua_Muriendo-Sheet_3: -4899345511793146300
+      FarmerAgua_Muriendo-Sheet_4: 2640311771087888174
+      FarmerAgua_Muriendo-Sheet_5: -5929693444223584060
+      FarmerAgua_Muriendo-Sheet_6: -3947049844705923810
+      FarmerAgua_Muriendo-Sheet_7: 4521819063397084321
+      FarmerAgua_Muriendo-Sheet_8: 8218799019817439536
+      FarmerAgua_Muriendo-Sheet_9: 107789615397070477
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
