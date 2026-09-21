@@ -963,7 +963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Comportamiento_espiritus
   velocidad: 2.5
   distanciaFrenado: 4
-  prefabProyectil: {fileID: 0}
+  prefabProyectil: {fileID: 1474614491364843457, guid: ead893ad431aa35428bfd4835e7196e7, type: 3}
   tiempoEntreDisparos: 2
 --- !u!58 &1966617503
 CircleCollider2D:
