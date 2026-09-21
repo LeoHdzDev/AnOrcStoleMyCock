@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,7 +110,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -138,12 +138,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemAgua-Sheet_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 0
-        width: 58
+        width: 65
         height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.59214747, y: 0.30512905}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemAgua-Sheet_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 47
-        width: 33
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 65
+        y: 0
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5930585, y: 0.30374774}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemAgua-Sheet_2
       rect:
         serializedVersion: 2
-        x: 81
+        x: 130
         y: 0
-        width: 50
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5921483, y: 0.3052611}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemAgua-Sheet_3
       rect:
         serializedVersion: 2
-        x: 140
+        x: 195
         y: 0
-        width: 56
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5923044, y: 0.3046489}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemAgua-Sheet_4
       rect:
         serializedVersion: 2
-        x: 204
-        y: 47
-        width: 29
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 260
+        y: 0
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5915508, y: 0.3051289}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemAgua-Sheet_5
       rect:
         serializedVersion: 2
-        x: 211
+        x: 325
         y: 0
-        width: 50
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5927457, y: 0.3037478}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemAgua-Sheet_6
       rect:
         serializedVersion: 2
-        x: 271
+        x: 390
         y: 0
-        width: 55
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59381384, y: 0.30576572}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemAgua-Sheet_7
       rect:
         serializedVersion: 2
-        x: 334
-        y: 47
-        width: 30
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 455
+        y: 0
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5942561, y: 0.30374774}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -310,99 +310,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemAgua-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 0
-        width: 50
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3696b7c59383fe590800000000000000
-      internalID: -7642828223608559261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemAgua-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 0
-        width: 54
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd3a60b91afa48340800000000000000
-      internalID: 4865206606092477405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemAgua-Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 465
-        y: 47
-        width: 31
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 887c10ead55024340800000000000000
-      internalID: 4846442048913524616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemAgua-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 471
-        y: 0
-        width: 49
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0946eb011b6a21f20800000000000000
-      internalID: 3391956748783740048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6c58030b1c07a064a9bf1f795bad3d94
     internalID: 0
     vertices: []
     indices: 
@@ -410,20 +322,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":65.0,"y":77.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Farmer_Agarrando_ItemAgua-Sheet_0: 3674621621154744800
       Farmer_Agarrando_ItemAgua-Sheet_1: -2051393343699580091
-      Farmer_Agarrando_ItemAgua-Sheet_10: 4846442048913524616
-      Farmer_Agarrando_ItemAgua-Sheet_11: 3391956748783740048
       Farmer_Agarrando_ItemAgua-Sheet_2: 1006746939137988975
       Farmer_Agarrando_ItemAgua-Sheet_3: -8739265308002708010
       Farmer_Agarrando_ItemAgua-Sheet_4: -2937241568516115814
       Farmer_Agarrando_ItemAgua-Sheet_5: -4093433242830117450
       Farmer_Agarrando_ItemAgua-Sheet_6: -2896129154233984709
       Farmer_Agarrando_ItemAgua-Sheet_7: 1073389770084675457
-      Farmer_Agarrando_ItemAgua-Sheet_8: -7642828223608559261
-      Farmer_Agarrando_ItemAgua-Sheet_9: 4865206606092477405
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
