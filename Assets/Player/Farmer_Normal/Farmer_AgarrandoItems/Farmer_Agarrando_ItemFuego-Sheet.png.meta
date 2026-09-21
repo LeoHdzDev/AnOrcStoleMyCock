@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -174,12 +174,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemFuego-Sheet_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 47
-        width: 25
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59598523, y: 0.30737165}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -196,12 +196,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemFuego-Sheet_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 65
         y: 0
-        width: 50
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59326816, y: 0.30584282}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemFuego-Sheet_2
       rect:
         serializedVersion: 2
-        x: 75
-        y: 47
-        width: 26
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 130
+        y: 0
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5914574, y: 0.30507845}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,12 +240,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemFuego-Sheet_3
       rect:
         serializedVersion: 2
-        x: 81
+        x: 195
         y: 0
-        width: 50
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59055173, y: 0.30584282}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,12 +262,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemFuego-Sheet_4
       rect:
         serializedVersion: 2
-        x: 142
-        y: 47
-        width: 24
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 260
+        y: 0
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5914574, y: 0.30813605}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,12 +284,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemFuego-Sheet_5
       rect:
         serializedVersion: 2
-        x: 146
+        x: 325
         y: 0
-        width: 50
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59055173, y: 0.30584282}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -306,12 +306,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemFuego-Sheet_6
       rect:
         serializedVersion: 2
-        x: 206
-        y: 47
-        width: 25
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 390
+        y: 0
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59145695, y: 0.30813605}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,12 +328,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemFuego-Sheet_7
       rect:
         serializedVersion: 2
-        x: 211
+        x: 455
         y: 0
-        width: 50
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5905513, y: 0.30507848}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -350,12 +350,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemFuego-Sheet_8
       rect:
         serializedVersion: 2
-        x: 272
-        y: 47
-        width: 23
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 520
+        y: 0
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59236217, y: 0.30584282}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -372,12 +372,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemFuego-Sheet_9
       rect:
         serializedVersion: 2
-        x: 276
+        x: 585
         y: 0
-        width: 50
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59145695, y: 0.30660722}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -394,12 +394,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemFuego-Sheet_10
       rect:
         serializedVersion: 2
-        x: 336
-        y: 47
-        width: 23
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 650
+        y: 0
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5907583, y: 0.3070773}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -416,12 +416,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemFuego-Sheet_11
       rect:
         serializedVersion: 2
-        x: 341
+        x: 715
         y: 0
-        width: 50
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59076023, y: 0.30523115}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,275 +434,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemFuego-Sheet_12
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 47
-        width: 25
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b81e6083ab9787760800000000000000
-      internalID: 7455843023822709131
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemFuego-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 406
-        y: 0
-        width: 50
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c858097cf5c2b6320800000000000000
-      internalID: 2552182403717170572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemFuego-Sheet_14
-      rect:
-        serializedVersion: 2
-        x: 469
-        y: 47
-        width: 24
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0be1b7ee7fc80f440800000000000000
-      internalID: 4967625385475514032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemFuego-Sheet_15
-      rect:
-        serializedVersion: 2
-        x: 471
-        y: 0
-        width: 50
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9fb1b709a9d7d6c0800000000000000
-      internalID: -4118584014205239394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemFuego-Sheet_16
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 47
-        width: 24
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ccdd2b51916b24940800000000000000
-      internalID: 5278981932086123980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemFuego-Sheet_17
-      rect:
-        serializedVersion: 2
-        x: 536
-        y: 0
-        width: 50
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe80e277e995f0930800000000000000
-      internalID: 4111603521951762671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemFuego-Sheet_18
-      rect:
-        serializedVersion: 2
-        x: 597
-        y: 47
-        width: 25
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 434911e9535cb8de0800000000000000
-      internalID: -1329752430881958860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemFuego-Sheet_19
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 0
-        width: 50
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4c7eb5a427a6b230800000000000000
-      internalID: 3654291923499121742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemFuego-Sheet_20
-      rect:
-        serializedVersion: 2
-        x: 663
-        y: 47
-        width: 25
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b6a403261c5ab600800000000000000
-      internalID: 484801160042292913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemFuego-Sheet_21
-      rect:
-        serializedVersion: 2
-        x: 666
-        y: 0
-        width: 50
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4cd11b476bbfa4d00800000000000000
-      internalID: 957854631830035908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemFuego-Sheet_22
-      rect:
-        serializedVersion: 2
-        x: 728
-        y: 47
-        width: 26
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6a704ce2fc7bd6b0800000000000000
-      internalID: -5270481556119455124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemFuego-Sheet_23
-      rect:
-        serializedVersion: 2
-        x: 731
-        y: 0
-        width: 49
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20d4a62006047da90800000000000000
-      internalID: -7289286690774299390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 065d7ebbbe8ee844c8eb6df0112ab188
     internalID: 0
     vertices: []
     indices: 
@@ -710,25 +446,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":65.0,"y":77.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Farmer_Agarrando_ItemFuego-Sheet_0: 8605640497547219591
       Farmer_Agarrando_ItemFuego-Sheet_1: 5500677310010605963
       Farmer_Agarrando_ItemFuego-Sheet_10: -4355619457360996185
       Farmer_Agarrando_ItemFuego-Sheet_11: 1602326005218303876
-      Farmer_Agarrando_ItemFuego-Sheet_12: 7455843023822709131
-      Farmer_Agarrando_ItemFuego-Sheet_13: 2552182403717170572
-      Farmer_Agarrando_ItemFuego-Sheet_14: 4967625385475514032
-      Farmer_Agarrando_ItemFuego-Sheet_15: -4118584014205239394
-      Farmer_Agarrando_ItemFuego-Sheet_16: 5278981932086123980
-      Farmer_Agarrando_ItemFuego-Sheet_17: 4111603521951762671
-      Farmer_Agarrando_ItemFuego-Sheet_18: -1329752430881958860
-      Farmer_Agarrando_ItemFuego-Sheet_19: 3654291923499121742
       Farmer_Agarrando_ItemFuego-Sheet_2: 4011962889775399775
-      Farmer_Agarrando_ItemFuego-Sheet_20: 484801160042292913
-      Farmer_Agarrando_ItemFuego-Sheet_21: 957854631830035908
-      Farmer_Agarrando_ItemFuego-Sheet_22: -5270481556119455124
-      Farmer_Agarrando_ItemFuego-Sheet_23: -7289286690774299390
       Farmer_Agarrando_ItemFuego-Sheet_3: -5156816474010633427
       Farmer_Agarrando_ItemFuego-Sheet_4: -7779392576711562518
       Farmer_Agarrando_ItemFuego-Sheet_5: 3984128695908748913
