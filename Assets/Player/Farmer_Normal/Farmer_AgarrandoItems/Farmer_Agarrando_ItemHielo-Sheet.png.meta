@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,7 +110,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -138,12 +138,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemHielo-Sheet_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 47
-        width: 18
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59257305, y: 0.30707628}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemHielo-Sheet_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 65
         y: 0
-        width: 50
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59160894, y: 0.30544823}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemHielo-Sheet_2
       rect:
         serializedVersion: 2
-        x: 81
+        x: 130
         y: 0
-        width: 50
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59257317, y: 0.3070762}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemHielo-Sheet_3
       rect:
         serializedVersion: 2
-        x: 82
-        y: 47
-        width: 19
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 195
+        y: 0
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.59257317, y: 0.30382016}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemHielo-Sheet_4
       rect:
         serializedVersion: 2
-        x: 146
-        y: 47
-        width: 18
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 260
+        y: 0
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5935378, y: 0.30544823}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: Farmer_Agarrando_ItemHielo-Sheet_5
       rect:
         serializedVersion: 2
-        x: 146
+        x: 325
         y: 0
-        width: 50
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 65
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5925734, y: 0.3046341}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -266,143 +266,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemHielo-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 47
-        width: 21
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 966850bd9a2a7a880800000000000000
-      internalID: -8599726113032927639
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemHielo-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 0
-        width: 50
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24c4d6ee9a863f8f0800000000000000
-      internalID: -507947253903831998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemHielo-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 47
-        width: 20
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 936679b8952e22130800000000000000
-      internalID: 3540641131288553017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemHielo-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 0
-        width: 50
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d9e74fb785349640800000000000000
-      internalID: 5085748736354150871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemHielo-Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 47
-        width: 19
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f53cb3c3fdff7910800000000000000
-      internalID: 1837466396393223665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_Agarrando_ItemHielo-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 0
-        width: 49
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 508e51c7ca4a1ae90800000000000000
-      internalID: -7016145683743381499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dae3f4120f75a1f4ead2143c08c8d645
     internalID: 0
     vertices: []
     indices: 
@@ -410,20 +278,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":65.0,"y":77.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Farmer_Agarrando_ItemHielo-Sheet_0: -8116802341377765717
       Farmer_Agarrando_ItemHielo-Sheet_1: 1553353038814487850
-      Farmer_Agarrando_ItemHielo-Sheet_10: 1837466396393223665
-      Farmer_Agarrando_ItemHielo-Sheet_11: -7016145683743381499
       Farmer_Agarrando_ItemHielo-Sheet_2: -4459206465964923066
       Farmer_Agarrando_ItemHielo-Sheet_3: -3873963316785834027
       Farmer_Agarrando_ItemHielo-Sheet_4: 5969321103636367300
       Farmer_Agarrando_ItemHielo-Sheet_5: -1665561923601554141
-      Farmer_Agarrando_ItemHielo-Sheet_6: -8599726113032927639
-      Farmer_Agarrando_ItemHielo-Sheet_7: -507947253903831998
-      Farmer_Agarrando_ItemHielo-Sheet_8: 3540641131288553017
-      Farmer_Agarrando_ItemHielo-Sheet_9: 5085748736354150871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
