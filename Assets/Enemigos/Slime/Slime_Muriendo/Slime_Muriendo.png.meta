@@ -125,6 +125,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -132,12 +145,12 @@ TextureImporter:
       name: Slime_Muriendo_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 3
-        width: 50
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 11
+        y: 4
+        width: 48
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.057219945}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -154,12 +167,12 @@ TextureImporter:
       name: Slime_Muriendo_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 3
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 4
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.063045956}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -176,12 +189,12 @@ TextureImporter:
       name: Slime_Muriendo_2
       rect:
         serializedVersion: 2
-        x: 151
-        y: 3
-        width: 50
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 152
+        y: 4
+        width: 48
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5242755, y: 0.10276894}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -198,12 +211,12 @@ TextureImporter:
       name: Slime_Muriendo_3
       rect:
         serializedVersion: 2
-        x: 221
-        y: 3
-        width: 50
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 222
+        y: 4
+        width: 48
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5000003, y: 0.10276894}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -220,12 +233,12 @@ TextureImporter:
       name: Slime_Muriendo_4
       rect:
         serializedVersion: 2
-        x: 223
-        y: 5
-        width: 6
-        height: 6
+        x: 224
+        y: 6
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -242,12 +255,12 @@ TextureImporter:
       name: Slime_Muriendo_5
       rect:
         serializedVersion: 2
-        x: 291
-        y: 3
-        width: 50
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 4
+        width: 48
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.10276894}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -264,12 +277,12 @@ TextureImporter:
       name: Slime_Muriendo_6
       rect:
         serializedVersion: 2
-        x: 293
-        y: 5
-        width: 6
-        height: 6
+        x: 294
+        y: 6
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -286,12 +299,12 @@ TextureImporter:
       name: Slime_Muriendo_7
       rect:
         serializedVersion: 2
-        x: 360
-        y: 3
-        width: 53
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 364
+        y: 4
+        width: 51
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15475298}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -308,12 +321,12 @@ TextureImporter:
       name: Slime_Muriendo_8
       rect:
         serializedVersion: 2
-        x: 426
-        y: 1
-        width: 61
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 428
+        y: 2
+        width: 59
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2086977}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -330,12 +343,12 @@ TextureImporter:
       name: Slime_Muriendo_9
       rect:
         serializedVersion: 2
-        x: 493
-        y: 0
-        width: 65
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 494
+        y: 1
+        width: 63
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23110533}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -352,7 +365,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2433b3e48a96514489665ad7f4bbf4c7
     internalID: 0
     vertices: []
     indices: 
@@ -360,7 +373,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Slime_Muriendo_0: 6550480358140579276
       Slime_Muriendo_1: 8401720281904537834

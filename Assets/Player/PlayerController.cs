@@ -103,10 +103,18 @@ public class PlayerController : MonoBehaviour
                     animator.SetFloat("LastVertical", Mathf.Sign(direccion.y));
                 }
 
+                // --- 1. Daño a los Espíritus ---
                 SaludEnemigo saludEnemigo = enemigoMasCercano.GetComponent<SaludEnemigo>();
                 if (saludEnemigo != null)
                 {
                     saludEnemigo.RecibirDano(danoAtaque);
+                }
+
+                // --- 2. Daño al Slime (CÓDIGO NUEVO) ---
+                ComportamientoSlime slime = enemigoMasCercano.GetComponent<ComportamientoSlime>();
+                if (slime != null)
+                {
+                    slime.RecibirDano(danoAtaque);
                 }
             }
         }
@@ -127,6 +135,7 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = Vector2.zero; 
         estaEmpujado = false; 
     }
+
     // --- EFECTO DE HIELO (RALENTIZACIÓN) ---
     public IEnumerator AplicarRalentizacion(float factorVelocidad, int duracion)
     {
