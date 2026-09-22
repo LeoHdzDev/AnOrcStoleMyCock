@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 1323493380}
   - component: {fileID: 1323493379}
   - component: {fileID: 1323493378}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Farmer_player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -509,10 +509,11 @@ GameObject:
   - component: {fileID: 2092782378}
   - component: {fileID: 2092782383}
   - component: {fileID: 2092782382}
-  - component: {fileID: 2092782381}
-  m_Layer: 0
+  - component: {fileID: 2092782384}
+  - component: {fileID: 2092782385}
+  m_Layer: 6
   m_Name: DuendeCuchillo
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -614,19 +615,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2092782381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2092782377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2823a2c5d353dce438b2b467cb644fc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SaludEnemigo
-  vidaMaxima: 15
 --- !u!58 &2092782382
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -690,6 +678,36 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2092782384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092782377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f53cb2e6e8eb05743900e4b1701c6f32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DuendeCuchilloController
+  objetivo: {fileID: 1323493385}
+  velocidad: 2
+  distanciaAtaque: 0.8
+  tiempoEntreAtaques: 1.2
+  duracionAtaque: 0.5
+--- !u!114 &2092782385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092782377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2823a2c5d353dce438b2b467cb644fc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SaludEnemigo
+  vidaMaxima: 15
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

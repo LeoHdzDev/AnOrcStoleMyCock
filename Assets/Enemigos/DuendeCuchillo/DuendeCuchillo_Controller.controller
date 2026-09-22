@@ -218,7 +218,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Muerto
+    m_ConditionEvent: Morir
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7366569259591492126}
@@ -268,7 +268,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Atacando
+    m_ConditionEvent: Atacar
     m_EventTreshold: 0
   - m_ConditionMode: 4
     m_ConditionEvent: Direccion
@@ -302,13 +302,13 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: Atacando
+  - m_Name: Atacar
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: Muerto
+  - m_Name: Morir
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -343,7 +343,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: Atacando
+    m_ConditionEvent: Atacar
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1884530122996863123}
@@ -393,7 +393,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Atacando
+    m_ConditionEvent: Atacar
     m_EventTreshold: 0
   - m_ConditionMode: 3
     m_ConditionEvent: Direccion
@@ -542,7 +542,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: Atacando
+    m_ConditionEvent: Atacar
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8953952305729963437}
