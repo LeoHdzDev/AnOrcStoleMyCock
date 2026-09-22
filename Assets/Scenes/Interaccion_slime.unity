@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 1005520963}
   - component: {fileID: 1005520966}
   - component: {fileID: 1005520967}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -671,7 +671,9 @@ MonoBehaviour:
   distanciaAtaque: 1.5
   danoAtaque: 10
   tiempoEntreAtaques: 2
-  prefabCharco: {fileID: 0}
+  tiempoParaGolpe: 1
+  tiempoFinAtaque: 0.25
+  prefabCharco: {fileID: 7546090959293767614, guid: c844eb676b1432748a661cc7ac20bfd2, type: 3}
 --- !u!61 &1005520967
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -706,7 +708,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.031217217, y: -0.0468255}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -716,7 +718,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5625, y: 1.625}
+  m_Size: {x: 0.7716694, y: 1.3856697}
   m_EdgeRadius: 0
 --- !u!1 &1058820545
 GameObject:
