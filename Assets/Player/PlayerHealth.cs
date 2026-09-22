@@ -53,16 +53,18 @@ public class PlayerHealth : MonoBehaviour
     }
 
     void ActualizarBarra()
-    {
-        float porcentaje = saludActual / saludMaxima;
-        barraRelleno.fillAmount = porcentaje;
+        {
+            // NUEVA LÍNEA: Si la barra está vacía, ignora el resto del código y no causa error
+            if (barraRelleno == null) return; 
 
-        if (porcentaje > 0.75f) barraRelleno.color = Color.green;
-        else if (porcentaje > 0.50f) barraRelleno.color = Color.yellow;
-        else if (porcentaje > 0.25f) barraRelleno.color = new Color(1f, 0.5f, 0f);
-        else barraRelleno.color = Color.red;
-    }
+            float porcentaje = saludActual / saludMaxima;
+            barraRelleno.fillAmount = porcentaje;
 
+            if (porcentaje > 0.75f) barraRelleno.color = Color.green;
+            else if (porcentaje > 0.50f) barraRelleno.color = Color.yellow;
+            else if (porcentaje > 0.25f) barraRelleno.color = new Color(1f, 0.5f, 0f);
+            else barraRelleno.color = Color.red;
+        }
     void Morir()
     {
         estaMuerto = true;
