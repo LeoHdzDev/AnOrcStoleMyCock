@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 706240f72dc81cc458e74c3ef1a3f43c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1897855453471355872
+    second: DuendeBomba_Muriendo_0
+  - first:
+      213: -5329876461769476575
+    second: DuendeBomba_Muriendo_1
+  - first:
+      213: -6017287279966125901
+    second: DuendeBomba_Muriendo_2
+  - first:
+      213: -2938661626721685345
+    second: DuendeBomba_Muriendo_3
+  - first:
+      213: -9068574936885202285
+    second: DuendeBomba_Muriendo_4
+  - first:
+      213: -1152438686003540557
+    second: DuendeBomba_Muriendo_5
+  - first:
+      213: 7910026580834513117
+    second: DuendeBomba_Muriendo_6
+  - first:
+      213: 7173721853900979638
+    second: DuendeBomba_Muriendo_7
+  - first:
+      213: 1741654345673684316
+    second: DuendeBomba_Muriendo_8
+  - first:
+      213: -2971266352530305281
+    second: DuendeBomba_Muriendo_9
+  - first:
+      213: -2482769623447304572
+    second: DuendeBomba_Muriendo_10
+  - first:
+      213: -555255240111618199
+    second: DuendeBomba_Muriendo_11
+  - first:
+      213: 5525801464427477533
+    second: DuendeBomba_Muriendo_12
+  - first:
+      213: 6708233316366231750
+    second: DuendeBomba_Muriendo_13
+  - first:
+      213: 3223446821115419438
+    second: DuendeBomba_Muriendo_14
+  - first:
+      213: -1995398609258911805
+    second: DuendeBomba_Muriendo_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3b23bca79865a10800000000000000
+      internalID: 1897855453471355872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126b38fc8997806b0800000000000000
+      internalID: -5329876461769476575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0842e891d4e7ca0800000000000000
+      internalID: -6017287279966125901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90be28f1d6c737d0800000000000000
+      internalID: -2938661626721685345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39272fb6423f52280800000000000000
+      internalID: -9068574936885202285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_5
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd4757fe17b100f0800000000000000
+      internalID: -1152438686003540557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_6
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0f982244f06cd60800000000000000
+      internalID: 7910026580834513117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd7933a40e2e8360800000000000000
+      internalID: 7173721853900979638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_8
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55356356699b2810800000000000000
+      internalID: 1741654345673684316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_9
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 2
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe4c5caef0f3c6d0800000000000000
+      internalID: -2971266352530305281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_10
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 2
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4860b478e2e6b8dd0800000000000000
+      internalID: -2482769623447304572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_11
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 4
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967097d0d465b48f0800000000000000
+      internalID: -555255240111618199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_12
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 4
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a788aa7279fac40800000000000000
+      internalID: 5525801464427477533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_13
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 4
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c82374d8ae681d50800000000000000
+      internalID: 6708233316366231750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_14
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 4
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b52f42ecbfbbc20800000000000000
+      internalID: 3223446821115419438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Muriendo_15
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 7
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c760d5798bee44e0800000000000000
+      internalID: -1995398609258911805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DuendeBomba_Muriendo_0: 1897855453471355872
+      DuendeBomba_Muriendo_1: -5329876461769476575
+      DuendeBomba_Muriendo_10: -2482769623447304572
+      DuendeBomba_Muriendo_11: -555255240111618199
+      DuendeBomba_Muriendo_12: 5525801464427477533
+      DuendeBomba_Muriendo_13: 6708233316366231750
+      DuendeBomba_Muriendo_14: 3223446821115419438
+      DuendeBomba_Muriendo_15: -1995398609258911805
+      DuendeBomba_Muriendo_2: -6017287279966125901
+      DuendeBomba_Muriendo_3: -2938661626721685345
+      DuendeBomba_Muriendo_4: -9068574936885202285
+      DuendeBomba_Muriendo_5: -1152438686003540557
+      DuendeBomba_Muriendo_6: 7910026580834513117
+      DuendeBomba_Muriendo_7: 7173721853900979638
+      DuendeBomba_Muriendo_8: 1741654345673684316
+      DuendeBomba_Muriendo_9: -2971266352530305281
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

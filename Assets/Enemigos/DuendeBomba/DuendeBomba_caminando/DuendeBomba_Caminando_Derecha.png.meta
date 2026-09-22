@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: 7f202e93c2fe12f428f11f6c973ec16e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1203319460330793543
+    second: DuendeBomba_Caminando_Derecha_0
+  - first:
+      213: 8326144630531564093
+    second: DuendeBomba_Caminando_Derecha_1
+  - first:
+      213: 2219241285997000308
+    second: DuendeBomba_Caminando_Derecha_2
+  - first:
+      213: -2072704409571079082
+    second: DuendeBomba_Caminando_Derecha_3
+  - first:
+      213: 6191506329594674915
+    second: DuendeBomba_Caminando_Derecha_4
+  - first:
+      213: -2293098231640703084
+    second: DuendeBomba_Caminando_Derecha_5
+  - first:
+      213: 3784155588964387353
+    second: DuendeBomba_Caminando_Derecha_6
+  - first:
+      213: -8172199924015240627
+    second: DuendeBomba_Caminando_Derecha_7
+  - first:
+      213: 1168548588012467492
+    second: DuendeBomba_Caminando_Derecha_8
+  - first:
+      213: -4955485199214342630
+    second: DuendeBomba_Caminando_Derecha_9
+  - first:
+      213: 2147536690287859398
+    second: DuendeBomba_Caminando_Derecha_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DuendeBomba_Caminando_Derecha_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ae4587cac03b010800000000000000
+      internalID: 1203319460330793543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Caminando_Derecha_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d322c5b7d686c8370800000000000000
+      internalID: 8326144630531564093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Caminando_Derecha_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4767bba01345cce10800000000000000
+      internalID: 2219241285997000308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Caminando_Derecha_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 4
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c412732564c33e0800000000000000
+      internalID: -2072704409571079082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Caminando_Derecha_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 6
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eeb218e336ace550800000000000000
+      internalID: 6191506329594674915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Caminando_Derecha_5
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 8
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fbaf3ce474d20e0800000000000000
+      internalID: -2293098231640703084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Caminando_Derecha_6
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 7
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a08077575048430800000000000000
+      internalID: 3784155588964387353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Caminando_Derecha_7
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 6
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ae89f9773869e80800000000000000
+      internalID: -8172199924015240627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Caminando_Derecha_8
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4257443efb4873010800000000000000
+      internalID: 1168548588012467492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Caminando_Derecha_9
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e8f1377749a3bb0800000000000000
+      internalID: -4955485199214342630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeBomba_Caminando_Derecha_10
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6d9bedd359dcd10800000000000000
+      internalID: 2147536690287859398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DuendeBomba_Caminando_Derecha_0: 1203319460330793543
+      DuendeBomba_Caminando_Derecha_1: 8326144630531564093
+      DuendeBomba_Caminando_Derecha_10: 2147536690287859398
+      DuendeBomba_Caminando_Derecha_2: 2219241285997000308
+      DuendeBomba_Caminando_Derecha_3: -2072704409571079082
+      DuendeBomba_Caminando_Derecha_4: 6191506329594674915
+      DuendeBomba_Caminando_Derecha_5: -2293098231640703084
+      DuendeBomba_Caminando_Derecha_6: 3784155588964387353
+      DuendeBomba_Caminando_Derecha_7: -8172199924015240627
+      DuendeBomba_Caminando_Derecha_8: 1168548588012467492
+      DuendeBomba_Caminando_Derecha_9: -4955485199214342630
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

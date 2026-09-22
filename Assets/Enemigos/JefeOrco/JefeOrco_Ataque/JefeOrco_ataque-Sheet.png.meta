@@ -1,0 +1,717 @@
+fileFormatVersion: 2
+guid: 23ba323de2dc85f47a04c11d727c61dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 604304310074147696
+    second: JefeOrco_ataque-Sheet_0
+  - first:
+      213: -992450184381258740
+    second: JefeOrco_ataque-Sheet_1
+  - first:
+      213: 4471303985508566741
+    second: JefeOrco_ataque-Sheet_2
+  - first:
+      213: -5476804660507683320
+    second: JefeOrco_ataque-Sheet_3
+  - first:
+      213: 2497646926970131450
+    second: JefeOrco_ataque-Sheet_4
+  - first:
+      213: 5718956252907925855
+    second: JefeOrco_ataque-Sheet_5
+  - first:
+      213: -7623946695879145117
+    second: JefeOrco_ataque-Sheet_6
+  - first:
+      213: -268603473558938937
+    second: JefeOrco_ataque-Sheet_7
+  - first:
+      213: -7858268939134825965
+    second: JefeOrco_ataque-Sheet_8
+  - first:
+      213: -446319749234880327
+    second: JefeOrco_ataque-Sheet_9
+  - first:
+      213: -3084603797939542351
+    second: JefeOrco_ataque-Sheet_10
+  - first:
+      213: -1553727745737883359
+    second: JefeOrco_ataque-Sheet_11
+  - first:
+      213: 3196255081222288705
+    second: JefeOrco_ataque-Sheet_12
+  - first:
+      213: 2615695033153947994
+    second: JefeOrco_ataque-Sheet_13
+  - first:
+      213: -1176430744911660920
+    second: JefeOrco_ataque-Sheet_14
+  - first:
+      213: -139220572520777908
+    second: JefeOrco_ataque-Sheet_15
+  - first:
+      213: -4010789159403829712
+    second: JefeOrco_ataque-Sheet_16
+  - first:
+      213: -6421554296531829632
+    second: JefeOrco_ataque-Sheet_17
+  - first:
+      213: 4471592910406496626
+    second: JefeOrco_ataque-Sheet_18
+  - first:
+      213: 5197363945389060054
+    second: JefeOrco_ataque-Sheet_19
+  - first:
+      213: 3192312717731792076
+    second: JefeOrco_ataque-Sheet_20
+  - first:
+      213: -2270297036680110083
+    second: JefeOrco_ataque-Sheet_21
+  - first:
+      213: 5399302225437214582
+    second: JefeOrco_ataque-Sheet_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073053a719be26800800000000000000
+      internalID: 604304310074147696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 33
+        width: 90
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c042fa6c0db1a32f0800000000000000
+      internalID: -992450184381258740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 75
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6c60be8434d0e30800000000000000
+      internalID: 4471303985508566741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 74
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8065c3abd2b7ef3b0800000000000000
+      internalID: -5476804660507683320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 73
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af39660a5ac69a220800000000000000
+      internalID: 2497646926970131450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 33
+        width: 64
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5173946960dd5f40800000000000000
+      internalID: 5718956252907925855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 33
+        width: 90
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3694c9d9fdc423690800000000000000
+      internalID: -7623946695879145117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 74
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca551d509ab54cf0800000000000000
+      internalID: -268603473558938937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 76
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a0265e802d1f290800000000000000
+      internalID: -7858268939134825965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 75
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b01d928d8a5ec9f0800000000000000
+      internalID: -446319749234880327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 0
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b62efe40394135d0800000000000000
+      internalID: -3084603797939542351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 33
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12100a5e8dc007ae0800000000000000
+      internalID: -1553727745737883359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 33
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145bac7df016b5c20800000000000000
+      internalID: 3196255081222288705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 33
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5905eb26c0dc4420800000000000000
+      internalID: 2615695033153947994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 33
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88831b2787a7cafe0800000000000000
+      internalID: -1176430744911660920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 33
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47f87d70a3611ef0800000000000000
+      internalID: -139220572520777908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 33
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0364fb47280d658c0800000000000000
+      internalID: -4010789159403829712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 6
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c3651e36e02e6a0800000000000000
+      internalID: -6421554296531829632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 10
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2713fec7f0a4e0e30800000000000000
+      internalID: 4471592910406496626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 13
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df6655b8feb02840800000000000000
+      internalID: 5197363945389060054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 14
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc48d50d08f5d4c20800000000000000
+      internalID: 3192312717731792076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 11
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff5f0aafd84e70e0800000000000000
+      internalID: -2270297036680110083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JefeOrco_ataque-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 7
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677492e64cc2eea40800000000000000
+      internalID: 5399302225437214582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      JefeOrco_ataque-Sheet_0: 604304310074147696
+      JefeOrco_ataque-Sheet_1: -992450184381258740
+      JefeOrco_ataque-Sheet_10: -3084603797939542351
+      JefeOrco_ataque-Sheet_11: -1553727745737883359
+      JefeOrco_ataque-Sheet_12: 3196255081222288705
+      JefeOrco_ataque-Sheet_13: 2615695033153947994
+      JefeOrco_ataque-Sheet_14: -1176430744911660920
+      JefeOrco_ataque-Sheet_15: -139220572520777908
+      JefeOrco_ataque-Sheet_16: -4010789159403829712
+      JefeOrco_ataque-Sheet_17: -6421554296531829632
+      JefeOrco_ataque-Sheet_18: 4471592910406496626
+      JefeOrco_ataque-Sheet_19: 5197363945389060054
+      JefeOrco_ataque-Sheet_2: 4471303985508566741
+      JefeOrco_ataque-Sheet_20: 3192312717731792076
+      JefeOrco_ataque-Sheet_21: -2270297036680110083
+      JefeOrco_ataque-Sheet_22: 5399302225437214582
+      JefeOrco_ataque-Sheet_3: -5476804660507683320
+      JefeOrco_ataque-Sheet_4: 2497646926970131450
+      JefeOrco_ataque-Sheet_5: 5718956252907925855
+      JefeOrco_ataque-Sheet_6: -7623946695879145117
+      JefeOrco_ataque-Sheet_7: -268603473558938937
+      JefeOrco_ataque-Sheet_8: -7858268939134825965
+      JefeOrco_ataque-Sheet_9: -446319749234880327
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
