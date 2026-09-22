@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2789361049794723380
+--- !u!1 &7546090959293767614
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7986807386720764016}
-  - component: {fileID: 2206977926296042949}
-  - component: {fileID: 4951223536933808628}
-  - component: {fileID: 7121203776931151440}
+  - component: {fileID: 6821807445308409564}
+  - component: {fileID: 9218191642968471577}
+  - component: {fileID: 864330290616404551}
+  - component: {fileID: 141393451274026374}
   m_Layer: 0
   m_Name: Slime_Muriendo_9
   m_TagString: Untagged
@@ -19,13 +19,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7986807386720764016
+--- !u!4 &6821807445308409564
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2789361049794723380}
+  m_GameObject: {fileID: 7546090959293767614}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.43743, y: -1.04336, z: 0}
@@ -34,14 +34,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2206977926296042949
+--- !u!212 &9218191642968471577
 SpriteRenderer:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2789361049794723380}
+  m_GameObject: {fileID: 7546090959293767614}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -94,13 +94,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
---- !u!114 &4951223536933808628
+--- !u!114 &864330290616404551
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2789361049794723380}
+  m_GameObject: {fileID: 7546090959293767614}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8740cbe3dea5034e996f6230c3cbbdc, type: 3}
@@ -108,13 +108,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharcoDano
   danoPorSegundo: 5
   duracionDelCharco: 30
---- !u!60 &7121203776931151440
+--- !u!60 &141393451274026374
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2789361049794723380}
+  m_GameObject: {fileID: 7546090959293767614}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -138,7 +138,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

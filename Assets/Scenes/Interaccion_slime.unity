@@ -670,10 +670,10 @@ MonoBehaviour:
   velocidad: 2
   distanciaAtaque: 1.5
   danoAtaque: 10
-  tiempoEntreAtaques: 2
+  tiempoEntreAtaques: 1
   tiempoParaGolpe: 1
   tiempoFinAtaque: 0.25
-  prefabCharco: {fileID: 7546090959293767614, guid: c844eb676b1432748a661cc7ac20bfd2, type: 3}
+  prefabCharco: {fileID: 2789361049794723380, guid: c844eb676b1432748a661cc7ac20bfd2, type: 3}
 --- !u!61 &1005520967
 BoxCollider2D:
   m_ObjectHideFlags: 0

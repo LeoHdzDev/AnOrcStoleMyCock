@@ -145,12 +145,12 @@ TextureImporter:
       name: Slime_Muriendo_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 4
-        width: 48
-        height: 50
-      alignment: 9
-      pivot: {x: 0.5, y: 0.057219945}
+        x: 0
+        y: 0
+        width: 70
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -167,19 +167,19 @@ TextureImporter:
       name: Slime_Muriendo_1
       rect:
         serializedVersion: 2
-        x: 81
-        y: 4
-        width: 48
-        height: 48
-      alignment: 9
-      pivot: {x: 0.5, y: 0.063045956}
+        x: 70
+        y: 0
+        width: 70
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ae06d190518e89470800000000000000
+      spriteID: f9c1c525ac8c5b645814d4e3a3a4fd70
       internalID: 8401720281904537834
       vertices: []
       indices: 
@@ -189,19 +189,19 @@ TextureImporter:
       name: Slime_Muriendo_2
       rect:
         serializedVersion: 2
-        x: 152
-        y: 4
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5242755, y: 0.10276894}
+        x: 140
+        y: 0
+        width: 70
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 79cd12966f9699880800000000000000
+      spriteID: b800dad7072a48840ae60fc53e790d57
       internalID: -8603729106067923817
       vertices: []
       indices: 
@@ -211,19 +211,19 @@ TextureImporter:
       name: Slime_Muriendo_3
       rect:
         serializedVersion: 2
-        x: 222
-        y: 4
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5000003, y: 0.10276894}
+        x: 210
+        y: 0
+        width: 70
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b564f149210494460800000000000000
+      spriteID: d0925d4b71319e44086b8186912e101c
       internalID: 7226377525631338075
       vertices: []
       indices: 
@@ -233,19 +233,19 @@ TextureImporter:
       name: Slime_Muriendo_4
       rect:
         serializedVersion: 2
-        x: 224
-        y: 6
-        width: 4
-        height: 4
+        x: 280
+        y: 0
+        width: 70
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b3f3db35d8f7cbd60800000000000000
+      spriteID: 0814a0ed1f735f54db886efa62dbefa5
       internalID: 7907335290727776059
       vertices: []
       indices: 
@@ -255,19 +255,19 @@ TextureImporter:
       name: Slime_Muriendo_5
       rect:
         serializedVersion: 2
-        x: 292
-        y: 4
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.10276894}
+        x: 350
+        y: 0
+        width: 70
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 38df27946e33991e0800000000000000
+      spriteID: ff36cd7e0e8a3b64ebf7abfebd504814
       internalID: -2190662679571268221
       vertices: []
       indices: 
@@ -277,19 +277,19 @@ TextureImporter:
       name: Slime_Muriendo_6
       rect:
         serializedVersion: 2
-        x: 294
-        y: 6
-        width: 4
-        height: 4
+        x: 420
+        y: 0
+        width: 70
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c95d531e31adc6d60800000000000000
+      spriteID: 6f9f3a2568cc9484aab955e6e8eb4d31
       internalID: 7884916826536531356
       vertices: []
       indices: 
@@ -299,64 +299,20 @@ TextureImporter:
       name: Slime_Muriendo_7
       rect:
         serializedVersion: 2
-        x: 364
-        y: 4
-        width: 51
-        height: 27
-      alignment: 9
-      pivot: {x: 0.5, y: 0.15475298}
+        x: 490
+        y: 0
+        width: 70
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a5db11a7e895f0730800000000000000
+      spriteID: 4acdc4fb00d2ce743bf138a665eb7e96
       internalID: 3967488265204907354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_Muriendo_8
-      rect:
-        serializedVersion: 2
-        x: 428
-        y: 2
-        width: 59
-        height: 20
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2086977}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76fd719c19e6e7140800000000000000
-      internalID: 4719331031953956711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_Muriendo_9
-      rect:
-        serializedVersion: 2
-        x: 494
-        y: 1
-        width: 63
-        height: 13
-      alignment: 9
-      pivot: {x: 0.5, y: 0.23110533}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a91a1f63e54bf77a0800000000000000
-      internalID: -6377180230591602278
       vertices: []
       indices: 
       edges: []
@@ -375,7 +331,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":70.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Slime_Muriendo_0: 6550480358140579276
       Slime_Muriendo_1: 8401720281904537834
@@ -385,8 +341,6 @@ TextureImporter:
       Slime_Muriendo_5: -2190662679571268221
       Slime_Muriendo_6: 7884916826536531356
       Slime_Muriendo_7: 3967488265204907354
-      Slime_Muriendo_8: 4719331031953956711
-      Slime_Muriendo_9: -6377180230591602278
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
