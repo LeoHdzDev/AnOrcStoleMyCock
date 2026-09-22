@@ -110,11 +110,18 @@ public class PlayerController : MonoBehaviour
                     saludEnemigo.RecibirDano(danoAtaque);
                 }
 
-                // --- 2. Daño al Slime (CÓDIGO NUEVO) ---
+                // --- 2. Daño al Slime ---
                 ComportamientoSlime slime = enemigoMasCercano.GetComponent<ComportamientoSlime>();
                 if (slime != null)
                 {
                     slime.RecibirDano(danoAtaque);
+                }
+
+                // --- 3. Daño al Duende ---
+                SaludDuendeCuchillo duende = enemigoMasCercano.GetComponent<SaludDuendeCuchillo>();
+                if (duende != null)
+                {
+                    duende.RecibirDano(danoAtaque);
                 }
             }
         }
@@ -136,26 +143,20 @@ public class PlayerController : MonoBehaviour
         estaEmpujado = false; 
     }
 
-    // --- EFECTO DE HIELO (RALENTIZACIÓN) ---
     public IEnumerator AplicarRalentizacion(float factorVelocidad, int duracion)
     {
-        // Si ya está congelado, ignoramos el nuevo golpe para que no se acumule
         if (estaRalentizado) yield break; 
 
         estaRalentizado = true;
         
-        // 1. Guardamos su velocidad original y lo hacemos más lento
         float velocidadOriginal = velocidad;
         velocidad *= factorVelocidad; 
 
-        // 2. Lo pintamos de azul hielo (Cyan)
         SpriteRenderer spriteGranjero = GetComponent<SpriteRenderer>();
         if (spriteGranjero != null) spriteGranjero.color = Color.cyan;
 
-        // 3. Esperamos los segundos de congelamiento
         yield return new WaitForSeconds(duracion);
 
-        // 4. Restauramos su velocidad normal y su color
         velocidad = velocidadOriginal;
         if (spriteGranjero != null) spriteGranjero.color = Color.white;
         

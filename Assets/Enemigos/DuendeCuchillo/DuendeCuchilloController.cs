@@ -13,6 +13,7 @@ public class DuendeCuchilloController : MonoBehaviour
     [Header("Ataque")]
     public float tiempoEntreAtaques = 1.2f;
     public float duracionAtaque = 0.5f;
+    public float danoAtaque = 5f; // --- NUEVO: Cantidad de da√±o que hace
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -26,12 +27,9 @@ public class DuendeCuchilloController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
-        // Si no asignamos manualmente al Farmer,
-        // intentamos encontrarlo por su nombre.
         if (objetivo == null)
         {
             GameObject jugador = GameObject.Find("Farmer_player");
-
             if (jugador != null)
             {
                 objetivo = jugador.transform;
@@ -41,7 +39,6 @@ public class DuendeCuchilloController : MonoBehaviour
 
     void Update()
     {
-        // Si no encontramos al jugador, no hacemos nada.
         if (objetivo == null)
         {
             movimiento = Vector2.zero;
@@ -49,7 +46,6 @@ public class DuendeCuchilloController : MonoBehaviour
             return;
         }
 
-        // Si estamos atacando, permanecemos quietos.
         if (atacando)
         {
             movimiento = Vector2.zero;
@@ -57,11 +53,9 @@ public class DuendeCuchilloController : MonoBehaviour
             return;
         }
 
-        // Calculamos la distancia entre el duende y el Farmer.
         Vector2 diferencia = objetivo.position - transform.position;
         float distancia = diferencia.magnitude;
 
-        // Determinamos hacia dÛnde est· el Farmer.
         if (diferencia.x > 0.05f)
         {
             animator.SetFloat("Direccion", 1);
@@ -71,7 +65,6 @@ public class DuendeCuchilloController : MonoBehaviour
             animator.SetFloat("Direccion", -1);
         }
 
-        // Si est· suficientemente cerca, intenta atacar.
         if (distancia <= distanciaAtaque)
         {
             movimiento = Vector2.zero;
@@ -81,23 +74,16 @@ public class DuendeCuchilloController : MonoBehaviour
             {
                 IniciarAtaque();
             }
-
             return;
         }
 
-        // Si est· lejos, perseguimos al Farmer.
         movimiento = diferencia.normalized;
-
         animator.SetFloat("Velocidad", movimiento.magnitude);
     }
 
     void FixedUpdate()
     {
-        if (rb == null)
-            return;
-
-        if (atacando)
-            return;
+        if (rb == null || atacando) return;
 
         rb.MovePosition(rb.position + movimiento * velocidad * Time.fixedDeltaTime);
     }
@@ -105,23 +91,31 @@ public class DuendeCuchilloController : MonoBehaviour
     void IniciarAtaque()
     {
         atacando = true;
-
-        // Guardamos el momento del siguiente ataque.
         siguienteAtaque = Time.time + tiempoEntreAtaques;
-
-        // Avisamos al Animator.
         animator.SetBool("Atacar", true);
-
-        StartCoroutine(TerminarAtaque());
+        StartCoroutine(RutinaAtaque());
     }
 
-    IEnumerator TerminarAtaque()
+    // --- CORREGIDO: Ahora calcula la distancia y hace da√±o ---
+    IEnumerator RutinaAtaque()
     {
-        yield return new WaitForSeconds(duracionAtaque);
+        // Esperamos a la mitad del tiempo de la animaci√≥n (cuando tira la cuchillada)
+        yield return new WaitForSeconds(duracionAtaque / 2f);
+
+        // Si el granjero sigue cerca, le restamos vida
+        if (objetivo != null && Vector2.Distance(transform.position, objetivo.position) <= distanciaAtaque + 0.5f)
+        {
+            PlayerHealth salud = objetivo.GetComponent<PlayerHealth>();
+            if (salud != null)
+            {
+                salud.RecibirDano(danoAtaque);
+            }
+        }
+
+        // Esperamos la otra mitad de la animaci√≥n
+        yield return new WaitForSeconds(duracionAtaque / 2f);
 
         atacando = false;
-
-        // Avisamos al Animator que terminÛ el ataque.
         animator.SetBool("Atacar", false);
     }
 }
