@@ -497,7 +497,6 @@ GameObject:
   - component: {fileID: 1323493384}
   - component: {fileID: 1323493383}
   - component: {fileID: 1323493382}
-  - component: {fileID: 1323493381}
   - component: {fileID: 1323493380}
   - component: {fileID: 1323493379}
   - component: {fileID: 1323493378}
@@ -595,21 +594,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.72093034, y: 1.2655437}
   m_EdgeRadius: 0
---- !u!114 &1323493381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323493377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1a2aeb8b64db9842b3c732d285ac206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
-  objetivo: {fileID: 0}
-  velocidadSuavizado: -7.06
-  compensacion: {x: 0, y: 0, z: -10}
 --- !u!114 &1323493382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -719,7 +703,7 @@ Transform:
   m_GameObject: {fileID: 1323493377}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.872, y: -0.465, z: 0}
+  m_LocalPosition: {x: 10.16, y: 0.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -737,6 +721,7 @@ GameObject:
   - component: {fileID: 2080326763}
   - component: {fileID: 2080326762}
   - component: {fileID: 2080326765}
+  - component: {fileID: 2080326766}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -862,6 +847,21 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &2080326766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080326761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a2aeb8b64db9842b3c732d285ac206, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
+  objetivo: {fileID: 1323493385}
+  velocidadSuavizado: 0.125
+  compensacion: {x: 0, y: 0, z: -10}
 --- !u!1 &2092782377
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,6 +1021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DuendeCuchilloController
   objetivo: {fileID: 1323493385}
+  rangoDeVision: 6
   velocidad: 2
   distanciaAtaque: 1.4
   tiempoEntreAtaques: 1.2
