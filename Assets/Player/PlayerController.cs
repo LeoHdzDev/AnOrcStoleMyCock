@@ -13,9 +13,29 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private ElementType elementoActual = ElementType.None;
 
+    [SerializeField] private RuntimeAnimatorController controladorNormal;
+    [SerializeField] private RuntimeAnimatorController controladorAgua;
+
     public void SetElemento(ElementType nuevoElemento)
     {
         elementoActual = nuevoElemento;
+    }
+
+    public void ActualizarVisualElemento()
+    {
+        Animator animator = GetComponent<Animator>();
+
+        if (animator == null)
+            return;
+
+        if (elementoActual == ElementType.Water)
+        {
+            animator.runtimeAnimatorController = controladorAgua;
+        }
+        else
+        {
+            animator.runtimeAnimatorController = controladorNormal;
+        }
     }
 
     [Header("Estadísticas de Movimiento y Ataque")]

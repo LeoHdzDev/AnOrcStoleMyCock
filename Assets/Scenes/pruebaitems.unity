@@ -401,6 +401,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   elementoActual: 0
+  controladorNormal: {fileID: 9100000, guid: 7f405b7b86b7298418be6fd89fed8de7, type: 2}
+  controladorAgua: {fileID: 22100000, guid: 559713a65bbb9cc408fd2515e1d1fd4d, type: 2}
   velocidad: 5
   danoAtaque: 5
   radioAutoApuntado: 1

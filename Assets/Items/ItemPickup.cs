@@ -47,6 +47,7 @@ public class ItemPickup : MonoBehaviour
         if (farmerController != null)
         {
             farmerController.SetElemento(PlayerController.ElementType.Water);
+            farmerController.ActualizarVisualElemento();
         }
 
         if (farmerAnimator != null)
