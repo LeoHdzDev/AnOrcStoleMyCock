@@ -3,8 +3,9 @@ using UnityEngine;
 
 public class DuendeCuchilloController : MonoBehaviour
 {
-    [Header("Objetivo")]
+    [Header("Objetivo y Visión")]
     public Transform objetivo;
+    public float rangoDeVision = 6f; // <-- Radio morado de detección inicial
 
     [Header("Movimiento")]
     public float velocidad = 2f;
@@ -13,7 +14,7 @@ public class DuendeCuchilloController : MonoBehaviour
     [Header("Ataque")]
     public float tiempoEntreAtaques = 1.2f;
     public float duracionAtaque = 0.5f;
-    public float danoAtaque = 5f; // --- NUEVO: Cantidad de daño que hace
+    public float danoAtaque = 5f;
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -21,6 +22,9 @@ public class DuendeCuchilloController : MonoBehaviour
     private Vector2 movimiento;
     private bool atacando = false;
     private float siguienteAtaque = 0f;
+    
+    // --- NUEVO: Interruptor de memoria ---
+    private bool jugadorDetectado = false; 
 
     void Start()
     {
@@ -30,23 +34,13 @@ public class DuendeCuchilloController : MonoBehaviour
         if (objetivo == null)
         {
             GameObject jugador = GameObject.Find("Farmer_player");
-            if (jugador != null)
-            {
-                objetivo = jugador.transform;
-            }
+            if (jugador != null) objetivo = jugador.transform;
         }
     }
 
     void Update()
     {
-        if (objetivo == null)
-        {
-            movimiento = Vector2.zero;
-            animator.SetFloat("Velocidad", 0);
-            return;
-        }
-
-        if (atacando)
+        if (objetivo == null || atacando)
         {
             movimiento = Vector2.zero;
             animator.SetFloat("Velocidad", 0);
@@ -56,24 +50,32 @@ public class DuendeCuchilloController : MonoBehaviour
         Vector2 diferencia = objetivo.position - transform.position;
         float distancia = diferencia.magnitude;
 
-        if (diferencia.x > 0.05f)
+        // --- NUEVA LÓGICA: CAZADOR IMPLACABLE ---
+        // Si no te había visto, pero entraste al círculo morado, te detecta para siempre
+        if (!jugadorDetectado && distancia <= rangoDeVision)
         {
-            animator.SetFloat("Direccion", 1);
+            jugadorDetectado = true; 
         }
-        else if (diferencia.x < -0.05f)
+
+        // Si aún no te ha detectado, se queda quieto como estatua
+        if (!jugadorDetectado)
         {
-            animator.SetFloat("Direccion", -1);
+            movimiento = Vector2.zero;
+            animator.SetFloat("Velocidad", 0);
+            return; 
         }
+
+        // --- A partir de aquí persigue y ataca, ignorando el rango de visión ---
+
+        if (diferencia.x > 0.05f) animator.SetFloat("Direccion", 1);
+        else if (diferencia.x < -0.05f) animator.SetFloat("Direccion", -1);
 
         if (distancia <= distanciaAtaque)
         {
             movimiento = Vector2.zero;
             animator.SetFloat("Velocidad", 0);
 
-            if (Time.time >= siguienteAtaque)
-            {
-                IniciarAtaque();
-            }
+            if (Time.time >= siguienteAtaque) IniciarAtaque();
             return;
         }
 
@@ -84,7 +86,6 @@ public class DuendeCuchilloController : MonoBehaviour
     void FixedUpdate()
     {
         if (rb == null || atacando) return;
-
         rb.MovePosition(rb.position + movimiento * velocidad * Time.fixedDeltaTime);
     }
 
@@ -96,26 +97,29 @@ public class DuendeCuchilloController : MonoBehaviour
         StartCoroutine(RutinaAtaque());
     }
 
-    // --- CORREGIDO: Ahora calcula la distancia y hace daño ---
     IEnumerator RutinaAtaque()
     {
-        // Esperamos a la mitad del tiempo de la animación (cuando tira la cuchillada)
         yield return new WaitForSeconds(duracionAtaque / 2f);
 
-        // Si el granjero sigue cerca, le restamos vida
         if (objetivo != null && Vector2.Distance(transform.position, objetivo.position) <= distanciaAtaque + 0.5f)
         {
             PlayerHealth salud = objetivo.GetComponent<PlayerHealth>();
-            if (salud != null)
-            {
-                salud.RecibirDano(danoAtaque);
-            }
+            if (salud != null) salud.RecibirDano(danoAtaque);
         }
 
-        // Esperamos la otra mitad de la animación
         yield return new WaitForSeconds(duracionAtaque / 2f);
-
         atacando = false;
         animator.SetBool("Atacar", false);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        // Visión inicial (Morado)
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawWireSphere(transform.position, rangoDeVision);
+
+        // Rango de ataque (Rojo)
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, distanciaAtaque);
     }
 }
