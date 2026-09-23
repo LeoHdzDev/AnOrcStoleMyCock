@@ -136,9 +136,9 @@ TextureImporter:
       name: FarmerFuego_ataque_derecha-Sheet_1
       rect:
         serializedVersion: 2
-        x: 69
+        x: 74
         y: 0
-        width: 51
+        width: 57
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -158,9 +158,9 @@ TextureImporter:
       name: FarmerFuego_ataque_derecha-Sheet_2
       rect:
         serializedVersion: 2
-        x: 136
+        x: 146
         y: 0
-        width: 58
+        width: 67
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -180,9 +180,9 @@ TextureImporter:
       name: FarmerFuego_ataque_derecha-Sheet_3
       rect:
         serializedVersion: 2
-        x: 201
+        x: 216
         y: 0
-        width: 51
+        width: 57
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
