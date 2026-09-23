@@ -8,6 +8,7 @@ public class ItemPickup : MonoBehaviour
 
     private Transform farmer;
     private Animator farmerAnimator;
+    private PlayerController farmerController;
     private bool atrayendo = false;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -16,6 +17,7 @@ public class ItemPickup : MonoBehaviour
         {
             farmer = other.transform;
             farmerAnimator = farmer.GetComponent<Animator>();
+            farmerController = farmer.GetComponent<PlayerController>();
 
             atrayendo = true;
         }
@@ -41,6 +43,11 @@ public class ItemPickup : MonoBehaviour
     private void RecogerItem()
     {
         atrayendo = false;
+
+        if (farmerController != null)
+        {
+            farmerController.SetElemento(PlayerController.ElementType.Water);
+        }
 
         if (farmerAnimator != null)
         {

@@ -3,6 +3,21 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
+    public enum ElementType
+    {
+        None,
+        Water,
+        Fire,
+        Ice
+    }
+
+    [SerializeField] private ElementType elementoActual = ElementType.None;
+
+    public void SetElemento(ElementType nuevoElemento)
+    {
+        elementoActual = nuevoElemento;
+    }
+
     [Header("Estadísticas de Movimiento y Ataque")]
     public float velocidad = 5f;
     public int danoAtaque = 5;
