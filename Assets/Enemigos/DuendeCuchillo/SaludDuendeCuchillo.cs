@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class SaludDuendeCuchillo : MonoBehaviour
 {
-    [Header("EstadÌsticas")]
+    [Header("Estad√≠sticas")]
     public float vidaMaxima = 15f;
 
     private float vidaActual;
@@ -22,13 +22,12 @@ public class SaludDuendeCuchillo : MonoBehaviour
 
     public void RecibirDano(float cantidad)
     {
-        // Si ya est· muerto, no recibe m·s daÒo.
-        if (muerto)
-            return;
+        // Si ya est√° muerto, no recibe m√°s da√±o.
+        if (muerto) return;
 
         vidaActual -= cantidad;
 
-        // Efecto visual de daÒo.
+        // Efecto visual de da√±o.
         if (spriteRenderer != null)
         {
             StartCoroutine(ParpadeoRojo());
@@ -46,35 +45,51 @@ public class SaludDuendeCuchillo : MonoBehaviour
 
         yield return new WaitForSeconds(0.15f);
 
-        spriteRenderer.color = Color.white;
+        // Solo regresa a blanco si sigue vivo (evita bugs visuales al morir)
+        if (!muerto && spriteRenderer != null) 
+        {
+            spriteRenderer.color = Color.white;
+        }
     }
 
     void Morir()
     {
         muerto = true;
 
-        // Evitamos que siga moviÈndose.
-        DuendeCuchilloController controlador =
-            GetComponent<DuendeCuchilloController>();
-
+        // 1. Evitamos que siga movi√©ndose.
+        DuendeCuchilloController controlador = GetComponent<DuendeCuchilloController>();
         if (controlador != null)
         {
             controlador.enabled = false;
         }
 
-        // Activamos la animaciÛn de muerte.
-        if (animator != null)
+        // 2. Apagamos su cuerpo f√≠sico para que el granjero lo pueda atravesar.
+        Collider2D collider = GetComponent<Collider2D>();
+        if (collider != null)
         {
-            animator.SetBool("Muerto", true);
+            collider.enabled = false;
         }
 
-        // Esperamos antes de destruir el objeto.
+        // 3. Limpiamos su color por si muri√≥ justo en medio del parpadeo rojo.
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.color = Color.white;
+        }
+
+        // 4. Activamos la animaci√≥n de muerte con el Gatillo exacto que creamos en el Animator.
+        if (animator != null)
+        {
+            animator.SetTrigger("Die");
+        }
+
+        // 5. Esperamos antes de destruir el objeto.
         StartCoroutine(DestruirDespuesDeMorir());
     }
 
     IEnumerator DestruirDespuesDeMorir()
     {
-        yield return new WaitForSeconds(1f);
+        // Aumentado a 1.5f para asegurar que la animaci√≥n se vea completa
+        yield return new WaitForSeconds(1.5f);
 
         Destroy(gameObject);
     }

@@ -875,8 +875,8 @@ GameObject:
   - component: {fileID: 2092782378}
   - component: {fileID: 2092782383}
   - component: {fileID: 2092782384}
-  - component: {fileID: 2092782385}
   - component: {fileID: 2092782386}
+  - component: {fileID: 2092782387}
   m_Layer: 6
   m_Name: DuendeCuchillo
   m_TagString: Untagged
@@ -1027,19 +1027,6 @@ MonoBehaviour:
   tiempoEntreAtaques: 1.2
   duracionAtaque: 0.5
   danoAtaque: 5
---- !u!114 &2092782385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2092782377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2823a2c5d353dce438b2b467cb644fc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SaludEnemigo
-  vidaMaxima: 15
 --- !u!61 &2092782386
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1074,7 +1061,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.119129986, y: 0.0569548}
+  m_Offset: {x: 0.22998616, y: 0.0569548}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.22723572, y: 0.4461169}
@@ -1084,8 +1071,21 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.45691878, y: 0.867483}
+  m_Size: {x: 0.6786311, y: 0.867483}
   m_EdgeRadius: 0
+--- !u!114 &2092782387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092782377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f65564948523ff4fb8ad2119c4ecdd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SaludDuendeCuchillo
+  vidaMaxima: 15
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
