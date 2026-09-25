@@ -1,5 +1,6 @@
-using UnityEngine;
 using System.Collections;
+using System.Diagnostics;
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private RuntimeAnimatorController controladorNormal;
     [SerializeField] private RuntimeAnimatorController controladorAgua;
+    [SerializeField] private RuntimeAnimatorController controladorFuego;
 
     public void SetElemento(ElementType nuevoElemento)
     {
@@ -23,18 +25,23 @@ public class PlayerController : MonoBehaviour
 
     public void ActualizarVisualElemento()
     {
-        Animator animator = GetComponent<Animator>();
-
         if (animator == null)
             return;
 
-        if (elementoActual == ElementType.Water)
+        switch (elementoActual)
         {
-            animator.runtimeAnimatorController = controladorAgua;
-        }
-        else
-        {
-            animator.runtimeAnimatorController = controladorNormal;
+            case ElementType.Water:
+                animator.runtimeAnimatorController = controladorAgua;
+                break;
+
+            case ElementType.Fire:
+                animator.runtimeAnimatorController = controladorFuego;
+                break;
+
+            case ElementType.None:
+            case ElementType.Ice:
+                animator.runtimeAnimatorController = controladorNormal;
+                break;
         }
     }
 
@@ -52,6 +59,8 @@ public class PlayerController : MonoBehaviour
     private bool estaAtacando = false;
     private bool estaEmpujado = false;
     private bool estaRalentizado = false;
+    private bool estaRecogiendoItem = false;
+    [SerializeField] private float duracionBloqueoRecogida = 1f;
 
     void Start()
     {
@@ -61,7 +70,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (estaAtacando) return; 
+        if (estaAtacando || estaRecogiendoItem)
+        {
+            movimiento = Vector2.zero;
+            animator.SetFloat("Speed", 0f);
+            return;
+        }
 
         movimiento.x = Input.GetAxisRaw("Horizontal");
         movimiento.y = Input.GetAxisRaw("Vertical");
@@ -73,7 +87,7 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("LastHorizontal", movimiento.x);
             animator.SetFloat("LastVertical", movimiento.y);
         }
-        
+
         animator.SetFloat("Speed", movimiento.sqrMagnitude);
 
         if (Input.GetMouseButtonDown(0))
@@ -84,10 +98,33 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!estaAtacando && !estaEmpujado) 
+        if (!estaAtacando && !estaEmpujado && !estaRecogiendoItem)
         {
-            rb.MovePosition(rb.position + movimiento.normalized * velocidad * Time.fixedDeltaTime);
+            rb.MovePosition(
+                rb.position + movimiento.normalized * velocidad * Time.fixedDeltaTime
+            );
         }
+    }
+
+    public void IniciarRecogida()
+    {
+        estaRecogiendoItem = true;
+        movimiento = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
+        animator.SetFloat("Speed", 0f);
+
+        StartCoroutine(DesbloquearDespuesDeRecoger());
+    }
+
+    private IEnumerator DesbloquearDespuesDeRecoger()
+    {
+        yield return new WaitForSeconds(duracionBloqueoRecogida);
+        estaRecogiendoItem = false;
+    }
+
+    public void TerminarRecogida()
+    {
+        estaRecogiendoItem = false;
     }
 
     IEnumerator RutinaAtaque()
