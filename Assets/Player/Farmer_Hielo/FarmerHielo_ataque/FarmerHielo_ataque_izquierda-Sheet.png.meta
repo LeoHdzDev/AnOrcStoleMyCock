@@ -114,7 +114,7 @@ TextureImporter:
       name: FarmerHielo_ataque_izquierda-Sheet_0
       rect:
         serializedVersion: 2
-        x: 29
+        x: 34
         y: 0
         width: 32
         height: 48
@@ -136,9 +136,9 @@ TextureImporter:
       name: FarmerHielo_ataque_izquierda-Sheet_1
       rect:
         serializedVersion: 2
-        x: 78
+        x: 82
         y: 0
-        width: 51
+        width: 57
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -158,9 +158,9 @@ TextureImporter:
       name: FarmerHielo_ataque_izquierda-Sheet_2
       rect:
         serializedVersion: 2
-        x: 136
+        x: 142
         y: 0
-        width: 58
+        width: 67
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -180,9 +180,9 @@ TextureImporter:
       name: FarmerHielo_ataque_izquierda-Sheet_3
       rect:
         serializedVersion: 2
-        x: 210
+        x: 224
         y: 0
-        width: 51
+        width: 57
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
