@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private RuntimeAnimatorController controladorNormal;
     [SerializeField] private RuntimeAnimatorController controladorAgua;
     [SerializeField] private RuntimeAnimatorController controladorFuego;
+    [SerializeField] private RuntimeAnimatorController controladorHielo;
 
     public void SetElemento(ElementType nuevoElemento)
     {
@@ -39,8 +40,11 @@ public class PlayerController : MonoBehaviour
                 break;
 
             case ElementType.None:
-            case ElementType.Ice:
                 animator.runtimeAnimatorController = controladorNormal;
+                break;
+
+            case ElementType.Ice:
+                animator.runtimeAnimatorController = controladorHielo;
                 break;
         }
     }

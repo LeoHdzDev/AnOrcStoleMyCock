@@ -72,6 +72,7 @@ public class ItemPickup : MonoBehaviour
 
                 case TipoItem.Hielo:
                     farmerController.SetElemento(PlayerController.ElementType.Ice);
+                    farmerController.ActualizarVisualElemento();
                     break;
             }
         }
