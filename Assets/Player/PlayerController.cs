@@ -236,6 +236,12 @@ public class PlayerController : MonoBehaviour
                 {
                     duende.RecibirDano(danoAtaque);
                 }
+                // --- 4. NUEVO: Daño al Jefe Orco ---
+                SaludJefeOrco jefeOrco = enemigoMasCercano.GetComponent<SaludJefeOrco>();
+                if (jefeOrco != null)
+                {
+                    jefeOrco.RecibirDano(danoAtaque);
+                }
             }
         }
     }
