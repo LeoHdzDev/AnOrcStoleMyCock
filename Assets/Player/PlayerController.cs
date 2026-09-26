@@ -19,8 +19,21 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private RuntimeAnimatorController controladorFuego;
     [SerializeField] private RuntimeAnimatorController controladorHielo;
 
+    [SerializeField] private BurbujaAgua burbujaAgua;
+    [Header("Habilidad de Agua (burbuja)")]
+    [SerializeField] private float duracionBurbuja = 3f;
+    [SerializeField] private float cooldownBurbuja = 5f;
+    private bool burbujaEnCooldown = false;
+
     public void SetElemento(ElementType nuevoElemento)
     {
+        if (nuevoElemento != ElementType.Water && burbujaAgua != null)
+        {
+            StopCoroutine(RutinaBurbujaAgua());
+            burbujaAgua.Desactivar();
+            burbujaEnCooldown = false;
+        }
+
         elementoActual = nuevoElemento;
     }
 
@@ -98,6 +111,10 @@ public class PlayerController : MonoBehaviour
         {
             StartCoroutine(RutinaAtaque());
         }
+        if (Input.GetMouseButtonDown(1))
+        {
+            IntentarUsarHabilidad();
+        }
     }
 
     void FixedUpdate()
@@ -143,6 +160,26 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.4f); 
 
         estaAtacando = false;
+    }
+
+    void IntentarUsarHabilidad()
+    {
+        if (elementoActual == ElementType.Water && burbujaAgua != null && !burbujaEnCooldown)
+        {
+            StartCoroutine(RutinaBurbujaAgua());
+        }
+    }
+
+    IEnumerator RutinaBurbujaAgua()
+    {
+        burbujaEnCooldown = true;
+        burbujaAgua.Activar();
+
+        yield return new WaitForSeconds(duracionBurbuja);
+        burbujaAgua.Desactivar();
+
+        yield return new WaitForSeconds(cooldownBurbuja);
+        burbujaEnCooldown = false;
     }
 
     void AutoApuntar()

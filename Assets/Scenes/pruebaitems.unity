@@ -321,6 +321,93 @@ MonoBehaviour:
   capaEnemigos:
     serializedVersion: 2
     m_Bits: 64
+--- !u!1 &92011504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 92011505}
+  - component: {fileID: 92011507}
+  - component: {fileID: 92011506}
+  m_Layer: 0
+  m_Name: BurbujaAgua
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &92011505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92011504}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 695649851}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &92011506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92011504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ccd6e165e7aa17498e7ad7358f58d86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BurbujaAgua
+  radio: 2.5
+  danoPorSegundo: 8
+  tiempoEntreDanos: 0.5
+  fuerzaEmpuje: 0.6
+  colorBurbuja: {r: 0.3, g: 0.7, b: 1, a: 0.35}
+  ordenDeDibujado: 5
+--- !u!58 &92011507
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92011504}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &233638366
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,6 +920,7 @@ MonoBehaviour:
   controladorAgua: {fileID: 22100000, guid: 559713a65bbb9cc408fd2515e1d1fd4d, type: 2}
   controladorFuego: {fileID: 22100000, guid: 27b2387cc3759ea49a1c6a0bb16a96bb, type: 2}
   controladorHielo: {fileID: 22100000, guid: df65532ef65818547a5635214ef1942e, type: 2}
+  burbujaAgua: {fileID: 92011506}
   velocidad: 5
   danoAtaque: 5
   radioAutoApuntado: 1
@@ -934,7 +1022,8 @@ Transform:
   m_LocalPosition: {x: 2.872, y: -0.465, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 92011505}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &727545728
@@ -1077,7 +1166,7 @@ Transform:
   m_GameObject: {fileID: 727545728}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2802389, y: -2.366871, z: 0}
+  m_LocalPosition: {x: 0.97, y: -5.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2246,7 +2335,7 @@ Transform:
   m_GameObject: {fileID: 2085728129}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.17919898, y: 3.081485, z: 0}
+  m_LocalPosition: {x: -2.26, y: -4.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
