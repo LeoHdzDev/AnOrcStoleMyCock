@@ -437,7 +437,7 @@ Transform:
   m_GameObject: {fileID: 233638366}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.75107, y: 0.79520005, z: 0}
+  m_LocalPosition: {x: 0.73, y: -0.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -915,12 +915,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43034a03df606b849a0e16f0f217f3c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  elementoActual: 1
+  elementoActual: 0
   controladorNormal: {fileID: 9100000, guid: 7f405b7b86b7298418be6fd89fed8de7, type: 2}
   controladorAgua: {fileID: 22100000, guid: 559713a65bbb9cc408fd2515e1d1fd4d, type: 2}
   controladorFuego: {fileID: 22100000, guid: 27b2387cc3759ea49a1c6a0bb16a96bb, type: 2}
   controladorHielo: {fileID: 22100000, guid: df65532ef65818547a5635214ef1942e, type: 2}
   burbujaAgua: {fileID: 92011506}
+  duracionBurbuja: 3
+  cooldownBurbuja: 5
   velocidad: 5
   danoAtaque: 5
   radioAutoApuntado: 1
@@ -1166,7 +1168,7 @@ Transform:
   m_GameObject: {fileID: 727545728}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.97, y: -5.55, z: 0}
+  m_LocalPosition: {x: -5.15, y: -4.66, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2335,7 +2337,7 @@ Transform:
   m_GameObject: {fileID: 2085728129}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.26, y: -4.92, z: 0}
+  m_LocalPosition: {x: -6.19, y: -4.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
