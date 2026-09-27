@@ -19,6 +19,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private RuntimeAnimatorController controladorFuego;
     [SerializeField] private RuntimeAnimatorController controladorHielo;
 
+    [Header("Íconos del HUD")]
+    [SerializeField] private IconoHabilidad iconoAtaque;
+    [SerializeField] private IconoHabilidad iconoAgua;
+    [SerializeField] private IconoHabilidad iconoFuego;
+    [SerializeField] private IconoHabilidad iconoHielo;
+
     [SerializeField] private BurbujaAgua burbujaAgua;
     [Header("Habilidad de Agua (burbuja)")]
     [SerializeField] private float duracionBurbuja = 3f;
@@ -65,6 +71,13 @@ public class PlayerController : MonoBehaviour
         }
 
         elementoActual = nuevoElemento;
+
+        switch (nuevoElemento)
+        {
+            case ElementType.Water: if (iconoAgua != null) iconoAgua.Mostrar(); break;
+            case ElementType.Fire: if (iconoFuego != null) iconoFuego.Mostrar(); break;
+            case ElementType.Ice: if (iconoHielo != null) iconoHielo.Mostrar(); break;
+        }
     }
 
     public void ActualizarVisualElemento()
@@ -181,7 +194,8 @@ public class PlayerController : MonoBehaviour
     IEnumerator RutinaAtaque()
     {
         estaAtacando = true;
-        rb.linearVelocity = Vector2.zero; 
+        if (iconoAtaque != null) iconoAtaque.Activar(0.4f); // mismo tiempo que dura el ataque
+        rb.linearVelocity = Vector2.zero;
 
         AutoApuntar();
 
@@ -216,6 +230,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator RutinaBurbujaAgua()
     {
         burbujaEnCooldown = true;
+        if (iconoAgua != null) iconoAgua.Activar(duracionBurbuja + cooldownBurbuja);
         burbujaAgua.Activar();
 
         yield return new WaitForSeconds(duracionBurbuja);
@@ -228,6 +243,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator RutinaAreaFuego()
     {
         fuegoEnCooldown = true;
+        if (iconoFuego != null) iconoFuego.Activar(duracionAreaFuego + cooldownAreaFuego);
         areaFuego.Activar();
 
         yield return new WaitForSeconds(duracionAreaFuego);
@@ -240,6 +256,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator RutinaAreaHielo()
     {
         hieloEnCooldown = true;
+        if (iconoHielo != null) iconoHielo.Activar(duracionAreaHielo + cooldownAreaHielo);
         areaHielo.Activar();
 
         yield return new WaitForSeconds(duracionAreaHielo);
