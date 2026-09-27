@@ -2369,7 +2369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   objetivo: {fileID: 695649851}
-  velocidadSuavizado: 0.125
+  velocidadSuavizado: 2
   compensacion: {x: 0, y: 0, z: -10}
 --- !u!1 &1697067266
 GameObject:
