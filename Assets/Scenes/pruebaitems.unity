@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 79697395}
   - component: {fileID: 79697394}
   - component: {fileID: 79697399}
+  - component: {fileID: 79697400}
   m_Layer: 6
   m_Name: Slime
   m_TagString: Untagged
@@ -321,6 +322,20 @@ MonoBehaviour:
   capaEnemigos:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &79697400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79697393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0425d5a56ff78459ce1fb6957e2ea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
+  colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
+  colorCongelado: {r: 0.75, g: 0.95, b: 1, a: 1}
 --- !u!1 &92011504
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,7 +364,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 695649851}
@@ -366,10 +381,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ccd6e165e7aa17498e7ad7358f58d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BurbujaAgua
-  radio: 2.5
-  danoPorSegundo: 8
-  tiempoEntreDanos: 0.5
-  fuerzaEmpuje: 0.6
+  radio: 3
+  danoPorSegundo: 1
+  tiempoEntreDanos: 0.3
+  fuerzaEmpuje: 1
   colorBurbuja: {r: 0.3, g: 0.7, b: 1, a: 0.35}
   ordenDeDibujado: 5
 --- !u!58 &92011507
@@ -437,7 +452,7 @@ Transform:
   m_GameObject: {fileID: 233638366}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.73, y: -0.34, z: 0}
+  m_LocalPosition: {x: -7.67, y: -1.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -591,6 +606,7 @@ GameObject:
   - component: {fileID: 676446313}
   - component: {fileID: 676446312}
   - component: {fileID: 676446318}
+  - component: {fileID: 676446319}
   m_Layer: 6
   m_Name: Espiriu_fuego
   m_TagString: Untagged
@@ -778,6 +794,20 @@ MonoBehaviour:
   capaEnemigos:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &676446319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676446311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0425d5a56ff78459ce1fb6957e2ea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
+  colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
+  colorCongelado: {r: 0.75, g: 0.95, b: 1, a: 1}
 --- !u!1 &695649843
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,6 +953,12 @@ MonoBehaviour:
   burbujaAgua: {fileID: 92011506}
   duracionBurbuja: 3
   cooldownBurbuja: 5
+  areaFuego: {fileID: 1896334362}
+  duracionAreaFuego: 3
+  cooldownAreaFuego: 5
+  areaHielo: {fileID: 1210311523}
+  duracionAreaHielo: 3
+  cooldownAreaHielo: 5
   velocidad: 5
   danoAtaque: 5
   radioAutoApuntado: 1
@@ -1026,6 +1062,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 92011505}
+  - {fileID: 1896334364}
+  - {fileID: 1210311525}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &727545728
@@ -1168,7 +1206,7 @@ Transform:
   m_GameObject: {fileID: 727545728}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.15, y: -4.66, z: 0}
+  m_LocalPosition: {x: 1.65, y: 1.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1212,6 +1250,7 @@ GameObject:
   - component: {fileID: 855977441}
   - component: {fileID: 855977440}
   - component: {fileID: 855977447}
+  - component: {fileID: 855977448}
   m_Layer: 6
   m_Name: DuendeCuchillo
   m_TagString: Untagged
@@ -1438,6 +1477,20 @@ MonoBehaviour:
   capaEnemigos:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &855977448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855977439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0425d5a56ff78459ce1fb6957e2ea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
+  colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
+  colorCongelado: {r: 0.75, g: 0.95, b: 1, a: 1}
 --- !u!1 &1151225132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,6 +1507,7 @@ GameObject:
   - component: {fileID: 1151225134}
   - component: {fileID: 1151225133}
   - component: {fileID: 1151225140}
+  - component: {fileID: 1151225141}
   m_Layer: 6
   m_Name: Espiritu_hielo
   m_TagString: Untagged
@@ -1654,6 +1708,107 @@ MonoBehaviour:
   capaEnemigos:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &1151225141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151225132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0425d5a56ff78459ce1fb6957e2ea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
+  colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
+  colorCongelado: {r: 0.75, g: 0.95, b: 1, a: 1}
+--- !u!1 &1210311522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1210311525}
+  - component: {fileID: 1210311524}
+  - component: {fileID: 1210311523}
+  m_Layer: 0
+  m_Name: AreaHielo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1210311523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210311522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c1fb9479778f8e44a2e180f775da25e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AreaHielo
+  radio: 5
+  factorVelocidad: 0.15
+  factorDano: 1
+  margenSinContacto: 0.2
+  colorArea: {r: 1, g: 1, b: 1, a: 0.35}
+  ordenDeDibujado: 5
+--- !u!58 &1210311524
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210311522}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
+--- !u!4 &1210311525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210311522}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 695649851}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1513022930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1670,6 +1825,7 @@ GameObject:
   - component: {fileID: 1513022933}
   - component: {fileID: 1513022932}
   - component: {fileID: 1513022931}
+  - component: {fileID: 1513022939}
   m_Layer: 6
   m_Name: DuendeCuchillo (1)
   m_TagString: Untagged
@@ -1896,6 +2052,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1513022939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513022930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0425d5a56ff78459ce1fb6957e2ea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
+  colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
+  colorCongelado: {r: 0.75, g: 0.95, b: 1, a: 1}
 --- !u!1 &1583765489
 GameObject:
   m_ObjectHideFlags: 0
@@ -2049,6 +2219,7 @@ GameObject:
   - component: {fileID: 1760309980}
   - component: {fileID: 1760309979}
   - component: {fileID: 1760309986}
+  - component: {fileID: 1760309987}
   m_Layer: 6
   m_Name: Espiritu_agua
   m_TagString: Untagged
@@ -2248,6 +2419,107 @@ MonoBehaviour:
   capaEnemigos:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &1760309987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760309978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0425d5a56ff78459ce1fb6957e2ea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
+  colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
+  colorCongelado: {r: 1, g: 0.9333334, b: 0.9333334, a: 1}
+--- !u!1 &1896334361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1896334364}
+  - component: {fileID: 1896334363}
+  - component: {fileID: 1896334362}
+  m_Layer: 0
+  m_Name: AreaFuego
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1896334362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896334361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450117c93f922f44497696f35a11bf3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AreaFuego
+  radio: 3
+  danoQuemaduraPorSegundo: 4
+  intervaloTick: 1
+  duracionSinContacto: 2
+  colorArea: {r: 1, g: 0.25, b: 0.2, a: 0.35}
+  ordenDeDibujado: 5
+--- !u!58 &1896334363
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896334361}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
+--- !u!4 &1896334364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896334361}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 695649851}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2085728129
 GameObject:
   m_ObjectHideFlags: 0
@@ -2337,7 +2609,7 @@ Transform:
   m_GameObject: {fileID: 2085728129}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.19, y: -4.61, z: 0}
+  m_LocalPosition: {x: -7.97, y: 0.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
