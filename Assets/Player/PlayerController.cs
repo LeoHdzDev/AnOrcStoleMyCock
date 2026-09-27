@@ -24,44 +24,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float duracionBurbuja = 3f;
     [SerializeField] private float cooldownBurbuja = 5f;
     private bool burbujaEnCooldown = false;
-    private Coroutine burbujaCoroutine;
-
-    [SerializeField] private AreaFuego areaFuego;
-    [Header("Habilidad de Fuego (área de quemadura)")]
-    [SerializeField] private float duracionAreaFuego = 3f;
-    [SerializeField] private float cooldownAreaFuego = 5f;
-    private bool fuegoEnCooldown = false;
-    private Coroutine fuegoCoroutine;
-
-    [SerializeField] private AreaHielo areaHielo;
-    [Header("Habilidad de Hielo (área de ralentización)")]
-    [SerializeField] private float duracionAreaHielo = 3f;
-    [SerializeField] private float cooldownAreaHielo = 5f;
-    private bool hieloEnCooldown = false;
-    private Coroutine hieloCoroutine;
-
 
     public void SetElemento(ElementType nuevoElemento)
     {
         if (nuevoElemento != ElementType.Water && burbujaAgua != null)
         {
-            if (burbujaCoroutine != null) StopCoroutine(burbujaCoroutine);
+            StopCoroutine(RutinaBurbujaAgua());
             burbujaAgua.Desactivar();
             burbujaEnCooldown = false;
-        }
-
-        if (nuevoElemento != ElementType.Fire && areaFuego != null)
-        {
-            if (fuegoCoroutine != null) StopCoroutine(fuegoCoroutine);
-            areaFuego.Desactivar();
-            fuegoEnCooldown = false;
-        }
-
-        if (nuevoElemento != ElementType.Ice && areaHielo != null)
-        {
-            if (hieloCoroutine != null) StopCoroutine(hieloCoroutine);
-            areaHielo.Desactivar();
-            hieloEnCooldown = false;
         }
 
         elementoActual = nuevoElemento;
@@ -194,22 +164,9 @@ public class PlayerController : MonoBehaviour
 
     void IntentarUsarHabilidad()
     {
-        switch (elementoActual)
+        if (elementoActual == ElementType.Water && burbujaAgua != null && !burbujaEnCooldown)
         {
-            case ElementType.Water:
-                if (burbujaAgua != null && !burbujaEnCooldown)
-                    burbujaCoroutine = StartCoroutine(RutinaBurbujaAgua());
-                break;
-
-            case ElementType.Fire:
-                if (areaFuego != null && !fuegoEnCooldown)
-                    fuegoCoroutine = StartCoroutine(RutinaAreaFuego());
-                break;
-
-            case ElementType.Ice:
-                if (areaHielo != null && !hieloEnCooldown)
-                    hieloCoroutine = StartCoroutine(RutinaAreaHielo());
-                break;
+            StartCoroutine(RutinaBurbujaAgua());
         }
     }
 
@@ -223,30 +180,6 @@ public class PlayerController : MonoBehaviour
 
         yield return new WaitForSeconds(cooldownBurbuja);
         burbujaEnCooldown = false;
-    }
-
-    IEnumerator RutinaAreaFuego()
-    {
-        fuegoEnCooldown = true;
-        areaFuego.Activar();
-
-        yield return new WaitForSeconds(duracionAreaFuego);
-        areaFuego.Desactivar();
-
-        yield return new WaitForSeconds(cooldownAreaFuego);
-        fuegoEnCooldown = false;
-    }
-
-    IEnumerator RutinaAreaHielo()
-    {
-        hieloEnCooldown = true;
-        areaHielo.Activar();
-
-        yield return new WaitForSeconds(duracionAreaHielo);
-        areaHielo.Desactivar();
-
-        yield return new WaitForSeconds(cooldownAreaHielo);
-        hieloEnCooldown = false;
     }
 
     void AutoApuntar()
