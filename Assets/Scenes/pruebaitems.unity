@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
   colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
-  colorCongelado: {r: 0, g: 0.7968749, b: 1, a: 1}
+  colorCongelado: {r: 0.75, g: 0.95, b: 1, a: 1}
 --- !u!1 &92011504
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,7 +807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
   colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
-  colorCongelado: {r: 0, g: 0.7968749, b: 1, a: 1}
+  colorCongelado: {r: 0.75, g: 0.95, b: 1, a: 1}
 --- !u!1 &695649843
 GameObject:
   m_ObjectHideFlags: 0
@@ -1490,7 +1490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
   colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
-  colorCongelado: {r: 0, g: 0.7968749, b: 1, a: 1}
+  colorCongelado: {r: 0.75, g: 0.95, b: 1, a: 1}
 --- !u!1 &1151225132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1721,7 +1721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
   colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
-  colorCongelado: {r: 0, g: 0.7968749, b: 1, a: 1}
+  colorCongelado: {r: 0.75, g: 0.95, b: 1, a: 1}
 --- !u!1 &1210311522
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,8 +1756,6 @@ MonoBehaviour:
   factorVelocidad: 0.15
   factorDano: 1
   margenSinContacto: 0.2
-  danoPorSegundo: 3
-  intervaloTickDano: 0.5
   colorArea: {r: 1, g: 1, b: 1, a: 0.35}
   ordenDeDibujado: 5
 --- !u!58 &1210311524
@@ -2067,7 +2065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
   colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
-  colorCongelado: {r: 0, g: 0.7968749, b: 1, a: 1}
+  colorCongelado: {r: 0.75, g: 0.95, b: 1, a: 1}
 --- !u!1 &1583765489
 GameObject:
   m_ObjectHideFlags: 0
@@ -2434,7 +2432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
   colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
-  colorCongelado: {r: 0, g: 0.7968749, b: 1, a: 1}
+  colorCongelado: {r: 1, g: 0.9333334, b: 0.9333334, a: 1}
 --- !u!1 &1896334361
 GameObject:
   m_ObjectHideFlags: 0
