@@ -1,5 +1,6 @@
-using UnityEngine;
 using System.Collections;
+using System.Diagnostics;
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,26 +16,92 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private RuntimeAnimatorController controladorNormal;
     [SerializeField] private RuntimeAnimatorController controladorAgua;
+    [SerializeField] private RuntimeAnimatorController controladorFuego;
+    [SerializeField] private RuntimeAnimatorController controladorHielo;
+
+    [Header("Íconos del HUD")]
+    [SerializeField] private IconoHabilidad iconoAtaque;
+    [SerializeField] private IconoHabilidad iconoAgua;
+    [SerializeField] private IconoHabilidad iconoFuego;
+    [SerializeField] private IconoHabilidad iconoHielo;
+
+    [SerializeField] private BurbujaAgua burbujaAgua;
+    [Header("Habilidad de Agua (burbuja)")]
+    [SerializeField] private float duracionBurbuja = 3f;
+    [SerializeField] private float cooldownBurbuja = 5f;
+    private bool burbujaEnCooldown = false;
+    private Coroutine burbujaCoroutine;
+
+    [SerializeField] private AreaFuego areaFuego;
+    [Header("Habilidad de Fuego (área de quemadura)")]
+    [SerializeField] private float duracionAreaFuego = 3f;
+    [SerializeField] private float cooldownAreaFuego = 5f;
+    private bool fuegoEnCooldown = false;
+    private Coroutine fuegoCoroutine;
+
+    [SerializeField] private AreaHielo areaHielo;
+    [Header("Habilidad de Hielo (área de ralentización)")]
+    [SerializeField] private float duracionAreaHielo = 3f;
+    [SerializeField] private float cooldownAreaHielo = 5f;
+    private bool hieloEnCooldown = false;
+    private Coroutine hieloCoroutine;
+
 
     public void SetElemento(ElementType nuevoElemento)
     {
+        if (nuevoElemento != ElementType.Water && burbujaAgua != null)
+        {
+            if (burbujaCoroutine != null) StopCoroutine(burbujaCoroutine);
+            burbujaAgua.Desactivar();
+            burbujaEnCooldown = false;
+        }
+
+        if (nuevoElemento != ElementType.Fire && areaFuego != null)
+        {
+            if (fuegoCoroutine != null) StopCoroutine(fuegoCoroutine);
+            areaFuego.Desactivar();
+            fuegoEnCooldown = false;
+        }
+
+        if (nuevoElemento != ElementType.Ice && areaHielo != null)
+        {
+            if (hieloCoroutine != null) StopCoroutine(hieloCoroutine);
+            areaHielo.Desactivar();
+            hieloEnCooldown = false;
+        }
+
         elementoActual = nuevoElemento;
+
+        switch (nuevoElemento)
+        {
+            case ElementType.Water: if (iconoAgua != null) iconoAgua.Mostrar(); break;
+            case ElementType.Fire: if (iconoFuego != null) iconoFuego.Mostrar(); break;
+            case ElementType.Ice: if (iconoHielo != null) iconoHielo.Mostrar(); break;
+        }
     }
 
     public void ActualizarVisualElemento()
     {
-        Animator animator = GetComponent<Animator>();
-
         if (animator == null)
             return;
 
-        if (elementoActual == ElementType.Water)
+        switch (elementoActual)
         {
-            animator.runtimeAnimatorController = controladorAgua;
-        }
-        else
-        {
-            animator.runtimeAnimatorController = controladorNormal;
+            case ElementType.Water:
+                animator.runtimeAnimatorController = controladorAgua;
+                break;
+
+            case ElementType.Fire:
+                animator.runtimeAnimatorController = controladorFuego;
+                break;
+
+            case ElementType.None:
+                animator.runtimeAnimatorController = controladorNormal;
+                break;
+
+            case ElementType.Ice:
+                animator.runtimeAnimatorController = controladorHielo;
+                break;
         }
     }
 
@@ -52,6 +119,8 @@ public class PlayerController : MonoBehaviour
     private bool estaAtacando = false;
     private bool estaEmpujado = false;
     private bool estaRalentizado = false;
+    private bool estaRecogiendoItem = false;
+    [SerializeField] private float duracionBloqueoRecogida = 1f;
 
     void Start()
     {
@@ -61,7 +130,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (estaAtacando) return; 
+        if (estaAtacando || estaRecogiendoItem)
+        {
+            movimiento = Vector2.zero;
+            animator.SetFloat("Speed", 0f);
+            return;
+        }
 
         movimiento.x = Input.GetAxisRaw("Horizontal");
         movimiento.y = Input.GetAxisRaw("Vertical");
@@ -73,27 +147,55 @@ public class PlayerController : MonoBehaviour
             animator.SetFloat("LastHorizontal", movimiento.x);
             animator.SetFloat("LastVertical", movimiento.y);
         }
-        
+
         animator.SetFloat("Speed", movimiento.sqrMagnitude);
 
         if (Input.GetMouseButtonDown(0))
         {
             StartCoroutine(RutinaAtaque());
         }
+        if (Input.GetMouseButtonDown(1))
+        {
+            IntentarUsarHabilidad();
+        }
     }
 
     void FixedUpdate()
     {
-        if (!estaAtacando && !estaEmpujado) 
+        if (!estaAtacando && !estaEmpujado && !estaRecogiendoItem)
         {
-            rb.MovePosition(rb.position + movimiento.normalized * velocidad * Time.fixedDeltaTime);
+            rb.MovePosition(
+                rb.position + movimiento.normalized * velocidad * Time.fixedDeltaTime
+            );
         }
+    }
+
+    public void IniciarRecogida()
+    {
+        estaRecogiendoItem = true;
+        movimiento = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
+        animator.SetFloat("Speed", 0f);
+
+        StartCoroutine(DesbloquearDespuesDeRecoger());
+    }
+
+    private IEnumerator DesbloquearDespuesDeRecoger()
+    {
+        yield return new WaitForSeconds(duracionBloqueoRecogida);
+        estaRecogiendoItem = false;
+    }
+
+    public void TerminarRecogida()
+    {
+        estaRecogiendoItem = false;
     }
 
     IEnumerator RutinaAtaque()
     {
         estaAtacando = true;
-        rb.linearVelocity = Vector2.zero; 
+        if (iconoAtaque != null) iconoAtaque.Activar(0.4f); // mismo tiempo que dura el ataque
+        rb.linearVelocity = Vector2.zero;
 
         AutoApuntar();
 
@@ -102,6 +204,66 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.4f); 
 
         estaAtacando = false;
+    }
+
+    void IntentarUsarHabilidad()
+    {
+        switch (elementoActual)
+        {
+            case ElementType.Water:
+                if (burbujaAgua != null && !burbujaEnCooldown)
+                    burbujaCoroutine = StartCoroutine(RutinaBurbujaAgua());
+                break;
+
+            case ElementType.Fire:
+                if (areaFuego != null && !fuegoEnCooldown)
+                    fuegoCoroutine = StartCoroutine(RutinaAreaFuego());
+                break;
+
+            case ElementType.Ice:
+                if (areaHielo != null && !hieloEnCooldown)
+                    hieloCoroutine = StartCoroutine(RutinaAreaHielo());
+                break;
+        }
+    }
+
+    IEnumerator RutinaBurbujaAgua()
+    {
+        burbujaEnCooldown = true;
+        if (iconoAgua != null) iconoAgua.Activar(duracionBurbuja + cooldownBurbuja);
+        burbujaAgua.Activar();
+
+        yield return new WaitForSeconds(duracionBurbuja);
+        burbujaAgua.Desactivar();
+
+        yield return new WaitForSeconds(cooldownBurbuja);
+        burbujaEnCooldown = false;
+    }
+
+    IEnumerator RutinaAreaFuego()
+    {
+        fuegoEnCooldown = true;
+        if (iconoFuego != null) iconoFuego.Activar(duracionAreaFuego + cooldownAreaFuego);
+        areaFuego.Activar();
+
+        yield return new WaitForSeconds(duracionAreaFuego);
+        areaFuego.Desactivar();
+
+        yield return new WaitForSeconds(cooldownAreaFuego);
+        fuegoEnCooldown = false;
+    }
+
+    IEnumerator RutinaAreaHielo()
+    {
+        hieloEnCooldown = true;
+        if (iconoHielo != null) iconoHielo.Activar(duracionAreaHielo + cooldownAreaHielo);
+        areaHielo.Activar();
+
+        yield return new WaitForSeconds(duracionAreaHielo);
+        areaHielo.Desactivar();
+
+        yield return new WaitForSeconds(cooldownAreaHielo);
+        hieloEnCooldown = false;
     }
 
     void AutoApuntar()
@@ -157,6 +319,12 @@ public class PlayerController : MonoBehaviour
                 if (duende != null)
                 {
                     duende.RecibirDano(danoAtaque);
+                }
+                // --- 4. NUEVO: Daño al Jefe Orco ---
+                SaludJefeOrco jefeOrco = enemigoMasCercano.GetComponent<SaludJefeOrco>();
+                if (jefeOrco != null)
+                {
+                    jefeOrco.RecibirDano(danoAtaque);
                 }
             }
         }

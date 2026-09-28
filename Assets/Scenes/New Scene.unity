@@ -606,12 +606,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43034a03df606b849a0e16f0f217f3c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  elementoActual: 0
+  controladorNormal: {fileID: 0}
+  controladorAgua: {fileID: 0}
+  controladorFuego: {fileID: 0}
+  controladorHielo: {fileID: 0}
+  burbujaAgua: {fileID: 0}
+  duracionBurbuja: 3
+  cooldownBurbuja: 5
+  areaFuego: {fileID: 0}
+  duracionAreaFuego: 3
+  cooldownAreaFuego: 5
+  areaHielo: {fileID: 0}
+  duracionAreaHielo: 3
+  cooldownAreaHielo: 5
   velocidad: 5
   danoAtaque: 5
   radioAutoApuntado: 1
   capaEnemigos:
     serializedVersion: 2
     m_Bits: 64
+  duracionBloqueoRecogida: 1
 --- !u!95 &1323493383
 Animator:
   serializedVersion: 7
@@ -703,7 +718,7 @@ Transform:
   m_GameObject: {fileID: 1323493377}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.16, y: 0.22, z: 0}
+  m_LocalPosition: {x: 7.42, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -860,7 +875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   objetivo: {fileID: 1323493385}
-  velocidadSuavizado: 0.125
+  velocidadSuavizado: 2
   compensacion: {x: 0, y: 0, z: -10}
 --- !u!1 &2092782377
 GameObject:
