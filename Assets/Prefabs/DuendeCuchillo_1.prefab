@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &285328688641522132
+--- !u!1 &4151721007484117861
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 958068107359151212}
-  - component: {fileID: 4006327328823849028}
-  - component: {fileID: 8685699687419326497}
-  - component: {fileID: 3717191620033115699}
-  - component: {fileID: 5507923934263863989}
-  - component: {fileID: 5498512391386387511}
-  - component: {fileID: 8433761763763195765}
-  - component: {fileID: 6343453123497002203}
-  - component: {fileID: 1992510445417201303}
-  - component: {fileID: 7278731981875267339}
-  - component: {fileID: 4292762648842151723}
-  - component: {fileID: -5040484449113198203}
+  - component: {fileID: 2828386169743775884}
+  - component: {fileID: 3602312185083622281}
+  - component: {fileID: 1516910535461715149}
+  - component: {fileID: 631399955232546883}
+  - component: {fileID: 438156378514335932}
+  - component: {fileID: 3480981376260917036}
+  - component: {fileID: 4780822166533708369}
+  - component: {fileID: 9076790645777360053}
+  - component: {fileID: 6582855877622875427}
+  - component: {fileID: 6167368766883083132}
+  - component: {fileID: -8740166972414945490}
+  - component: {fileID: 5494740430885188816}
   m_Layer: 6
-  m_Name: DuendeCuchillo
+  m_Name: DuendeCuchillo_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &958068107359151212
+--- !u!4 &2828386169743775884
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285328688641522132}
+  m_GameObject: {fileID: 4151721007484117861}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.96, y: 3.47, z: 0}
+  m_LocalPosition: {x: -3.52, y: 3.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4006327328823849028
+--- !u!212 &3602312185083622281
 SpriteRenderer:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285328688641522132}
+  m_GameObject: {fileID: 4151721007484117861}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -102,14 +102,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
---- !u!95 &8685699687419326497
+--- !u!95 &1516910535461715149
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285328688641522132}
+  m_GameObject: {fileID: 4151721007484117861}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 13d6e3ec72f376b41b6a362cde77f68a, type: 2}
@@ -124,14 +124,14 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!50 &3717191620033115699
+--- !u!50 &631399955232546883
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285328688641522132}
+  m_GameObject: {fileID: 4151721007484117861}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -151,13 +151,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &5507923934263863989
+--- !u!114 &438156378514335932
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285328688641522132}
+  m_GameObject: {fileID: 4151721007484117861}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f53cb2e6e8eb05743900e4b1701c6f32, type: 3}
@@ -170,13 +170,13 @@ MonoBehaviour:
   tiempoEntreAtaques: 1.2
   duracionAtaque: 0.5
   danoAtaque: 5
---- !u!61 &5498512391386387511
+--- !u!61 &3480981376260917036
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285328688641522132}
+  m_GameObject: {fileID: 4151721007484117861}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -216,43 +216,43 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.6786311, y: 0.867483}
   m_EdgeRadius: 0
---- !u!114 &8433761763763195765
+--- !u!114 &4780822166533708369
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285328688641522132}
+  m_GameObject: {fileID: 4151721007484117861}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f65564948523ff4fb8ad2119c4ecdd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SaludDuendeCuchillo
   vidaMaxima: 15
---- !u!114 &6343453123497002203
+--- !u!114 &9076790645777360053
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285328688641522132}
+  m_GameObject: {fileID: 4151721007484117861}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 207dc701524a0c24a835059d814bb590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SeparacionEnemigos
-  radioSeparacion: 0.7
-  fuerzaSeparacion: 4
+  radioSeparacion: 1
+  fuerzaSeparacion: 5
   capaEnemigos:
     serializedVersion: 2
     m_Bits: 64
---- !u!114 &1992510445417201303
+--- !u!114 &6582855877622875427
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285328688641522132}
+  m_GameObject: {fileID: 4151721007484117861}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd0425d5a56ff78459ce1fb6957e2ea3, type: 3}
@@ -260,13 +260,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EstadoElemental
   colorQuemado: {r: 1, g: 0.35, b: 0.35, a: 1}
   colorCongelado: {r: 0, g: 0.7968749, b: 1, a: 1}
---- !u!114 &7278731981875267339
+--- !u!114 &6167368766883083132
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285328688641522132}
+  m_GameObject: {fileID: 4151721007484117861}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fdd3902adda6831498a117fcc633c68b, type: 3}
@@ -274,13 +274,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DropDeItems
   prefabItemMaiz: {fileID: 418117916691095818, guid: d1cf0fc03a8f2b44d8c9691119d8fd62, type: 3}
   probabilidadDrop: 0.2
---- !u!82 &4292762648842151723
+--- !u!82 &-8740166972414945490
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285328688641522132}
+  m_GameObject: {fileID: 4151721007484117861}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -371,13 +371,13 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-5040484449113198203
+--- !u!114 &5494740430885188816
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285328688641522132}
+  m_GameObject: {fileID: 4151721007484117861}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74246246e3d64694b8e023d42100f43f, type: 3}
@@ -394,6 +394,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 34b002342a9c96d46aa858b01b518275, type: 3}
   volumenMuerte: 1
   clipsRisa:
-  - {fileID: 8300000, guid: 01db62dd007c24249ac0465c18f24495, type: 3}
+  - {fileID: 8300000, guid: 0b114621dc699b04f92d3b495344f06a, type: 3}
   volumenRisa: 1
   rangoPitch: {x: 0.95, y: 1.05}
