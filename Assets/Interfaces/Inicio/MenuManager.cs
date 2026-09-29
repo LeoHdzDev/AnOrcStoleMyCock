@@ -3,21 +3,30 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    [Header("Contenedores")]
+    public GameObject menuPrincipal;
+    public GameObject panelAjustes;
+
     public void Jugar()
     {
-        // Carga la siguiente escena en la lista de Build Settings
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(1);
     }
 
-    public void Ajustes()
+    public void AbrirAjustes()
     {
-        Debug.Log("Abriendo ajustes...");
-        // Aquí podrás activar un panel de opciones más adelante
+        menuPrincipal.SetActive(false);
+        panelAjustes.SetActive(true);
+    }
+
+    public void CerrarAjustes()
+    {
+        panelAjustes.SetActive(false);
+        menuPrincipal.SetActive(true);
     }
 
     public void Salir()
     {
-        Debug.Log("Cerrando el juego...");
         Application.Quit();
+        Debug.Log("Cerrando el juego...");
     }
 }
