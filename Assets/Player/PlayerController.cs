@@ -326,6 +326,12 @@ public class PlayerController : MonoBehaviour
                 {
                     jefeOrco.RecibirDano(danoAtaque);
                 }
+                // --- 5. Daño al Duende Bomba ---
+                SaludDuendeBomba duendeBomba = enemigoMasCercano.GetComponent<SaludDuendeBomba>();
+                if (duendeBomba != null)
+                {
+                    duendeBomba.RecibirDano(danoAtaque);
+                }
             }
         }
     }
