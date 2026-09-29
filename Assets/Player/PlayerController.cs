@@ -46,6 +46,8 @@ public class PlayerController : MonoBehaviour
     private bool hieloEnCooldown = false;
     private Coroutine hieloCoroutine;
 
+    private PlayerAudio playerAudio;
+
 
     public void SetElemento(ElementType nuevoElemento)
     {
@@ -126,6 +128,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        playerAudio = GetComponent<PlayerAudio>();
     }
 
     void Update()
@@ -200,6 +203,8 @@ public class PlayerController : MonoBehaviour
         AutoApuntar();
 
         animator.SetTrigger("Attack");
+        animator.SetTrigger("Attack");
+        if (playerAudio != null) playerAudio.PlayAttack();
 
         yield return new WaitForSeconds(0.4f); 
 
@@ -325,6 +330,12 @@ public class PlayerController : MonoBehaviour
                 if (jefeOrco != null)
                 {
                     jefeOrco.RecibirDano(danoAtaque);
+                }
+                // --- 5. Daño al Duende Bomba ---
+                SaludDuendeBomba duendeBomba = enemigoMasCercano.GetComponent<SaludDuendeBomba>();
+                if (duendeBomba != null)
+                {
+                    duendeBomba.RecibirDano(danoAtaque);
                 }
             }
         }

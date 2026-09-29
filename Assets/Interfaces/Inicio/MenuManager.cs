@@ -1,23 +1,53 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
-    public void Jugar()
+    [Header("Contenedores")]
+    public GameObject menuPrincipal;
+    public GameObject panelAjustes;
+
+    [Header("Audio")]
+    public AudioSource musicaFondo;
+    public Slider sliderVolumen;
+
+    void Start()
     {
-        // Carga la siguiente escena en la lista de Build Settings
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (musicaFondo != null && sliderVolumen != null)
+        {
+            sliderVolumen.value = musicaFondo.volume;
+        }
     }
 
-    public void Ajustes()
+    public void CambiarVolumen(float nuevoVolumen)
     {
-        Debug.Log("Abriendo ajustes...");
-        // Aquí podrás activar un panel de opciones más adelante
+        if (musicaFondo != null)
+        {
+            musicaFondo.volume = nuevoVolumen;
+        }
+    }
+
+    public void Jugar()
+    {
+        SceneManager.LoadScene("Stage");
+    }
+
+    public void AbrirAjustes()
+    {
+        menuPrincipal.SetActive(false);
+        panelAjustes.SetActive(true);
+    }
+
+    public void CerrarAjustes()
+    {
+        panelAjustes.SetActive(false);
+        menuPrincipal.SetActive(true);
     }
 
     public void Salir()
     {
-        Debug.Log("Cerrando el juego...");
         Application.Quit();
+        Debug.Log("Cerrando el juego...");
     }
 }

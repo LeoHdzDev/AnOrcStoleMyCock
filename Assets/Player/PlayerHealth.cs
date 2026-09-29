@@ -16,6 +16,8 @@ public class PlayerHealth : MonoBehaviour
     private PlayerController playerController;
     private Rigidbody2D rb;
 
+    private PlayerAudio playerAudio;
+
     void Start()
     {
         saludActual = saludMaxima;
@@ -23,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
         playerController = GetComponent<PlayerController>();
         rb = GetComponent<Rigidbody2D>();
         ActualizarBarra();
+        playerAudio = GetComponent<PlayerAudio>();
     }
 
     void Update()
@@ -37,18 +40,32 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    public void RecibirDano(float cantidad)
+public void RecibirDano(float cantidad)
+{
+    if (estaMuerto) return;
+
+    saludActual -= cantidad;
+
+    if (saludActual <= 0)
+    {
+        saludActual = 0;
+        Morir();
+    }
+    else
+    {
+        // Solo suena "herido" si sigue vivo
+        if (playerAudio != null) playerAudio.PlayHurt();
+    }
+
+    ActualizarBarra();
+}
+
+    public void Curar(float cantidad)
     {
         if (estaMuerto) return;
 
-        saludActual -= cantidad;
-        
-        if (saludActual <= 0)
-        {
-            saludActual = 0;
-            Morir();
-        }
-        
+        saludActual = Mathf.Min(saludActual + cantidad, saludMaxima);
+        if (playerAudio != null) playerAudio.PlayHeal();
         ActualizarBarra();
     }
 
@@ -68,14 +85,17 @@ public class PlayerHealth : MonoBehaviour
     void Morir()
     {
         estaMuerto = true;
-        
+
         // 1. Apagar el script de movimiento para que no pueda caminar ni atacar
         playerController.enabled = false;
-        
+
         // 2. Frenar cualquier deslizamiento físico residual
         rb.linearVelocity = Vector2.zero;
 
-        // 3. Disparar la animación de muerte
+        // 3. Sonido de muerte
+        if (playerAudio != null) playerAudio.PlayDeath();
+
+        // 4. Disparar la animación de muerte
         animator.SetTrigger("Die");
     }
 
