@@ -3339,7 +3339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4250822198938885172, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: m_Name
-      value: Farmer_player (1)
+      value: Farmer_player
       objectReference: {fileID: 0}
     - target: {fileID: 6107952816584610153, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: m_SortingOrder
@@ -99502,6 +99502,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!4 &1145810708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6474146960852468992, guid: 60a483eb629d770498abc62ebe685124, type: 3}
+  m_PrefabInstance: {fileID: 385796340}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1261600795
 GameObject:
   m_ObjectHideFlags: 0
@@ -107482,7 +107487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1a2aeb8b64db9842b3c732d285ac206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
-  objetivo: {fileID: 0}
+  objetivo: {fileID: 1145810708}
   velocidadSuavizado: 2
   compensacion: {x: 0, y: 0, z: -10}
 --- !u!1 &2118619480
