@@ -3636,19 +3636,19 @@ PrefabInstance:
     - target: {fileID: 3394723097822339640, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: iconoAgua
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 376554335}
     - target: {fileID: 3394723097822339640, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: iconoFuego
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 454102725}
     - target: {fileID: 3394723097822339640, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: iconoHielo
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 143513505}
     - target: {fileID: 3394723097822339640, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: iconoAtaque
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1730502339}
     - target: {fileID: 3619274014235678871, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: m_Size.x
       value: 1.4375
@@ -3713,6 +3713,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8726708560992114151, guid: 60a483eb629d770498abc62ebe685124, type: 3}
+      propertyPath: barraRelleno
+      value: 
+      objectReference: {fileID: 1873381253}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
