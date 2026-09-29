@@ -52,6 +52,14 @@ public class PlayerHealth : MonoBehaviour
         ActualizarBarra();
     }
 
+    public void Curar(float cantidad)
+    {
+        if (estaMuerto) return;
+
+        saludActual = Mathf.Min(saludActual + cantidad, saludMaxima);
+        ActualizarBarra();
+    }
+
     void ActualizarBarra()
         {
             // NUEVA LÍNEA: Si la barra está vacía, ignora el resto del código y no causa error
