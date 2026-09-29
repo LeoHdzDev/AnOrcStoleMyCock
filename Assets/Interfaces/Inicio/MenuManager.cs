@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
@@ -7,9 +8,29 @@ public class MenuManager : MonoBehaviour
     public GameObject menuPrincipal;
     public GameObject panelAjustes;
 
+    [Header("Audio")]
+    public AudioSource musicaFondo;
+    public Slider sliderVolumen;
+
+    void Start()
+    {
+        if (musicaFondo != null && sliderVolumen != null)
+        {
+            sliderVolumen.value = musicaFondo.volume;
+        }
+    }
+
+    public void CambiarVolumen(float nuevoVolumen)
+    {
+        if (musicaFondo != null)
+        {
+            musicaFondo.volume = nuevoVolumen;
+        }
+    }
+
     public void Jugar()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Stage");
     }
 
     public void AbrirAjustes()
