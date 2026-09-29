@@ -42,11 +42,6 @@ public class DuendeCuchilloController : MonoBehaviour
 
     void Update()
     {
-        if (!jugadorDetectado && distancia <= rangoDeVision)
-        {
-            jugadorDetectado = true; 
-        }
-
         if (objetivo == null || atacando)
         {
             movimiento = Vector2.zero;
