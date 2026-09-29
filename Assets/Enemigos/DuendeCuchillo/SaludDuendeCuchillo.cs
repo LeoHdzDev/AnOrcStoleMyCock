@@ -11,6 +11,7 @@ public class SaludDuendeCuchillo : MonoBehaviour
     private Animator animator;
 
     private bool muerto = false;
+    private EnemyAudio enemyAudio;
 
     void Start()
     {
@@ -18,6 +19,7 @@ public class SaludDuendeCuchillo : MonoBehaviour
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        enemyAudio = GetComponent<EnemyAudio>();
     }
 
     public void RecibirDano(float cantidad)
@@ -76,13 +78,22 @@ public class SaludDuendeCuchillo : MonoBehaviour
             spriteRenderer.color = Color.white;
         }
 
-        // 4. Activamos la animación de muerte con el Gatillo exacto que creamos en el Animator.
+        // 4. Sonido de muerte
+        if (enemyAudio != null) enemyAudio.PlayDeath();
+
+        // 5. Activamos la animación de muerte...
         if (animator != null)
         {
             animator.SetTrigger("Die");
         }
 
-        // 5. Esperamos antes de destruir el objeto.
+        // 5. Activamos la animación de muerte con el Gatillo exacto que creamos en el Animator.
+        if (animator != null)
+        {
+            animator.SetTrigger("Die");
+        }
+
+        // 6. Esperamos antes de destruir el objeto.
         StartCoroutine(DestruirDespuesDeMorir());
     }
 

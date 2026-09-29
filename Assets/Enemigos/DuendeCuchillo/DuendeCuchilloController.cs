@@ -25,11 +25,13 @@ public class DuendeCuchilloController : MonoBehaviour
     
     // --- NUEVO: Interruptor de memoria ---
     private bool jugadorDetectado = false; 
+    private EnemyAudio enemyAudio;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        enemyAudio = GetComponent<EnemyAudio>();
 
         if (objetivo == null)
         {
@@ -40,6 +42,11 @@ public class DuendeCuchilloController : MonoBehaviour
 
     void Update()
     {
+        if (!jugadorDetectado && distancia <= rangoDeVision)
+        {
+            jugadorDetectado = true; 
+        }
+
         if (objetivo == null || atacando)
         {
             movimiento = Vector2.zero;
@@ -94,6 +101,7 @@ public class DuendeCuchilloController : MonoBehaviour
         atacando = true;
         siguienteAtaque = Time.time + tiempoEntreAtaques;
         animator.SetBool("Atacar", true);
+        if (enemyAudio != null) enemyAudio.PlayAttack();
         StartCoroutine(RutinaAtaque());
     }
 
