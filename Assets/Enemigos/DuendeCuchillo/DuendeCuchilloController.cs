@@ -18,6 +18,7 @@ public class DuendeCuchilloController : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
+    private SpriteRenderer spriteRenderer; // <-- Añadido para voltear el dibujo
 
     private Vector2 movimiento;
     private bool atacando = false;
@@ -31,6 +32,7 @@ public class DuendeCuchilloController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>(); // <-- Conectamos el SpriteRenderer
         enemyAudio = GetComponent<EnemyAudio>();
 
         if (objetivo == null)
@@ -52,14 +54,12 @@ public class DuendeCuchilloController : MonoBehaviour
         Vector2 diferencia = objetivo.position - transform.position;
         float distancia = diferencia.magnitude;
 
-        // --- NUEVA LÓGICA: CAZADOR IMPLACABLE ---
-        // Si no te había visto, pero entraste al círculo morado, te detecta para siempre
+        // --- LÓGICA: CAZADOR IMPLACABLE ---
         if (!jugadorDetectado && distancia <= rangoDeVision)
         {
             jugadorDetectado = true; 
         }
 
-        // Si aún no te ha detectado, se queda quieto como estatua
         if (!jugadorDetectado)
         {
             movimiento = Vector2.zero;
@@ -67,10 +67,9 @@ public class DuendeCuchilloController : MonoBehaviour
             return; 
         }
 
-        // --- A partir de aquí persigue y ataca, ignorando el rango de visión ---
-
-        if (diferencia.x > 0.05f) animator.SetFloat("Direccion", 1);
-        else if (diferencia.x < -0.05f) animator.SetFloat("Direccion", -1);
+        // --- SOLUCIÓN ANIMACIÓN: Usar flipX en lugar del parámetro "Direccion" ---
+        if (diferencia.x > 0.05f) spriteRenderer.flipX = false;
+        else if (diferencia.x < -0.05f) spriteRenderer.flipX = true;
 
         if (distancia <= distanciaAtaque)
         {
@@ -87,8 +86,16 @@ public class DuendeCuchilloController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (rb == null || atacando) return;
-        rb.MovePosition(rb.position + movimiento * velocidad * Time.fixedDeltaTime);
+        if (rb == null) return;
+
+        // --- SOLUCIÓN FÍSICA: Matamos cualquier inercia externa ---
+        // Esto evita que salga volando hacia atrás si el granjero lo golpea o empuja.
+        rb.linearVelocity = Vector2.zero; 
+
+        if (!atacando)
+        {
+            rb.MovePosition(rb.position + movimiento * velocidad * Time.fixedDeltaTime);
+        }
     }
 
     void IniciarAtaque()
@@ -117,11 +124,9 @@ public class DuendeCuchilloController : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        // Visión inicial (Morado)
         Gizmos.color = Color.magenta;
         Gizmos.DrawWireSphere(transform.position, rangoDeVision);
 
-        // Rango de ataque (Rojo)
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, distanciaAtaque);
     }
