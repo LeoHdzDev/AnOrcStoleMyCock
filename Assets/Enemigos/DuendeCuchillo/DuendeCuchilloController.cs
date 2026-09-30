@@ -23,9 +23,9 @@ public class DuendeCuchilloController : MonoBehaviour
     private Vector2 movimiento;
     private bool atacando = false;
     private float siguienteAtaque = 0f;
-    
+
     // --- NUEVO: Interruptor de memoria ---
-    private bool jugadorDetectado = false; 
+    private bool jugadorDetectado = false;
     private EnemyAudio enemyAudio;
 
     void Start()
@@ -57,19 +57,24 @@ public class DuendeCuchilloController : MonoBehaviour
         // --- LÓGICA: CAZADOR IMPLACABLE ---
         if (!jugadorDetectado && distancia <= rangoDeVision)
         {
-            jugadorDetectado = true; 
+            jugadorDetectado = true;
         }
 
         if (!jugadorDetectado)
         {
             movimiento = Vector2.zero;
             animator.SetFloat("Velocidad", 0);
-            return; 
+            return;
         }
 
         // --- SOLUCIÓN ANIMACIÓN: Usar flipX en lugar del parámetro "Direccion" ---
         if (diferencia.x > 0.05f) spriteRenderer.flipX = false;
         else if (diferencia.x < -0.05f) spriteRenderer.flipX = true;
+
+        // El Animator sigue necesitando "Direccion" para las transiciones de
+        // ataque (izquierda/derecha), así que lo mantenemos actualizado aunque
+        // ya no lo usemos para voltear el sprite.
+        animator.SetFloat("Direccion", diferencia.x);
 
         if (distancia <= distanciaAtaque)
         {
@@ -90,7 +95,7 @@ public class DuendeCuchilloController : MonoBehaviour
 
         // --- SOLUCIÓN FÍSICA: Matamos cualquier inercia externa ---
         // Esto evita que salga volando hacia atrás si el granjero lo golpea o empuja.
-        rb.linearVelocity = Vector2.zero; 
+        rb.linearVelocity = Vector2.zero;
 
         if (!atacando)
         {
