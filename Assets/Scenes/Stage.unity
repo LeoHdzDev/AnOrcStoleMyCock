@@ -2252,11 +2252,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6474146960852468992, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.02
+      value: -1.8
       objectReference: {fileID: 0}
     - target: {fileID: 6474146960852468992, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 54.5
+      value: -3.4
       objectReference: {fileID: 0}
     - target: {fileID: 6474146960852468992, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3767,6 +3767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 584437315}
   - component: {fileID: 584437314}
+  - component: {fileID: 584437316}
   m_Layer: 0
   m_Name: Puerta_Entrada
   m_TagString: Untagged
@@ -3808,7 +3809,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.2987088, y: -0.54724884}
+  m_Offset: {x: 0.30841392, y: -0.2463876}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3818,7 +3819,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.9703748, y: 2.0944977}
+  m_Size: {x: 1.5045253, y: 1.1239779}
   m_EdgeRadius: 0
 --- !u!4 &584437315
 Transform:
@@ -3835,6 +3836,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &584437316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584437313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2c36ee86769304bb534c5be4d098ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTeleport
+  targetDestination: {fileID: 1817015188}
+  interactKey: 101
 --- !u!1001 &609691463
 PrefabInstance:
   m_ObjectHideFlags: 0
