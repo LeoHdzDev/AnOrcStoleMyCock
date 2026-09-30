@@ -32,12 +32,6 @@ public class PlayerHealth : MonoBehaviour
     {
         // Si ya es calavera, ignoramos las teclas
         if (estaMuerto) return; 
-
-        // Tecla de prueba para recibir daño
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            RecibirDano(5f); 
-        }
     }
 
 public void RecibirDano(float cantidad)
