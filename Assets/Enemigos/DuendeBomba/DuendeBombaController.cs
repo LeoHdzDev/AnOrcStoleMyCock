@@ -20,6 +20,7 @@ public class DuendeBombaController : MonoBehaviour
 
     private Transform jugador;
     private Animator animator;
+    private SpriteRenderer spriteRenderer; // <--- Agregamos el SpriteRenderer
     private bool jugadorDetectado = false;
     
     private bool tieneBomba = true;
@@ -29,6 +30,7 @@ public class DuendeBombaController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>(); // <--- Lo conectamos al inicio
         GameObject objJugador = GameObject.Find("Farmer_player");
         if (objJugador != null) jugador = objJugador.transform;
     }
@@ -50,9 +52,16 @@ public class DuendeBombaController : MonoBehaviour
             return; 
         }
 
-        // Girar hacia el jugador
-        if (jugador.position.x > transform.position.x + 0.1f) animator.SetFloat("Direccion", 1);
-        else if (jugador.position.x < transform.position.x - 0.1f) animator.SetFloat("Direccion", -1);
+        // --- SOLUCIÓN: Usamos flipX para voltear al duende en lugar del parámetro "Direccion" ---
+        if (jugador.position.x > transform.position.x + 0.1f) 
+        {
+            spriteRenderer.flipX = false; 
+        }
+        else if (jugador.position.x < transform.position.x - 0.1f) 
+        {
+            spriteRenderer.flipX = true; 
+        }
+        // -----------------------------------------------------------------------------------------
 
         // Lógica de Movimiento o Ataque
         if (distancia > distanciaParaLanzar)
@@ -102,7 +111,7 @@ public class DuendeBombaController : MonoBehaviour
 
         // 3. Pierde la bomba (Cambia al sprite Sin Bomba)
         tieneBomba = false;
-        animator.SetBool("TieneBomba", false); // <-- Parámetro clave en tu Animator
+        animator.SetBool("TieneBomba", false);
         estaAtacando = false;
 
         // 4. Inicia su proceso de recarga
