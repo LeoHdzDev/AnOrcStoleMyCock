@@ -18,6 +18,8 @@ GameObject:
   - component: {fileID: 9140116886959040601}
   - component: {fileID: 4743211505339801754}
   - component: {fileID: 8758200064768897798}
+  - component: {fileID: -8120181665443446900}
+  - component: {fileID: 1657977472001321556}
   m_Layer: 6
   m_Name: Espiritu_hielo
   m_TagString: Untagged
@@ -246,3 +248,135 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DropDeItems
   prefabItemMaiz: {fileID: 418117916691095818, guid: d1cf0fc03a8f2b44d8c9691119d8fd62, type: 3}
   probabilidadDrop: 0.2
+--- !u!82 &-8120181665443446900
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439148951103219886}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1657977472001321556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439148951103219886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74246246e3d64694b8e023d42100f43f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAudio
+  clipsAtaque:
+  - {fileID: 8300000, guid: 0b48c38c3de3e644fa5692dd9f633141, type: 3}
+  volumenAtaque: 1
+  clipsHerido:
+  - {fileID: 8300000, guid: cfbb16cdc9f2d3e4c8217d670d175c0a, type: 3}
+  - {fileID: 8300000, guid: bb40f44a3db294b4a82c65c429be0e3b, type: 3}
+  volumenHerido: 1
+  clipsMuerte:
+  - {fileID: 8300000, guid: a48803369c0c2ca448c8e67846e69aa1, type: 3}
+  volumenMuerte: 1
+  clipsRisa: []
+  volumenRisa: 1
+  clipsDeteccion: []
+  volumenDeteccion: 1
+  clipsPreparado: []
+  volumenPreparado: 1
+  clipsConfundido: []
+  volumenConfundido: 1
+  clipsLanzamiento: []
+  volumenLanzamiento: 1
+  clipExplosion: {fileID: 0}
+  volumenExplosion: 1
+  rangoPitch: {x: 0.95, y: 1.05}

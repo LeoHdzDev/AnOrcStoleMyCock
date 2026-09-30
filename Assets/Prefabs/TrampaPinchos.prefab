@@ -180,3 +180,9 @@ MonoBehaviour:
   activeDuration: 1.5
   damageAmount: 10
   damageCooldown: 0.5
+  clipsAdvertencia:
+  - {fileID: 8300000, guid: 64df5d73563ed2e4aba99eacc2399d73, type: 3}
+  clipsActivacion:
+  - {fileID: 8300000, guid: a5115b3b2a8557849a314588ab6ac094, type: 3}
+  volumen: 1
+  distanciaMaximaSonido: 10

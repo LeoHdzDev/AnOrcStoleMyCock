@@ -13,6 +13,10 @@ public class JefeOrcoController : MonoBehaviour
     public float tiempoPreparacion = 0.5f; // Segundos antes de que el giro haga daño
     public float duracionGiro = 1.2f;      // Cuánto tiempo se queda dando vueltas
 
+    [Header("Sonido de confundido")]
+    [Tooltip("Segundos desde que empieza el ataque hasta que el orco queda mareado y mueve los ojos.")]
+    public float tiempoConfundido = 0.7f;
+
     private Transform objetivo;
     private Animator animator;
     private Rigidbody2D rb;
@@ -70,6 +74,7 @@ public class JefeOrcoController : MonoBehaviour
         atacando = true;
         animator.SetTrigger("Atacar"); // Reproduce JefeOrco_ataque
         if (enemyAudio != null) enemyAudio.PlayAttack();
+        StartCoroutine(SonidoConfundido());
 
         // 1. Espera a que el jefe levante el arma
         yield return new WaitForSeconds(tiempoPreparacion);
@@ -97,6 +102,13 @@ public class JefeOrcoController : MonoBehaviour
         // 3. Termina de dar vueltas
         atacando = false;
         temporizadorAtaque = tiempoEntreAtaques;
+    }
+
+    IEnumerator SonidoConfundido()
+    {
+        // El orco termina de girar y queda mareado moviendo los ojos de lado a lado
+        yield return new WaitForSeconds(tiempoConfundido);
+        if (enemyAudio != null && enabled) enemyAudio.PlayConfused();
     }
 
     private void OnDrawGizmosSelected()

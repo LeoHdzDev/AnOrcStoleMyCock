@@ -451,6 +451,145 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &570735721 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6045553953377303920, guid: 759aa28409c14644aab4ec6a05a5732e, type: 3}
+  m_PrefabInstance: {fileID: 3981433568470461519}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &570735722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570735721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74246246e3d64694b8e023d42100f43f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAudio
+  clipsAtaque:
+  - {fileID: 8300000, guid: 9857313184fd7924cbb108445727401f, type: 3}
+  - {fileID: 8300000, guid: 1d0862069ba98a445a26d10f3cad5d29, type: 3}
+  - {fileID: 8300000, guid: bf124be064cfcaf4ca67d035c148b3ef, type: 3}
+  volumenAtaque: 1
+  clipsHerido: []
+  volumenHerido: 1
+  clipsMuerte:
+  - {fileID: 8300000, guid: 224ed1f412b0a96479c32c2c508621de, type: 3}
+  volumenMuerte: 1
+  clipsRisa: []
+  volumenRisa: 1
+  clipsDeteccion: []
+  volumenDeteccion: 1
+  clipsPreparado: []
+  volumenPreparado: 1
+  clipsConfundido:
+  - {fileID: 8300000, guid: 23ce439597527b140a98b0107cb7712a, type: 3}
+  - {fileID: 8300000, guid: b4db38bb58df1c549b8ec231ade75425, type: 3}
+  volumenConfundido: 1
+  clipsLanzamiento: []
+  volumenLanzamiento: 1
+  clipExplosion: {fileID: 0}
+  volumenExplosion: 1
+  rangoPitch: {x: 0.95, y: 1.05}
+--- !u!82 &570735723
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570735721}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &784960871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,7 +1356,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6045553953377303920, guid: 759aa28409c14644aab4ec6a05a5732e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 570735723}
+    - targetCorrespondingSourceObject: {fileID: 6045553953377303920, guid: 759aa28409c14644aab4ec6a05a5732e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 570735722}
   m_SourcePrefab: {fileID: 100100000, guid: 759aa28409c14644aab4ec6a05a5732e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
