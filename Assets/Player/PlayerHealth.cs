@@ -18,6 +18,9 @@ public class PlayerHealth : MonoBehaviour
 
     private PlayerAudio playerAudio;
 
+    [Header("Game Over")]
+    [SerializeField] private GameOverManager gameOverManager;
+
     void Start()
     {
         saludActual = saludMaxima;
@@ -91,6 +94,8 @@ public void RecibirDano(float cantidad)
 
         // 4. Disparar la animación de muerte
         animator.SetTrigger("Die");
+
+        if (gameOverManager != null) gameOverManager.ProgramarGameOver();
     }
 
     // --- EFECTO DE QUEMADURA ---
