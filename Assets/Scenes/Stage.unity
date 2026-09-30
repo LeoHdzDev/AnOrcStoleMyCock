@@ -4429,6 +4429,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
   m_PrefabInstance: {fileID: 504402718}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &511867540
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6014796105093258926, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
+      propertyPath: m_Name
+      value: Espiritu_hielo (item)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564464163943398648, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.3429003
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564464163943398648, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.598627
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564464163943398648, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564464163943398648, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564464163943398648, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564464163943398648, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564464163943398648, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564464163943398648, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564464163943398648, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564464163943398648, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
 --- !u!1001 &521752985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44848,6 +44905,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
   m_PrefabInstance: {fileID: 775093233}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &777651373
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1539225929367950102, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.19184738
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539225929367950102, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 33.93831
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539225929367950102, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539225929367950102, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539225929367950102, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539225929367950102, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539225929367950102, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539225929367950102, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539225929367950102, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539225929367950102, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2259826013682189878, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
+      propertyPath: m_Name
+      value: Espiritu_agua (item)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
 --- !u!1001 &782117474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -108788,6 +108902,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
   m_PrefabInstance: {fileID: 991297704}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1004122641
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4819702052979951602, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.506864
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819702052979951602, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.25726
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819702052979951602, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819702052979951602, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819702052979951602, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819702052979951602, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819702052979951602, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819702052979951602, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819702052979951602, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819702052979951602, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5568898201598061689, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
+      propertyPath: m_Name
+      value: Espiriu_fuego (item)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
 --- !u!1001 &1008458353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -125651,3 +125822,6 @@ SceneRoots:
   - {fileID: 1612033121}
   - {fileID: 1449168145}
   - {fileID: 720871133}
+  - {fileID: 511867540}
+  - {fileID: 777651373}
+  - {fileID: 1004122641}

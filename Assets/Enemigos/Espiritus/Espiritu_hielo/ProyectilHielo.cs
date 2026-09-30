@@ -3,8 +3,8 @@ using UnityEngine;
 public class ProyectilHielo : MonoBehaviour
 {
     [Header("Estadísticas de Hielo")]
-    public float danoImpacto = 3f; // Daño que hace al chocar
-    public float factorRalentizacion = 0.5f; // 0.5f significa que le reduce la velocidad a la mitad
+    public float danoImpacto = 3f; 
+    public float factorRalentizacion = 0.5f; 
     public int duracionRalentizacion = 3; 
     public float velocidadProyectil = 5f;
 
@@ -30,24 +30,32 @@ public class ProyectilHielo : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D otro)
     {
+        // 1. Ignorar al espíritu para que la bola de nieve no se autodestruya al nacer
+        if (otro.CompareTag("Enemigos"))
+        {
+            return;
+        }
+
+        // 2. Si choca con el jugador, hace daño y lo ralentiza
         if (otro.CompareTag("Player"))
         {
-            // 1. Aplicar Daño
             PlayerHealth saludJugador = otro.GetComponent<PlayerHealth>();
             if (saludJugador != null)
             {
                 saludJugador.RecibirDano(danoImpacto); 
             }
 
-            // 2. Aplicar Ralentización
             PlayerController controlJugador = otro.GetComponent<PlayerController>();
             if (controlJugador != null)
             {
                 controlJugador.StartCoroutine(controlJugador.AplicarRalentizacion(factorRalentizacion, duracionRalentizacion));
             }
 
-            // 3. Destruir la bola de nieve
             Destroy(gameObject);
+            return;
         }
+
+        // 3. Si no es el espíritu ni el granjero, significa que chocó contra un muro
+        Destroy(gameObject);
     }
 }

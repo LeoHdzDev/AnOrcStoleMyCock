@@ -20,9 +20,10 @@ GameObject:
   - component: {fileID: 8758200064768897798}
   - component: {fileID: -8120181665443446900}
   - component: {fileID: 1657977472001321556}
+  - component: {fileID: 5662620844819595707}
   m_Layer: 6
   m_Name: Espiritu_hielo
-  m_TagString: Untagged
+  m_TagString: Enemigos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,7 +90,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8036253007432563273, guid: 2fc4ceca7499ee346b86658c6eba1a13, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -140,7 +141,7 @@ MonoBehaviour:
   velocidad: 2.5
   distanciaFrenado: 4
   prefabProyectil: {fileID: 1474614491364843457, guid: ead893ad431aa35428bfd4835e7196e7, type: 3}
-  tiempoEntreDisparos: 2
+  tiempoEntreDisparos: 4
 --- !u!114 &2064484391335534300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,3 +381,30 @@ MonoBehaviour:
   clipExplosion: {fileID: 0}
   volumenExplosion: 1
   rangoPitch: {x: 0.95, y: 1.05}
+--- !u!50 &5662620844819595707
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439148951103219886}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

@@ -29,10 +29,16 @@ public class ProyectilFuego : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D otro)
     {
+        // 1. Ignorar al espíritu para que la bola no se autodestruya al nacer
+        // OJO: Asegúrate de usar la misma etiqueta exacta que te funcionó en el de agua
+        if (otro.CompareTag("Enemigos")) 
+        {
+            return;
+        }
+
+        // 2. Si choca con el jugador, quema y hace daño
         if (otro.CompareTag("Player"))
         {
-            // --- ESTA ES LA LÍNEA CLAVE ---
-            // Buscamos el script de Salud, no el de movimiento
             PlayerHealth saludJugador = otro.GetComponent<PlayerHealth>();
             
             if (saludJugador != null)
@@ -42,6 +48,10 @@ public class ProyectilFuego : MonoBehaviour
             }
 
             Destroy(gameObject);
+            return; 
         }
+
+        // 3. Si no es el espíritu ni es el jugador, significa que chocó contra un muro
+        Destroy(gameObject);
     }
 }

@@ -27,13 +27,17 @@ public class ChorroAgua : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D colision)
     {
+        // 1. Ignorar a los espíritus para que la bola no explote al instante de ser disparada
+        if (colision.CompareTag("Enemigos")) 
+        {
+            return; 
+        }
+        // 2. Si choca con el granjero
         if (colision.CompareTag("Player"))
         {
-            // 1. Quitar vida
             PlayerHealth salud = colision.GetComponent<PlayerHealth>();
             if (salud != null) salud.RecibirDano(dano);
 
-            // 2. Aplicar empuje
             PlayerController movimiento = colision.GetComponent<PlayerController>();
             if (movimiento != null)
             {
@@ -41,8 +45,10 @@ public class ChorroAgua : MonoBehaviour
                 movimiento.StartCoroutine(movimiento.RecibirEmpuje(direccionEmpuje, fuerzaEmpuje, 0.2f));
             }
 
-            // 3. Destruir el chorro de agua
             Destroy(gameObject);
+            return; 
         }
+        // 3. Si choca contra cualquier otra cosa (como el Tilemap), se destruye
+        Destroy(gameObject);
     }
 }
