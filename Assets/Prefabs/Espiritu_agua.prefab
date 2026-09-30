@@ -344,11 +344,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAudio
   clipsAtaque:
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 6e971cd2dc4c6024cace42c20391a1b6, type: 3}
   volumenAtaque: 1
-  clipsHerido: []
+  clipsHerido:
+  - {fileID: 8300000, guid: cfbb16cdc9f2d3e4c8217d670d175c0a, type: 3}
+  - {fileID: 8300000, guid: bb40f44a3db294b4a82c65c429be0e3b, type: 3}
   volumenHerido: 1
-  clipsMuerte: []
+  clipsMuerte:
+  - {fileID: 8300000, guid: a48803369c0c2ca448c8e67846e69aa1, type: 3}
   volumenMuerte: 1
   clipsRisa: []
   volumenRisa: 1
