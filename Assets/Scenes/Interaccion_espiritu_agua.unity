@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 85512157}
   - component: {fileID: 85512156}
   - component: {fileID: 85512158}
-  - component: {fileID: 85512159}
   - component: {fileID: 85512160}
   - component: {fileID: 85512161}
   - component: {fileID: 85512162}
@@ -238,18 +237,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &85512159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 85512155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e55a408cd120e94c9a68a4ad952871b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Espiritu_agua
 --- !u!58 &85512160
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1045,6 +1032,10 @@ MonoBehaviour:
   controladorAgua: {fileID: 0}
   controladorFuego: {fileID: 0}
   controladorHielo: {fileID: 0}
+  iconoAtaque: {fileID: 0}
+  iconoAgua: {fileID: 0}
+  iconoFuego: {fileID: 0}
+  iconoHielo: {fileID: 0}
   burbujaAgua: {fileID: 0}
   duracionBurbuja: 3
   cooldownBurbuja: 5
