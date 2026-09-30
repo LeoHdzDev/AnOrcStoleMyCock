@@ -9,8 +9,8 @@ public class SpikeTrap : MonoBehaviour
     [SerializeField] private float activeDuration = 1.5f;  // Tiempo fuera haciendo daño
 
     [Header("Daño")]
-    [SerializeField] private float damageAmount = 10f;     // Cantidad de daño que resta
-    [SerializeField] private float damageCooldown = 0.5f;  // Intervalo de daño si se queda encima
+    [SerializeField] private float damageAmount = 1f;     // Cantidad de daño que resta
+    [SerializeField] private float damageCooldown = 0.7f;  // Intervalo de daño si se queda encima
 
     [Header("Sonidos (opcionales)")]
     [SerializeField] private AudioClip[] clipsAdvertencia;   // Cuando asoman un poco
