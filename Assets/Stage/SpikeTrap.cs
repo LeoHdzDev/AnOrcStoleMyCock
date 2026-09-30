@@ -1,0 +1,69 @@
+using System.Collections;
+using UnityEngine;
+
+public class SpikeTrap : MonoBehaviour
+{
+    [Header("Tiempos del Ciclo (Segundos)")]
+    [SerializeField] private float retractedDuration = 2f; // Tiempo oculto
+    [SerializeField] private float warningDuration = 0.8f; // Tiempo asomado un poco
+    [SerializeField] private float activeDuration = 1.5f;  // Tiempo fuera haciendo daño
+
+    [Header("Daño")]
+    [SerializeField] private float damageAmount = 10f;     // Cantidad de daño que resta
+    [SerializeField] private float damageCooldown = 0.5f;  // Intervalo de daño si se queda encima
+
+    private Animator animator;
+    private Collider2D trapCollider;
+    private bool isActive = false;
+    private float lastDamageTime;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+        trapCollider = GetComponent<Collider2D>();
+    }
+
+    private void Start()
+    {
+        StartCoroutine(TrapRoutine());
+    }
+
+    private IEnumerator TrapRoutine()
+    {
+        while (true)
+        {
+            // 1. Estado Oculto / Guardado
+            isActive = false;
+            if (trapCollider != null) trapCollider.enabled = false;
+            if (animator != null) animator.Play("Retracted");
+            yield return new WaitForSeconds(retractedDuration);
+
+            // 2. Estado Advertencia (salen un poco)
+            if (animator != null) animator.Play("Warning");
+            yield return new WaitForSeconds(warningDuration);
+
+            // 3. Estado Activo (salen por completo y hacen daño)
+            if (animator != null) animator.Play("Active");
+            isActive = true;
+            if (trapCollider != null) trapCollider.enabled = true;
+            yield return new WaitForSeconds(activeDuration);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (isActive && collision.CompareTag("Player"))
+        {
+            // Aplica daño en intervalos para evitar restarlo cada frame
+            if (Time.time >= lastDamageTime + damageCooldown)
+            {
+                PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>();
+                if (playerHealth != null)
+                {
+                    playerHealth.RecibirDano(damageAmount);
+                    lastDamageTime = Time.time;
+                }
+            }
+        }
+    }
+}
