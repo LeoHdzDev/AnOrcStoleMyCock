@@ -283,7 +283,7 @@ AudioSource:
   m_GameObject: {fileID: 4151721007484117861}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 7751689286911869737, guid: 9895bbdf346834b4ab4af3a6a6dffb22, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -388,6 +388,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f12b86c95a7f8d943b7e97af5b78dc0b, type: 3}
   - {fileID: 8300000, guid: 8c96f9119c80e604c93a0e51d843c304, type: 3}
   volumenAtaque: 1
+  clipsHerido: []
+  volumenHerido: 1
   clipsMuerte:
   - {fileID: 8300000, guid: ec1364a764c72cf4bb2c70a1f6b0e42b, type: 3}
   - {fileID: 8300000, guid: 2850e5a0749ac684c884c781488d537f, type: 3}
@@ -396,4 +398,14 @@ MonoBehaviour:
   clipsRisa:
   - {fileID: 8300000, guid: 0b114621dc699b04f92d3b495344f06a, type: 3}
   volumenRisa: 1
+  clipsDeteccion: []
+  volumenDeteccion: 1
+  clipsPreparado: []
+  volumenPreparado: 1
+  clipsConfundido: []
+  volumenConfundido: 1
+  clipsLanzamiento: []
+  volumenLanzamiento: 1
+  clipExplosion: {fileID: 0}
+  volumenExplosion: 1
   rangoPitch: {x: 0.95, y: 1.05}
