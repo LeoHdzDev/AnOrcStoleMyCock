@@ -8,6 +8,7 @@ public class SaludJefeOrco : MonoBehaviour
     public float vidaMaxima = 100f;
     private float vidaActual;
     private bool muerto = false;
+    private EnemyAudio enemyAudio;
 
     [Header("Interfaz de Usuario")]
     public GameObject panelBarraJefe; 
@@ -22,6 +23,7 @@ public class SaludJefeOrco : MonoBehaviour
     void Start()
     {
         vidaActual = vidaMaxima;
+        enemyAudio = GetComponent<EnemyAudio>();
         animator = GetComponent<Animator>();
         controlador = GetComponent<JefeOrcoController>();
         
@@ -76,6 +78,7 @@ public class SaludJefeOrco : MonoBehaviour
     void Morir()
     {
         muerto = true;
+        if (enemyAudio != null) enemyAudio.PlayDeath();
         
         if (controlador != null) controlador.enabled = false;
         GetComponent<Collider2D>().enabled = false;

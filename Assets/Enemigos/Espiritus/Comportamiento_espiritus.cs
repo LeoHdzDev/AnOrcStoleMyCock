@@ -15,6 +15,7 @@ public class Comportamiento_espiritus : MonoBehaviour
     private float proximoDisparo = 0f;
 
     private Transform jugador;
+    private EnemyAudio enemyAudio;
     private Animator animator; 
     
     // --- NUEVO: Interruptor de memoria ---
@@ -22,6 +23,7 @@ public class Comportamiento_espiritus : MonoBehaviour
 
     void Start()
     {
+        enemyAudio = GetComponent<EnemyAudio>();
         jugador = GameObject.FindGameObjectWithTag("Player").transform;
         animator = GetComponent<Animator>(); 
     }
@@ -68,7 +70,8 @@ public class Comportamiento_espiritus : MonoBehaviour
 
     void Atacar()
     {
-        animator.SetTrigger("Atacar"); 
+        animator.SetTrigger("Atacar");
+        if (enemyAudio != null) enemyAudio.PlayAttack(); 
         Instantiate(prefabProyectil, transform.position, Quaternion.identity); 
     }
 

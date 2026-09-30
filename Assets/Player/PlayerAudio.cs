@@ -19,6 +19,16 @@ public class PlayerAudio : MonoBehaviour
     [SerializeField] private AudioClip[] clipsCuracion;
     [SerializeField, Range(0f, 1f)] private float volumenCuracion = 1f;
 
+    [Header("Recoger objeto")]
+    [SerializeField] private AudioClip[] clipsRecoger;
+    [SerializeField, Range(0f, 1f)] private float volumenRecoger = 1f;
+
+    [Header("Habilidades (aura)")]
+    [SerializeField] private AudioClip clipAuraAgua;
+    [SerializeField] private AudioClip clipAuraFuego;
+    [SerializeField] private AudioClip clipAuraHielo;
+    [SerializeField, Range(0f, 1f)] private float volumenAura = 1f;
+
     [Header("Variación de pitch")]
     [SerializeField] private Vector2 rangoPitch = new Vector2(0.95f, 1.05f);
 
@@ -27,6 +37,7 @@ public class PlayerAudio : MonoBehaviour
     private int ultimoHerido = -1;
     private int ultimoMuerte = -1;
     private int ultimoCuracion = -1;
+    private int ultimoRecoger = -1;
 
     void Awake()
     {
@@ -52,6 +63,27 @@ public class PlayerAudio : MonoBehaviour
     public void PlayHeal()
     {
         ReproducirAleatorio(clipsCuracion, volumenCuracion, ref ultimoCuracion);
+    }
+
+    public void PlayPickup()
+    {
+        ReproducirAleatorio(clipsRecoger, volumenRecoger, ref ultimoRecoger);
+    }
+
+    public void PlayAbility(PlayerController.ElementType elemento)
+    {
+        AudioClip clip = null;
+        switch (elemento)
+        {
+            case PlayerController.ElementType.Water: clip = clipAuraAgua; break;
+            case PlayerController.ElementType.Fire: clip = clipAuraFuego; break;
+            case PlayerController.ElementType.Ice: clip = clipAuraHielo; break;
+        }
+
+        if (clip == null) return;
+
+        audioSource.pitch = 1f; // las auras suenan siempre igual
+        audioSource.PlayOneShot(clip, volumenAura);
     }
 
     private void ReproducirAleatorio(AudioClip[] clips, float volumen, ref int ultimoIndice)

@@ -52,6 +52,12 @@ public class ItemMaizPickup : MonoBehaviour
             farmerSalud.Curar(vidaQueRestaura);
         }
 
+                if (farmer != null)
+        {
+            PlayerAudio audioJugador = farmer.GetComponent<PlayerAudio>();
+            if (audioJugador != null) audioJugador.PlayPickup();
+        }
+
         Destroy(gameObject);
     }
 }

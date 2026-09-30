@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 57231397591799393}
   - component: {fileID: 2994393885464315538}
   - component: {fileID: 7944329714836994096}
+  - component: {fileID: -3777476618119501154}
+  - component: {fileID: 781608934002243858}
   m_Layer: 6
   m_Name: DuendeBomba
   m_TagString: Untagged
@@ -248,3 +250,139 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DropDeItems
   prefabItemMaiz: {fileID: 418117916691095818, guid: d1cf0fc03a8f2b44d8c9691119d8fd62, type: 3}
   probabilidadDrop: 0.2
+--- !u!82 &-3777476618119501154
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204230250200573964}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &781608934002243858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204230250200573964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74246246e3d64694b8e023d42100f43f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAudio
+  clipsAtaque:
+  - {fileID: 8300000, guid: 65e63d3d7bc03114fb1c26d919324d5f, type: 3}
+  - {fileID: 8300000, guid: 6e971cd2dc4c6024cace42c20391a1b6, type: 3}
+  - {fileID: 8300000, guid: 52a1a9eec27a84f41b1f582667dbeff4, type: 3}
+  volumenAtaque: 1
+  clipsHerido: []
+  volumenHerido: 1
+  clipsMuerte:
+  - {fileID: 8300000, guid: e7df68e31c692e745bfa160b9c9520ba, type: 3}
+  volumenMuerte: 1
+  clipsRisa:
+  - {fileID: 8300000, guid: 9861721999880d443a2b737c21f86720, type: 3}
+  volumenRisa: 1
+  clipsDeteccion: []
+  volumenDeteccion: 1
+  clipsPreparado:
+  - {fileID: 8300000, guid: 3be61ed8bdef04340bb27c50d2a79685, type: 3}
+  volumenPreparado: 1
+  clipsConfundido: []
+  volumenConfundido: 1
+  clipsLanzamiento:
+  - {fileID: 8300000, guid: 1a600c0f93e0de8449d0577de6365cb7, type: 3}
+  - {fileID: 8300000, guid: b50249975fd7b46459d2dabc0a4e567f, type: 3}
+  volumenLanzamiento: 1
+  clipExplosion: {fileID: 8300000, guid: d43c3d8de3dc32a4a9ee289fabf8d2d8, type: 3}
+  volumenExplosion: 1
+  rangoPitch: {x: 0.95, y: 1.05}

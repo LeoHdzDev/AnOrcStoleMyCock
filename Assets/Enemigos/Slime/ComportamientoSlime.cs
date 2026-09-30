@@ -27,6 +27,7 @@ public class ComportamientoSlime : MonoBehaviour
     private float temporizadorAtaque;
     private bool estaAtacando = false;
     private bool estaMuerto = false;
+    private EnemyAudio enemyAudio;
 
     // --- NUEVO: Interruptor de memoria ---
     private bool jugadorDetectado = false; 
@@ -34,6 +35,7 @@ public class ComportamientoSlime : MonoBehaviour
     void Start()
     {
         vidaActual = vidaMaxima;
+        enemyAudio = GetComponent<EnemyAudio>();
         animator = GetComponent<Animator>();
         spriteSlime = GetComponent<SpriteRenderer>(); 
 
@@ -53,6 +55,7 @@ public class ComportamientoSlime : MonoBehaviour
         if (!jugadorDetectado && distancia <= rangoDeVision)
         {
             jugadorDetectado = true;
+            if (enemyAudio != null) enemyAudio.PlayDetectOnce();
         }
 
         // Si aún no te ha detectado, se queda dormido
@@ -86,9 +89,12 @@ public class ComportamientoSlime : MonoBehaviour
     IEnumerator RutinaAtaque()
     {
         estaAtacando = true;
-        animator.SetTrigger("Atacar"); 
+        animator.SetTrigger("Atacar");
+        if (enemyAudio != null) enemyAudio.PlayPrepare(); // levanta los brazos 
 
         yield return new WaitForSeconds(tiempoParaGolpe);
+
+        if (enemyAudio != null && !estaMuerto) enemyAudio.PlayAttack(); // momento del golpe
 
         if (jugador != null && !estaMuerto)
         {
@@ -130,6 +136,7 @@ public class ComportamientoSlime : MonoBehaviour
     void Morir()
     {
         estaMuerto = true;
+        if (enemyAudio != null) enemyAudio.PlayDeath();
         animator.SetBool("Caminando", false);
         animator.SetTrigger("Morir"); 
         

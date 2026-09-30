@@ -13,11 +13,23 @@ public class BombaExplosiva : MonoBehaviour
     public float danoExplosion = 20f;
     public GameObject prefabEfectoExplosion; // Aquí pondrás tu sprite de explosión luego
 
+    [Header("Sonidos")]
+    public AudioClip clipCuentaRegresiva;
+    public AudioClip clipExplosion;
+    [Range(0f, 1f)] public float volumenSonidos = 1f;
+
     private SpriteRenderer spriteRenderer;
+    private AudioSource audioSource;
 
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.loop = false;
+        audioSource.spatialBlend = 0f;
     }
 
     // Esta función la llamará el duende al lanzarla
@@ -53,6 +65,13 @@ public class BombaExplosiva : MonoBehaviour
     IEnumerator CuentaRegresiva()
     {
         float tiempoRestante = tiempoParaExplotar;
+
+        if (clipCuentaRegresiva != null)
+        {
+            audioSource.clip = clipCuentaRegresiva;
+            audioSource.volume = volumenSonidos;
+            audioSource.Play();
+        }
         float velocidadParpadeo = 0.5f;
 
         while (tiempoRestante > 0)
@@ -74,6 +93,10 @@ public class BombaExplosiva : MonoBehaviour
 
     void Explotar()
     {
+        // Corta la cuenta regresiva y suena la explosión (en un objeto aparte, porque la bomba se destruye)
+        audioSource.Stop();
+        EnemyAudio.PlayDetached(clipExplosion, volumenSonidos);
+
         // 1. Instanciar el efecto visual de explosión (si lo tienes)
         if (prefabEfectoExplosion != null)
         {
