@@ -8,22 +8,15 @@ public class SaludEnemigo : MonoBehaviour
     private float vidaActual;
 
     private SpriteRenderer spriteRenderer;
-    
-    // --- NUEVO: Variables para controlar la muerte y animación ---
-    private Animator animator;
-    private bool muerto = false;
 
     void Start()
     {
         vidaActual = vidaMaxima;
         spriteRenderer = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>(); // Obtiene el Animator del espíritu
     }
 
     public void RecibirDano(float cantidad)
     {
-        if (muerto) return; // Si ya está haciendo la animación de muerte, ignora más daño
-
         vidaActual -= cantidad;
         
         // Inicia el efecto visual de recibir daño
@@ -44,44 +37,13 @@ public class SaludEnemigo : MonoBehaviour
         // Espera una fracción de segundo
         yield return new WaitForSeconds(0.15f);
         
-        // Vuelve a su color original, SOLO si no ha muerto
-        if (!muerto && spriteRenderer != null)
-        {
-            spriteRenderer.color = Color.white;
-        }
+        // Vuelve a su color original
+        spriteRenderer.color = Color.white;
     }
 
     void Morir()
     {
-        muerto = true;
-        if (spriteRenderer != null) spriteRenderer.color = Color.white;
-
-        // 1. Apagamos su colisión para que el granjero lo pueda atravesar
-        Collider2D col = GetComponent<Collider2D>();
-        if (col != null) col.enabled = false;
-
-        // 2. Apagamos su script de persecución para que deje de seguirte
-        Comportamiento_espiritus ia = GetComponent<Comportamiento_espiritus>();
-        if (ia != null) ia.enabled = false;
-
-        // 3. Lo frenamos en seco (por si estaba empujado por físicas)
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        if (rb != null) rb.linearVelocity = Vector2.zero;
-
-        // 4. Activamos la animación
-        if (animator != null)
-        {
-            animator.SetTrigger("Die");
-        }
-
-        // 5. Esperamos a que la animación termine antes de borrarlo
-        StartCoroutine(DestruirDespuesDeMuerte());
-    }
-
-    IEnumerator DestruirDespuesDeMuerte()
-    {
-        // Puedes cambiar este "0.8f" por los segundos exactos que dure tu animación de muerte
-        yield return new WaitForSeconds(2f); 
+        // Por ahora lo destruimos (desaparece). Más adelante puedes cambiar esto por una animación.
         Destroy(gameObject);
     }
 }
