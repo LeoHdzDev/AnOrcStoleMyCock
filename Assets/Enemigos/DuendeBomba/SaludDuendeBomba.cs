@@ -16,9 +16,11 @@ public class SaludDuendeBomba : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private bool muerto = false;
+    private EnemyAudio enemyAudio;
 
     void Start()
     {
+        enemyAudio = GetComponent<EnemyAudio>();
         vidaActual = vidaMaxima;
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
@@ -70,6 +72,9 @@ public class SaludDuendeBomba : MonoBehaviour
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         if (rb != null) rb.linearVelocity = Vector2.zero; // Lo frenamos en seco
 
+        // Sonido de muerte
+        if (enemyAudio != null) enemyAudio.PlayDeath();
+
         // 3. Activamos el Trigger "Die" en el Animator para que reproduzca su sprite de muerte
         if (animator != null) animator.SetTrigger("Die");
 
@@ -116,6 +121,9 @@ public class SaludDuendeBomba : MonoBehaviour
                 if (salud != null) salud.RecibirDano(danoExplosion);
             }
         }
+
+        // Sonido de la explosión del duende
+        if (enemyAudio != null) enemyAudio.PlayExplosion();
 
         // 3. Finalmente, borrar el cadáver del duende
         Destroy(gameObject);

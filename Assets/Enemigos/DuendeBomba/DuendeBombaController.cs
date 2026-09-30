@@ -19,6 +19,7 @@ public class DuendeBombaController : MonoBehaviour
     public float cooldownLanzamiento = 2f; // Cuánto tarda en tirar otra bomba después de haber recargado
 
     private Transform jugador;
+    private EnemyAudio enemyAudio;
     private Animator animator;
     private SpriteRenderer spriteRenderer; // <--- Agregamos el SpriteRenderer
     private bool jugadorDetectado = false;
@@ -29,6 +30,7 @@ public class DuendeBombaController : MonoBehaviour
 
     void Start()
     {
+        enemyAudio = GetComponent<EnemyAudio>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>(); // <--- Lo conectamos al inicio
         GameObject objJugador = GameObject.Find("Farmer_player");
@@ -94,6 +96,7 @@ public class DuendeBombaController : MonoBehaviour
     {
         estaAtacando = true;
         animator.SetTrigger("Atacar");
+        if (enemyAudio != null) enemyAudio.PlayAttack();
 
         // 1. Espera a que el duende estire el brazo
         yield return new WaitForSeconds(tiempoAnimacionLanzamiento);
@@ -107,6 +110,13 @@ public class DuendeBombaController : MonoBehaviour
             {
                 scriptBomba.InicializarLanzamiento(transform.position, jugador.position);
             }
+        }
+
+        // Sonidos del lanzamiento: whoosh de la bomba + risa
+        if (enemyAudio != null)
+        {
+            enemyAudio.PlayLaunch();
+            enemyAudio.PlayLaugh();
         }
 
         // 3. Pierde la bomba (Cambia al sprite Sin Bomba)

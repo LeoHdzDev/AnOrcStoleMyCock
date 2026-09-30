@@ -237,6 +237,7 @@ public class PlayerController : MonoBehaviour
         burbujaEnCooldown = true;
         if (iconoAgua != null) iconoAgua.Activar(duracionBurbuja + cooldownBurbuja);
         burbujaAgua.Activar();
+        if (playerAudio != null) playerAudio.PlayAbility(ElementType.Water);
 
         yield return new WaitForSeconds(duracionBurbuja);
         burbujaAgua.Desactivar();
@@ -250,6 +251,7 @@ public class PlayerController : MonoBehaviour
         fuegoEnCooldown = true;
         if (iconoFuego != null) iconoFuego.Activar(duracionAreaFuego + cooldownAreaFuego);
         areaFuego.Activar();
+        if (playerAudio != null) playerAudio.PlayAbility(ElementType.Fire);
 
         yield return new WaitForSeconds(duracionAreaFuego);
         areaFuego.Desactivar();
@@ -263,6 +265,7 @@ public class PlayerController : MonoBehaviour
         hieloEnCooldown = true;
         if (iconoHielo != null) iconoHielo.Activar(duracionAreaHielo + cooldownAreaHielo);
         areaHielo.Activar();
+        if (playerAudio != null) playerAudio.PlayAbility(ElementType.Ice);
 
         yield return new WaitForSeconds(duracionAreaHielo);
         areaHielo.Desactivar();

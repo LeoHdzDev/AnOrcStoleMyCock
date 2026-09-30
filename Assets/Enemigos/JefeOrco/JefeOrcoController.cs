@@ -18,11 +18,13 @@ public class JefeOrcoController : MonoBehaviour
     private Rigidbody2D rb;
 
     private bool jefeActivo = true;
+    private EnemyAudio enemyAudio;
     private bool atacando = false;
     private float temporizadorAtaque = 0f;
 
     void Start()
     {
+        enemyAudio = GetComponent<EnemyAudio>();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -67,6 +69,7 @@ public class JefeOrcoController : MonoBehaviour
     {
         atacando = true;
         animator.SetTrigger("Atacar"); // Reproduce JefeOrco_ataque
+        if (enemyAudio != null) enemyAudio.PlayAttack();
 
         // 1. Espera a que el jefe levante el arma
         yield return new WaitForSeconds(tiempoPreparacion);

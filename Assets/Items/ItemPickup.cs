@@ -95,6 +95,12 @@ public class ItemPickup : MonoBehaviour
             }
         }
 
+                if (farmer != null)
+        {
+            PlayerAudio audioJugador = farmer.GetComponent<PlayerAudio>();
+            if (audioJugador != null) audioJugador.PlayPickup();
+        }
+
         Destroy(gameObject);
     }
 }

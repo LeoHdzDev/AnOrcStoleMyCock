@@ -12,10 +12,12 @@ public class SaludEnemigo : MonoBehaviour
     // --- NUEVO: Variables para controlar la muerte y animación ---
     private Animator animator;
     private bool muerto = false;
+    private EnemyAudio enemyAudio;
 
     void Start()
     {
         vidaActual = vidaMaxima;
+        enemyAudio = GetComponent<EnemyAudio>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>(); // Obtiene el Animator del espíritu
     }
@@ -33,6 +35,10 @@ public class SaludEnemigo : MonoBehaviour
         if (vidaActual <= 0)
         {
             Morir();
+        }
+        else if (enemyAudio != null)
+        {
+            enemyAudio.PlayHurt(); // solo suena "herido" si sigue vivo
         }
     }
 
@@ -53,6 +59,8 @@ public class SaludEnemigo : MonoBehaviour
 
     void Morir()
     {
+        if (enemyAudio != null) enemyAudio.PlayDeath();
+
         if (spriteRenderer != null) spriteRenderer.color = Color.white;
 
         // 1. Apagamos su colisión para que el granjero lo pueda atravesar

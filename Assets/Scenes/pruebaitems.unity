@@ -2099,6 +2099,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farmer_player
       objectReference: {fileID: 0}
+    - target: {fileID: 5956508483727493111, guid: 60a483eb629d770498abc62ebe685124, type: 3}
+      propertyPath: clipAuraAgua
+      value: 
+      objectReference: {fileID: 8300000, guid: 64ad6b3a985ae7c42b89151170b6180d, type: 3}
+    - target: {fileID: 5956508483727493111, guid: 60a483eb629d770498abc62ebe685124, type: 3}
+      propertyPath: clipAuraFuego
+      value: 
+      objectReference: {fileID: 8300000, guid: 09d96a0dc65b2aa419237c5df3773474, type: 3}
+    - target: {fileID: 5956508483727493111, guid: 60a483eb629d770498abc62ebe685124, type: 3}
+      propertyPath: clipAuraHielo
+      value: 
+      objectReference: {fileID: 8300000, guid: 07d59b0c26160324d958b3e433ba9b80, type: 3}
+    - target: {fileID: 5956508483727493111, guid: 60a483eb629d770498abc62ebe685124, type: 3}
+      propertyPath: 'clipsRecoger.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 739dda6448ceb424e938c342186cf5ce, type: 3}
     - target: {fileID: 6474146960852468992, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.53
