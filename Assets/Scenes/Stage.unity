@@ -679,7 +679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6184548407472835851, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: capaMuros.m_Bits
-      value: 0
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 8239944368360761008, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: m_Name
@@ -1627,7 +1627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6184548407472835851, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: capaMuros.m_Bits
-      value: 0
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 8239944368360761008, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: m_Name
@@ -4286,7 +4286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6184548407472835851, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: capaMuros.m_Bits
-      value: 0
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 8239944368360761008, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: m_Name
@@ -6300,7 +6300,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5832711179312541192, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
       propertyPath: capaMuros.m_Bits
-      value: 0
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 6014796105093258926, guid: 3d2f983adde6027498cc48d4070d86ea, type: 3}
       propertyPath: m_Name
@@ -8207,7 +8207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6184548407472835851, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: capaMuros.m_Bits
-      value: 0
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 8239944368360761008, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: m_Name
@@ -8232,7 +8232,7 @@ GameObject:
   - component: {fileID: 683568082}
   - component: {fileID: 683568081}
   - component: {fileID: 683568080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47066,7 +47066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6184548407472835851, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: capaMuros.m_Bits
-      value: 0
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 8239944368360761008, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: m_Name
@@ -47272,7 +47272,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6113199745885635924, guid: f1b5c80d72bbb9a47ade8513509dfe0f, type: 3}
       propertyPath: capaMuros.m_Bits
-      value: 0
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -49021,7 +49021,7 @@ GameObject:
   - component: {fileID: 892788449}
   - component: {fileID: 892788448}
   - component: {fileID: 892788447}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109199,7 +109199,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1094150040425067177, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
       propertyPath: capaMuros.m_Bits
-      value: 0
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 4819702052979951602, guid: ba3d80732a98eaa49af359edf15d4189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -112160,7 +112160,7 @@ GameObject:
   - component: {fileID: 1261600801}
   - component: {fileID: 1261600800}
   - component: {fileID: 1261600799}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126810,7 +126810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6184548407472835851, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: capaMuros.m_Bits
-      value: 0
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 8239944368360761008, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: m_Name
@@ -130243,7 +130243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6184548407472835851, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: capaMuros.m_Bits
-      value: 0
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 8239944368360761008, guid: 3136a0ed27718024aba946bfd28e68ff, type: 3}
       propertyPath: m_Name

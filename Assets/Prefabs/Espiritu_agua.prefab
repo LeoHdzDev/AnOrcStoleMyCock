@@ -188,7 +188,7 @@ MonoBehaviour:
   rangoDeVision: 8
   capaMuros:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   velocidad: 2.5
   distanciaFrenado: 4
   prefabProyectil: {fileID: 6869095209384545498, guid: ce7d1752e8e71fe42ab9acb78e6945d1, type: 3}
