@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7760694253886243282}
   - component: {fileID: 1741837132350596671}
   - component: {fileID: 6746890105698651706}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bola_nieve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
