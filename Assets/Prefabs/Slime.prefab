@@ -138,7 +138,7 @@ MonoBehaviour:
   rangoDeVision: 10
   capaMuros:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   vidaMaxima: 20
   velocidad: 2
   distanciaAtaque: 1.5
