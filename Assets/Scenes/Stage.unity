@@ -4270,7 +4270,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 857296658815889701, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: fuerzaEmpuje
-      value: 0.5
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 857296658815889701, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: danoPorSegundo
@@ -4278,7 +4278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 857296658815889701, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: tiempoEntreDanos
-      value: 0.4
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 1900339223655271553, guid: 60a483eb629d770498abc62ebe685124, type: 3}
       propertyPath: m_CollisionDetection
