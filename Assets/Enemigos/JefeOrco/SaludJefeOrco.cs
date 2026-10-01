@@ -79,6 +79,8 @@ public class SaludJefeOrco : MonoBehaviour
     {
         muerto = true;
         if (enemyAudio != null) enemyAudio.PlayDeath();
+
+        if (MusicaEscena.Instance != null) MusicaEscena.Instance.Detener(1.5f);
         
         if (controlador != null) controlador.enabled = false;
         GetComponent<Collider2D>().enabled = false;
