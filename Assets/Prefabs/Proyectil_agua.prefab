@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8909288224677332864}
   - component: {fileID: 565318146019936776}
   - component: {fileID: -5260901976440050961}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Proyectil_agua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
