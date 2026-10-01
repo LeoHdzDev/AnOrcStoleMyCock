@@ -1,27 +1,24 @@
 using System.Collections;
 using UnityEngine;
 
-// Componente COMPARTIDO para TODOS los enemigos (Espiritus, Slime, DuendeCuchillo).
-// Se encarga de la quemadura (fuego) y el congelamiento/ralentización (hielo),
-// incluyendo el color del sprite, SIN modificar los scripts de comportamiento
-// de cada enemigo.
-//
-// USO: agrega este componente a cada GameObject enemigo (o a sus prefabs).
-// No necesita configuración: detecta solo qué scripts tiene el enemigo.
+// Componente COMPARTIDO para TODOS los enemigos.
+// Se encarga de la quemadura (fuego) y el congelamiento/ralentización (hielo).
 public class EstadoElemental : MonoBehaviour
 {
     [Header("Colores mientras dura el efecto")]
     public Color colorQuemado = new Color(1f, 0.35f, 0.35f);
     public Color colorCongelado = new Color(0.75f, 0.95f, 1f);
 
-    // --- Referencias a los posibles scripts de comportamiento/salud del enemigo ---
+    // --- Referencias a los posibles scripts de comportamiento ---
     private Comportamiento_espiritus espiritu;
     private ComportamientoSlime slime;
     private DuendeCuchilloController duende;
 
+    // --- Referencias a los scripts de Salud ---
     private SaludEnemigo saludEspiritu;
     private SaludDuendeCuchillo saludDuende;
-    // Nota: ComportamientoSlime ya trae su propio RecibirDano(), no hace falta otro componente de salud.
+    private SaludDuendeBomba saludBomba; // <-- NUEVO
+    private SaludJefeOrco saludJefe;     // <-- NUEVO
 
     private SpriteRenderer sr;
 
@@ -43,18 +40,20 @@ public class EstadoElemental : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
 
+        // Comportamientos
         espiritu = GetComponent<Comportamiento_espiritus>();
         slime = GetComponent<ComportamientoSlime>();
         duende = GetComponent<DuendeCuchilloController>();
 
+        // Salud
         saludEspiritu = GetComponent<SaludEnemigo>();
         saludDuende = GetComponent<SaludDuendeCuchillo>();
+        saludBomba = GetComponent<SaludDuendeBomba>(); // <-- Conectamos el Duende Bomba
+        saludJefe = GetComponent<SaludJefeOrco>();     // <-- Conectamos al Jefe Orco
     }
 
     void LateUpdate()
     {
-        // Se ejecuta al final del frame para "ganarle" a cualquier otro script
-        // que también cambie el color del sprite (como el flash blanco al recibir daño).
         if (sr == null) return;
 
         if (estaQuemado)
@@ -83,8 +82,6 @@ public class EstadoElemental : MonoBehaviour
 
     // ================= QUEMADURA (FUEGO) =================
 
-    // danoPorTick: cuánto daño se aplica cada "intervaloTick" segundos.
-    // duracionSinContacto: cuánto sigue quemándose después de salir del área.
     public void AplicarQuemadura(float danoPorTick, float intervaloTick, float duracionSinContacto)
     {
         tiempoFinQuemadura = Time.time + duracionSinContacto;
@@ -140,9 +137,6 @@ public class EstadoElemental : MonoBehaviour
         {
             velocidadOriginal = espiritu.velocidad;
             espiritu.velocidad *= factorVelocidad;
-            // Los espíritus atacan con proyectiles a distancia; su daño no se
-            // controla desde aquí. Si luego quieres reducir el daño de sus
-            // proyectiles también, se puede ajustar en su script de disparo.
         }
         else if (slime != null)
         {
@@ -158,6 +152,8 @@ public class EstadoElemental : MonoBehaviour
             duende.velocidad *= factorVelocidad;
             duende.danoAtaque *= factorDano;
         }
+        // Nota: Si en el futuro quieres que el hielo también ponga lentos al Duende Bomba 
+        // y al Jefe, tendríamos que agregar sus scripts de comportamiento aquí.
     }
 
     void RestaurarValoresOriginales()
@@ -180,8 +176,6 @@ public class EstadoElemental : MonoBehaviour
 
     // ================= DAÑO (compartido) =================
 
-    // Para que un área (como AreaHielo) pueda hacer daño directo,
-    // sin pasar por quemadura ni congelamiento.
     public void RecibirGolpe(float cantidad)
     {
         AplicarDano(cantidad);
@@ -192,5 +186,9 @@ public class EstadoElemental : MonoBehaviour
         if (saludEspiritu != null) { saludEspiritu.RecibirDano(cantidad); return; }
         if (slime != null) { slime.RecibirDano(cantidad); return; }
         if (saludDuende != null) { saludDuende.RecibirDano(cantidad); return; }
+        
+        // --- AQUÍ ESTÁ LA MAGIA PARA LOS NUEVOS ENEMIGOS ---
+        if (saludBomba != null) { saludBomba.RecibirDano(cantidad); return; }
+        if (saludJefe != null) { saludJefe.RecibirDano(cantidad); return; }
     }
 }
