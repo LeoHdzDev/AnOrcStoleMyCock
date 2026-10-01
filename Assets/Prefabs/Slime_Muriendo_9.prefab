@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8740cbe3dea5034e996f6230c3cbbdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharcoDano
-  danoPorSegundo: 5
+  danoPorSegundo: 1
   duracionDelCharco: 30
 --- !u!60 &7121203776931151440
 PolygonCollider2D:
