@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3307510455832625830
+--- !u!1 &2560313477511144639
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2675219331963146753}
-  - component: {fileID: 6993088857899712950}
-  - component: {fileID: 5662022514403914611}
-  - component: {fileID: 7731503467845610206}
+  - component: {fileID: 2727458413146359322}
+  - component: {fileID: 4371577043251554974}
+  - component: {fileID: 3023608768006883989}
   m_Layer: 0
-  m_Name: Explocion_bomba_0
+  m_Name: Bomba-Sheet_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2675219331963146753
+--- !u!4 &2727458413146359322
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3307510455832625830}
+  m_GameObject: {fileID: 2560313477511144639}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.53, y: 0.82, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalPosition: {x: 3.32941, y: 0.47397, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6993088857899712950
+--- !u!212 &4371577043251554974
 SpriteRenderer:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3307510455832625830}
+  m_GameObject: {fileID: 2560313477511144639}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -81,51 +80,37 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8621747854789482408, guid: 1ac850813e3fa044d9e05c0d20369c82, type: 3}
+  m_Sprite: {fileID: 554840447477144680, guid: d16074c49e6683e46a2f53697b1eb151, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.21875, y: 1.03125}
+  m_Size: {x: 0.3125, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
---- !u!95 &5662022514403914611
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3307510455832625830}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d985fdafa3ec2d24bb378797cb29cdda, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7731503467845610206
+--- !u!114 &3023608768006883989
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3307510455832625830}
+  m_GameObject: {fileID: 2560313477511144639}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 485f471f0046adc45b89b458d3a56392, type: 3}
+  m_Script: {fileID: 11500000, guid: e4a7a5d59219dbf41901890c4f02e440, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AutoDestruir
-  tiempoDeVida: 0.5
+  m_EditorClassIdentifier: Assembly-CSharp::BombaExplosiva
+  tiempoDeVuelo: 1
+  alturaParabola: 2
+  tiempoParaExplotar: 5
+  radioExplosion: 2.5
+  danoExplosion: 20
+  prefabEfectoExplosion: {fileID: 3307510455832625830, guid: c8976812b903e0b48830acac4bf575d9, type: 3}
+  clipCuentaRegresiva: {fileID: 0}
+  clipExplosion: {fileID: 0}
+  volumenSonidos: 1

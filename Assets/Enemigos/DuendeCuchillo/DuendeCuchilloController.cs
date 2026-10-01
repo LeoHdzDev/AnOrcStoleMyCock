@@ -16,6 +16,9 @@ public class DuendeCuchilloController : MonoBehaviour
     public float duracionAtaque = 0.5f;
     public float danoAtaque = 5f;
 
+    [Header("Visión a través de paredes")]
+    public LayerMask capaMuros; // Le dirá al láser qué cosas bloquean la vista
+
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer; // <-- Añadido para voltear el dibujo
@@ -42,7 +45,7 @@ public class DuendeCuchilloController : MonoBehaviour
         }
     }
 
-    void Update()
+void Update()
     {
         if (objetivo == null || atacando)
         {
@@ -54,10 +57,25 @@ public class DuendeCuchilloController : MonoBehaviour
         Vector2 diferencia = objetivo.position - transform.position;
         float distancia = diferencia.magnitude;
 
-        // --- LÓGICA: CAZADOR IMPLACABLE ---
-        if (!jugadorDetectado && distancia <= rangoDeVision)
+        // 1. VISIÓN: Revisar si está en rango y lanzar el láser
+        if (distancia <= rangoDeVision)
         {
-            jugadorDetectado = true;
+            RaycastHit2D impacto = Physics2D.Linecast(transform.position, objetivo.position, capaMuros);
+
+            if (impacto.collider == null)
+            {
+                jugadorDetectado = true; 
+                Debug.DrawLine(transform.position, objetivo.position, Color.green); 
+            }
+            else
+            {
+                jugadorDetectado = false; 
+                Debug.DrawLine(transform.position, impacto.point, Color.red); 
+            }
+        }
+        else
+        {
+            jugadorDetectado = false; 
         }
 
         if (!jugadorDetectado)
@@ -67,26 +85,26 @@ public class DuendeCuchilloController : MonoBehaviour
             return;
         }
 
-        // --- SOLUCIÓN ANIMACIÓN: Usar flipX en lugar del parámetro "Direccion" ---
-        if (diferencia.x > 0.05f) spriteRenderer.flipX = false;
-        else if (diferencia.x < -0.05f) spriteRenderer.flipX = true;
-
-        // El Animator sigue necesitando "Direccion" para las transiciones de
-        // ataque (izquierda/derecha), así que lo mantenemos actualizado aunque
-        // ya no lo usemos para voltear el sprite.
+        // --- LA SOLUCIÓN ESTÁ AQUÍ ---
+        // Borramos el flipX y dejamos que tu Animator controle a dónde mira
         animator.SetFloat("Direccion", diferencia.x);
+        
+        // (Nota: Si tu animator también tiene animaciones para arriba/abajo, 
+        // puedes agregar aquí: animator.SetFloat("DireccionY", diferencia.y); )
 
+        // 4. ATACAR O PERSEGUIR
         if (distancia <= distanciaAtaque)
         {
             movimiento = Vector2.zero;
             animator.SetFloat("Velocidad", 0);
 
             if (Time.time >= siguienteAtaque) IniciarAtaque();
-            return;
         }
-
-        movimiento = diferencia.normalized;
-        animator.SetFloat("Velocidad", movimiento.magnitude);
+        else
+        {
+            movimiento = diferencia.normalized;
+            animator.SetFloat("Velocidad", movimiento.magnitude);
+        }
     }
 
     void FixedUpdate()

@@ -4,7 +4,8 @@ using System.Collections;
 public class ComportamientoSlime : MonoBehaviour
 {
     [Header("Visión")]
-    public float rangoDeVision = 6f; // <-- NUEVO: Radio morado de detección
+    public float rangoDeVision = 6f; 
+    public LayerMask capaMuros; // <-- NUEVA: La capa para que el láser choque con la piedra
 
     [Header("Estadísticas del Slime")]
     public float vidaMaxima = 20f;
@@ -29,7 +30,6 @@ public class ComportamientoSlime : MonoBehaviour
     private bool estaMuerto = false;
     private EnemyAudio enemyAudio;
 
-    // --- NUEVO: Interruptor de memoria ---
     private bool jugadorDetectado = false; 
 
     void Start()
@@ -48,33 +48,58 @@ public class ComportamientoSlime : MonoBehaviour
         if (jugador == null || estaMuerto) return;
         if (estaAtacando) return; 
 
-        float distancia = Vector2.Distance(transform.position, jugador.position);
+        Vector2 diferencia = jugador.position - transform.position;
+        float distancia = diferencia.magnitude;
 
-        // --- NUEVA LÓGICA: CAZADOR IMPLACABLE ---
-        // Si no te había visto, pero entraste al círculo morado, te detecta para siempre
-        if (!jugadorDetectado && distancia <= rangoDeVision)
+        // --- 1. LÓGICA DE VISIÓN CON LÁSER ---
+        if (distancia <= rangoDeVision)
         {
-            jugadorDetectado = true;
-            if (enemyAudio != null) enemyAudio.PlayDetectOnce();
+            RaycastHit2D impacto = Physics2D.Linecast(transform.position, jugador.position, capaMuros);
+
+            if (impacto.collider == null)
+            {
+                // Reproducir el sonido solo la primera vez que te detecta
+                if (!jugadorDetectado && enemyAudio != null) enemyAudio.PlayDetectOnce();
+                
+                jugadorDetectado = true; // No hay muro, te ve
+                Debug.DrawLine(transform.position, jugador.position, Color.green);
+            }
+            else
+            {
+                jugadorDetectado = false; // Hay pared
+                Debug.DrawLine(transform.position, impacto.point, Color.red);
+            }
+        }
+        else
+        {
+            jugadorDetectado = false; // Estás muy lejos
         }
 
-        // Si aún no te ha detectado, se queda dormido
+        // Si no te detecta, se queda quieto
         if (!jugadorDetectado)
         {
             animator.SetBool("Caminando", false);
             return; 
         }
-        // ----------------------------------------
 
+        // --- 2. EFECTO ESPEJO (flipX) ---
+        if (diferencia.x > 0.05f) 
+        {
+            spriteSlime.flipX = false; // Mira a la derecha
+        }
+        else if (diferencia.x < -0.05f) 
+        {
+            spriteSlime.flipX = true; // Se voltea a la izquierda
+        }
+
+        // --- 3. MOVERSE Y ATACAR ---
         if (distancia > distanciaAtaque)
         {
-            // --- CAMINAR ---
             transform.position = Vector2.MoveTowards(transform.position, jugador.position, velocidad * Time.deltaTime);
             animator.SetBool("Caminando", true); 
         }
         else
         {
-            // --- DETENERSE PARA ATACAR ---
             animator.SetBool("Caminando", false);
             
             if (temporizadorAtaque <= 0)
@@ -90,11 +115,11 @@ public class ComportamientoSlime : MonoBehaviour
     {
         estaAtacando = true;
         animator.SetTrigger("Atacar");
-        if (enemyAudio != null) enemyAudio.PlayPrepare(); // levanta los brazos 
+        if (enemyAudio != null) enemyAudio.PlayPrepare(); 
 
         yield return new WaitForSeconds(tiempoParaGolpe);
 
-        if (enemyAudio != null && !estaMuerto) enemyAudio.PlayAttack(); // momento del golpe
+        if (enemyAudio != null && !estaMuerto) enemyAudio.PlayAttack(); 
 
         if (jugador != null && !estaMuerto)
         {
@@ -152,14 +177,11 @@ public class ComportamientoSlime : MonoBehaviour
         Destroy(gameObject, 2f); 
     }
 
-    // --- NUEVO: DIBUJADO DE RANGOS VISUALES ---
     private void OnDrawGizmosSelected()
     {
-        // Rango de Visión (Morado)
         Gizmos.color = Color.magenta;
         Gizmos.DrawWireSphere(transform.position, rangoDeVision);
 
-        // Distancia de Ataque (Rojo)
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, distanciaAtaque);
     }

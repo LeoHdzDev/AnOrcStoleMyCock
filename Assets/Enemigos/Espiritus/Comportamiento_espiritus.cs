@@ -3,7 +3,8 @@ using UnityEngine;
 public class Comportamiento_espiritus : MonoBehaviour 
 {
     [Header("Visión")]
-    public float rangoDeVision = 8f; // <-- NUEVO: Radio de detección (morado)
+    public float rangoDeVision = 8f; 
+    public LayerMask capaMuros; // <-- NUEVA: La capa para que el láser choque con la piedra
 
     [Header("Movimiento")]
     public float velocidad = 2.5f;
@@ -17,38 +18,66 @@ public class Comportamiento_espiritus : MonoBehaviour
     private Transform jugador;
     private EnemyAudio enemyAudio;
     private Animator animator; 
+    private SpriteRenderer spriteRenderer; // <-- NUEVO: Para voltear el dibujo como espejo
     
-    // --- NUEVO: Interruptor de memoria ---
     private bool jugadorDetectado = false; 
 
     void Start()
     {
         enemyAudio = GetComponent<EnemyAudio>();
-        jugador = GameObject.FindGameObjectWithTag("Player").transform;
         animator = GetComponent<Animator>(); 
+        spriteRenderer = GetComponent<SpriteRenderer>(); // Conectamos el componente
+
+        GameObject objJugador = GameObject.FindGameObjectWithTag("Player");
+        if (objJugador != null) jugador = objJugador.transform;
     }
 
     void Update()
     {
         if (jugador == null) return;
 
-        float distancia = Vector2.Distance(transform.position, jugador.position);
+        Vector2 diferencia = jugador.position - transform.position;
+        float distancia = diferencia.magnitude;
 
-        // --- NUEVA LÓGICA: CAZADOR IMPLACABLE ---
-        // Si no te había visto, pero entraste al círculo morado, se activa para siempre
-        if (!jugadorDetectado && distancia <= rangoDeVision)
+        // --- 1. LÓGICA DE VISIÓN CON LÁSER ---
+        if (distancia <= rangoDeVision)
         {
-            jugadorDetectado = true;
+            RaycastHit2D impacto = Physics2D.Linecast(transform.position, jugador.position, capaMuros);
+
+            if (impacto.collider == null)
+            {
+                jugadorDetectado = true; // No hay muro, te está viendo
+                Debug.DrawLine(transform.position, jugador.position, Color.green);
+            }
+            else
+            {
+                jugadorDetectado = false; // Hay una pared tapándole la vista
+                Debug.DrawLine(transform.position, impacto.point, Color.red);
+            }
+        }
+        else
+        {
+            jugadorDetectado = false; // Estás muy lejos
         }
 
-        // Si aún no te ha detectado, se queda en paz y detiene la lectura del script
+        // Si no te ha detectado (estás escondido o lejos), se queda quieto
         if (!jugadorDetectado)
         {
             animator.SetBool("Caminando", false);
             return; 
         }
-        // ----------------------------------------
 
+        // --- 2. EFECTO ESPEJO (Para que voltee a verte) ---
+        if (diferencia.x > 0.05f) 
+        {
+            spriteRenderer.flipX = false; // Mira a la derecha
+        }
+        else if (diferencia.x < -0.05f) 
+        {
+            spriteRenderer.flipX = true; // Se voltea a la izquierda
+        }
+
+        // --- 3. MOVERSE Y DISPARAR ---
         // Moverse hacia el jugador si está lejos
         if (distancia > distanciaFrenado)
         {
@@ -75,14 +104,11 @@ public class Comportamiento_espiritus : MonoBehaviour
         Instantiate(prefabProyectil, transform.position, Quaternion.identity); 
     }
 
-    // --- NUEVO: DIBUJADO DE RANGOS VISUALES ---
     private void OnDrawGizmosSelected()
     {
-        // Rango de Visión (Morado): A partir de aquí te detecta
         Gizmos.color = Color.magenta;
         Gizmos.DrawWireSphere(transform.position, rangoDeVision);
 
-        // Distancia de Frenado (Rojo): Aquí se detiene para empezar a dispararte
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, distanciaFrenado);
     }
