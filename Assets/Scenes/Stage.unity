@@ -122883,6 +122883,13 @@ MonoBehaviour:
   retraso: 5
   nombreEscenaMenu: MenuInicio
   nombreEscenaStage: Stage
+  clipEfecto: {fileID: 8300000, guid: 93435add92dd6ba4ebc9e4256c1596ba, type: 3}
+  volumenEfecto: 1
+  clipMusica: {fileID: 8300000, guid: d421630153d1fbb4bae56b07dddc3d49, type: 3}
+  volumenMusica: 0.6
+  segundosHastaMusica: 2
+  grupoEfecto: {fileID: 7751689286911869737, guid: 9895bbdf346834b4ab4af3a6a6dffb22, type: 2}
+  grupoMusica: {fileID: -6685505196506085000, guid: 9895bbdf346834b4ab4af3a6a6dffb22, type: 2}
 --- !u!4 &1449168145
 Transform:
   m_ObjectHideFlags: 0
