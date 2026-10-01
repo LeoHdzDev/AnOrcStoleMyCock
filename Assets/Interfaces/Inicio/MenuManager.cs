@@ -28,9 +28,19 @@ public class MenuManager : MonoBehaviour
         }
     }
 
+    [Header("Escenas")]
+    public string escenaIntroduccion = "Comic";
+
     public void Jugar()
     {
-        SceneManager.LoadScene("Stage");
+        // La música del menú sigue sonando durante el cómic
+        if (musicaFondo != null)
+        {
+            if (musicaFondo.GetComponent<MusicaMenuPersistente>() == null)
+                musicaFondo.gameObject.AddComponent<MusicaMenuPersistente>();
+        }
+
+        SceneManager.LoadScene(escenaIntroduccion);
     }
 
     public void AbrirAjustes()
