@@ -417,6 +417,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (62)
@@ -615,6 +623,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (112)
@@ -742,6 +758,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (67)
@@ -807,6 +831,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -874,6 +906,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (55)
@@ -939,6 +979,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -1006,6 +1054,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (26)
@@ -1072,6 +1128,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (73)
@@ -1137,6 +1201,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -1322,6 +1394,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (50)
@@ -1387,6 +1467,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -1747,6 +1835,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (97)
@@ -1812,6 +1908,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -1993,6 +2097,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (2)
@@ -2058,6 +2170,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -2472,6 +2592,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (12)
@@ -2652,6 +2780,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (52)
@@ -2717,6 +2853,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -3052,6 +3196,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (6)
@@ -3307,6 +3459,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (102)
@@ -3372,6 +3532,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -3470,6 +3638,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (13)
@@ -3536,6 +3712,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (54)
@@ -3601,6 +3785,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -4160,6 +4352,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (39)
@@ -4226,6 +4426,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (14)
@@ -4240,6 +4448,152 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
   m_PrefabInstance: {fileID: 388261343}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &402429781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 402429784}
+  - component: {fileID: 402429783}
+  - component: {fileID: 402429782}
+  m_Layer: 0
+  m_Name: MusicaMazmorra
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &402429782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402429781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8545741119ccb148bbd4ffcc5cddea7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MusicaEscena
+  musica: {fileID: 8300000, guid: 4af92e3b8e924b14886811d3c263674c, type: 3}
+  volumen: 0.6
+  repetir: 1
+  duracionFadeIn: 1.5
+--- !u!82 &402429783
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402429781}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -6685505196506085000, guid: 9895bbdf346834b4ab4af3a6a6dffb22, type: 2}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &402429784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402429781}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &406404809
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4409,6 +4763,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -4626,6 +4988,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (71)
@@ -4829,6 +5199,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (78)
@@ -4894,6 +5272,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -5142,6 +5528,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -5648,6 +6042,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -6214,6 +6616,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (46)
@@ -6279,6 +6689,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -6406,6 +6824,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -6580,6 +7006,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (97)
@@ -6645,6 +7079,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -6769,6 +7211,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (123)
@@ -6835,6 +7285,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (98)
@@ -6860,7 +7318,7 @@ GameObject:
   - component: {fileID: 558171166}
   - component: {fileID: 558171165}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6951,6 +7409,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -7558,6 +8024,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (94)
@@ -7623,6 +8097,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -7840,6 +8322,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (22)
@@ -7905,6 +8395,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -8028,6 +8526,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -46459,6 +46965,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (52)
@@ -46524,6 +47038,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -46648,6 +47170,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (4)
@@ -46713,6 +47243,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -47006,6 +47544,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (76)
@@ -47208,6 +47754,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (65)
@@ -47392,6 +47946,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (12)
@@ -47515,6 +48077,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (120)
@@ -47580,6 +48150,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -47647,6 +48225,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (27)
@@ -47712,6 +48298,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -47836,6 +48430,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (51)
@@ -47907,6 +48509,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (34)
@@ -47972,6 +48582,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -48095,6 +48713,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -48584,6 +49210,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (70)
@@ -48649,6 +49283,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -48935,6 +49577,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -53342,6 +53992,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (116)
@@ -53522,6 +54180,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (61)
@@ -53648,6 +54314,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -54015,6 +54689,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -107113,6 +107795,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (16)
@@ -107346,6 +108036,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -108686,6 +109384,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (106)
@@ -108752,6 +109458,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (105)
@@ -108817,6 +109531,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -109064,6 +109786,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -109420,6 +110150,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (43)
@@ -109485,6 +110223,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -109552,6 +110298,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (19)
@@ -109617,6 +110371,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -109740,6 +110502,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -109920,6 +110690,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -110158,6 +110936,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (55)
@@ -110223,6 +111009,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -110479,6 +111273,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (100)
@@ -110652,6 +111454,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (109)
@@ -110775,6 +111585,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (103)
@@ -110845,6 +111663,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -111044,6 +111870,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (53)
@@ -111184,6 +112018,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -111354,6 +112196,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (51)
@@ -111419,6 +112269,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -111657,6 +112515,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (18)
@@ -111815,6 +112681,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (68)
@@ -111880,6 +112754,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -112135,6 +113017,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -120497,6 +121387,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (25)
@@ -120594,6 +121492,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (88)
@@ -120660,6 +121566,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (113)
@@ -120725,6 +121639,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -120905,6 +121827,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -121144,6 +122074,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (100)
@@ -121328,6 +122266,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (81)
@@ -121451,6 +122397,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (57)
@@ -121516,6 +122470,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -121697,6 +122659,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (49)
@@ -121762,6 +122732,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -121886,6 +122864,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (101)
@@ -122008,6 +122994,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -122141,6 +123135,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (121)
@@ -122206,6 +123208,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -122273,6 +123283,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (59)
@@ -122339,6 +123357,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (83)
@@ -122404,6 +123430,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -122717,6 +123751,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (72)
@@ -122839,6 +123881,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -123282,6 +124332,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (45)
@@ -123440,6 +124498,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -123696,6 +124762,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (60)
@@ -123932,6 +125006,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -124948,6 +126030,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (77)
@@ -125128,6 +126218,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (111)
@@ -125224,6 +126322,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -125351,6 +126457,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -125677,6 +126791,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (110)
@@ -125743,6 +126865,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (48)
@@ -125808,6 +126938,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -125906,6 +127044,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (15)
@@ -125971,6 +127117,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -126152,6 +127306,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (80)
@@ -126218,6 +127380,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (96)
@@ -126283,6 +127453,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -126410,6 +127588,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -127073,6 +128259,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (51)
@@ -127138,6 +128332,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -127280,6 +128482,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (17)
@@ -127345,6 +128555,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -127525,6 +128743,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -127987,6 +129213,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (99)
@@ -128290,6 +129524,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (86)
@@ -128356,6 +129598,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (50)
@@ -128421,6 +129671,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -128548,6 +129806,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -128760,6 +130026,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (104)
@@ -128825,6 +130099,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -129231,6 +130513,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (93)
@@ -129297,6 +130587,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (47)
@@ -129362,6 +130660,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -129803,6 +131109,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (48)
@@ -129965,6 +131279,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (118)
@@ -130066,6 +131388,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -130189,6 +131519,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -130454,6 +131792,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
       value: TrampaPinchos (31)
@@ -130580,6 +131926,14 @@ PrefabInstance:
     - target: {fileID: 1532408951316786943, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: volumen
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5185548481892185827, guid: d48cd5e058297f549953135a043443b9, type: 3}
+      propertyPath: distanciaMaximaSonido
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6713174406396828740, guid: d48cd5e058297f549953135a043443b9, type: 3}
       propertyPath: m_Name
@@ -130752,3 +132106,4 @@ SceneRoots:
   - {fileID: 807177238}
   - {fileID: 1960192586}
   - {fileID: 248114021}
+  - {fileID: 402429784}
