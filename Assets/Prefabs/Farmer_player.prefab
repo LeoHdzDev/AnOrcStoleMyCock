@@ -246,7 +246,7 @@ MonoBehaviour:
   cooldownAreaHielo: 5
   velocidad: 5
   danoAtaque: 5
-  radioAutoApuntado: 1
+  radioAutoApuntado: 1.25
   capaEnemigos:
     serializedVersion: 2
     m_Bits: 64
@@ -353,6 +353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   saludMaxima: 100
   barraRelleno: {fileID: 0}
+  gameOverManager: {fileID: 0}
 --- !u!82 &6672033260142972721
 AudioSource:
   m_ObjectHideFlags: 0

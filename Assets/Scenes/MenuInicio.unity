@@ -320,7 +320,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5130558894233647175, guid: d2def335987afda4d8c4ac6be0d59b1f, type: 3}
+  m_Sprite: {fileID: -5387562833892707887, guid: 8faa1404390c8ce49a97c4714f023680, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3118,6 +3118,7 @@ MonoBehaviour:
   panelAjustes: {fileID: 131414838}
   musicaFondo: {fileID: 1444929274}
   sliderVolumen: {fileID: 746519486}
+  escenaIntroduccion: Comic
 --- !u!4 &1872292808
 Transform:
   m_ObjectHideFlags: 0
