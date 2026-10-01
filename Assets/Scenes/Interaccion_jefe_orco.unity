@@ -12628,6 +12628,10 @@ PrefabInstance:
       value: Jefe_Orco
       objectReference: {fileID: 0}
     - target: {fileID: 6165268918765355709, guid: 759aa28409c14644aab4ec6a05a5732e, type: 3}
+      propertyPath: vidaMaxima
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165268918765355709, guid: 759aa28409c14644aab4ec6a05a5732e, type: 3}
       propertyPath: barraRelleno
       value: 
       objectReference: {fileID: 935471919}
