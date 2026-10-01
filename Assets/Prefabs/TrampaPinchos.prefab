@@ -178,7 +178,7 @@ MonoBehaviour:
   retractedDuration: 2
   warningDuration: 0.8
   activeDuration: 1.5
-  damageAmount: 10
+  damageAmount: 5
   damageCooldown: 0.5
   clipsAdvertencia:
   - {fileID: 8300000, guid: 64df5d73563ed2e4aba99eacc2399d73, type: 3}
